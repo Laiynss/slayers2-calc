@@ -1,0 +1,2742 @@
+{
+  "generated": "2026-09-26",
+  "currentPatch": "V0.182",
+  "count": 50,
+  "data": [
+    {
+      "name": "Annihilator",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "additionalDamage": 2
+      },
+      "passiveAlwaysOn": {
+        "additionalDamage": 0.25
+      },
+      "requirement": "Deal 10,000,000 total damage",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Legendary"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Deal 10,000,000 total damage"
+    },
+    {
+      "name": "Devastator",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "additionalDamage": 1.5
+      },
+      "passiveAlwaysOn": {
+        "additionalDamage": 0.2
+      },
+      "requirement": "Deal 2,500,000 total damage",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Deal 2,500,000 total damage"
+    },
+    {
+      "name": "Bonebreaker",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "additionalDamage": 1
+      },
+      "passiveAlwaysOn": {
+        "additionalDamage": 0.15
+      },
+      "requirement": "Deal 500,000 total damage",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Rare"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Deal 500,000 total damage"
+    },
+    {
+      "name": "Hard Hitter",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "additionalDamage": 0.75
+      },
+      "passiveAlwaysOn": {
+        "additionalDamage": 0.1
+      },
+      "requirement": "Deal 50,000 total damage",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Deal 50,000 total damage"
+    },
+    {
+      "name": "Reaper",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "additionalDamageFactor": 1.022,
+        "maxHealth": 12
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 13
+      },
+      "requirement": "Slay 15,000 enemies",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Legendary"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Defeat 15,000 enemies"
+    },
+    {
+      "name": "Blooded",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "additionalDamageFactor": 1.009
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 5
+      },
+      "requirement": "Slay 500 enemies",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Defeat 500 enemies"
+    },
+    {
+      "name": "Monster Hunter",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "additionalDamageFactor": 1.012
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 10
+      },
+      "requirement": "Defeat 100 bosses",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Defeat 100 bosses"
+    },
+    {
+      "name": "Nemesis",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "attackSpeedFactor": 1.03,
+        "maxHealth": 12
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 13
+      },
+      "requirement": "Defeat 500 bosses",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Legendary"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Defeat 500 bosses"
+    },
+    {
+      "name": "Demon",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "evilArtDamageFactor": 1.012,
+        "maxHealth": 10
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 5
+      },
+      "requirement": "Become a demon",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "race",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Become a demon"
+    },
+    {
+      "name": "Slayer",
+      "faction": "slayer",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "maxStamina": 10,
+        "staminaRegen": 1.02
+      },
+      "passiveAlwaysOn": {
+        "maxStamina": 5
+      },
+      "requirement": "Survive the Final Selection",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "User in-game screenshots/confirmation: skill tree damage branch + Slayer title tooltip (lyshiell)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-27",
+          "key": "user_0927"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "player-test",
+        "game data"
+      ],
+      "date": "2026-09-27",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "race",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Survive the Final Selection"
+    },
+    {
+      "name": "Bruised",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "maxHealth": 10
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 5
+      },
+      "requirement": "Die 50 times",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Die 50 times"
+    },
+    {
+      "name": "Challenger",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "maxHealth": 10
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 5
+      },
+      "requirement": "Defeat 10 bosses",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Defeat 10 bosses"
+    },
+    {
+      "name": "Scarred",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "damageReduction": 0.5
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 7
+      },
+      "requirement": "Die 250 times",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Rare"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Die 250 times"
+    },
+    {
+      "name": "Relentless",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "damageReductionFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 13
+      },
+      "requirement": "Die 1,000 times",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "combat",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Legendary"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Die 1,000 times"
+    },
+    {
+      "name": "Prospector",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "movementSpeedFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "runSpeedFactor": 1.01
+      },
+      "requirement": "Open 25 chests",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "exploration",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Open 25 chests"
+    },
+    {
+      "name": "Seal Breaker",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "blockRegen": 1.06
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 5
+      },
+      "requirement": "Open 10 sealed chests",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "exploration",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Open 10 sealed chests"
+    },
+    {
+      "name": "Warden",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "blockRegen": 1.1
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 7
+      },
+      "requirement": "Open 50 sealed chests",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "exploration",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Rare"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Open 50 sealed chests"
+    },
+    {
+      "name": "Calamity's End",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "damageReductionFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 13
+      },
+      "requirement": "Open 200 sealed chests",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "exploration",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Legendary"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Open 200 sealed chests"
+    },
+    {
+      "name": "Vaultbreaker",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "movementSpeedFactor": 1.03
+      },
+      "passiveAlwaysOn": {
+        "movementSpeedFactor": 1.01
+      },
+      "requirement": "Open 500 chests",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "exploration",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Legendary"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Open 500 chests"
+    },
+    {
+      "name": "Angler",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "biteSpeedFactor": 1.03
+      },
+      "passiveAlwaysOn": {
+        "maxStamina": 5
+      },
+      "requirement": "Catch 100 common fish",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "fishing",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Catch 100 common fish"
+    },
+    {
+      "name": "Deep Water Angler",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "biteSpeedFactor": 1.05
+      },
+      "passiveAlwaysOn": {
+        "breathDurationFactor": 1.05
+      },
+      "requirement": "Catch 250 rare fish",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "fishing",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Rare"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Catch 250 rare fish"
+    },
+    {
+      "name": "Leviathan Hunter",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "fishingLuckFactor": 1.05
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 10
+      },
+      "requirement": "Catch 100 legendary fish",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "fishing",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Catch 100 legendary fish"
+    },
+    {
+      "name": "Salvager",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "fishingLuckFactor": 1.08
+      },
+      "passiveAlwaysOn": {
+        "breathDurationFactor": 1.1
+      },
+      "requirement": "Fish up 25 lost items",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "fishing",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Legendary"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Fish up 25 lost items"
+    },
+    {
+      "name": "Climber",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "maxStamina": 10
+      },
+      "passiveAlwaysOn": {
+        "maxStamina": 5
+      },
+      "requirement": "Reach floor 25 of Ouwigahara",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "ouwigahara",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach floor 25 of Ouwigahara"
+    },
+    {
+      "name": "Tower Runner",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "maxHealth": 10
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 5
+      },
+      "requirement": "Complete 10 Ouwigahara runs",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "ouwigahara",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Complete 10 Ouwigahara runs"
+    },
+    {
+      "name": "Spire Regular",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "maxStamina": 15
+      },
+      "passiveAlwaysOn": {
+        "maxStamina": 7
+      },
+      "requirement": "Complete 50 Ouwigahara runs",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "ouwigahara",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Rare"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Complete 50 Ouwigahara runs"
+    },
+    {
+      "name": "Highclimber",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "maxHealth": 20
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 10
+      },
+      "requirement": "Reach floor 50 of Ouwigahara",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "ouwigahara",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach floor 50 of Ouwigahara"
+    },
+    {
+      "name": "Endless",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "maxStamina": 24
+      },
+      "passiveAlwaysOn": {
+        "maxStamina": 13
+      },
+      "requirement": "Complete 200 Ouwigahara runs",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "ouwigahara",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Legendary"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Complete 200 Ouwigahara runs"
+    },
+    {
+      "name": "Heaven's Doorstep",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "maxHealth": 40,
+        "damageReductionFactor": 1.03
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 15
+      },
+      "requirement": "Mythic. Stand at the very top of Ouwigahara (around floor 100), reported to need a second run with Stairwalker equipped",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://nerdschalk.com/slayers-2-heavens-doorstep-title-how-to-get-card-rewards-and-stats/",
+          "sourceType": "wiki",
+          "date": "2026-09",
+          "key": "nc_heaven"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "ouwigahara",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Mythic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Mythic. Stand at the very top of Ouwigahara (around floor 100), reported to need a second run with Stairwalker equipped"
+    },
+    {
+      "name": "Stairwalker",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {},
+      "passiveAlwaysOn": {},
+      "requirement": "Hidden title: reach around floor 100 of Ouwigahara (stats not published)",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://nerdschalk.com/slayers-2-heavens-doorstep-title-how-to-get-card-rewards-and-stats/",
+          "sourceType": "wiki",
+          "date": "2026-09",
+          "key": "nc_heaven"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "low",
+      "category": "ouwigahara",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Legendary"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Hidden title: reach around floor 100 of Ouwigahara (stats not published)"
+    },
+    {
+      "name": "Odd-Jobber",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "questExpFactor": 1.03
+      },
+      "passiveAlwaysOn": {
+        "maxStamina": 5
+      },
+      "requirement": "Complete 25 quests",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "progression",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Common"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Complete 25 quests"
+    },
+    {
+      "name": "Village Pillar",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "questExpFactor": 1.04
+      },
+      "passiveAlwaysOn": {
+        "maxStamina": 7
+      },
+      "requirement": "Complete 150 quests",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "progression",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Rare"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Complete 150 quests"
+    },
+    {
+      "name": "Oathkeeper",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "questExpFactor": 1.08,
+        "maxStamina": 12
+      },
+      "passiveAlwaysOn": {
+        "maxStamina": 13
+      },
+      "requirement": "Complete 500 quests",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-09-27) has two sections: Buffs (active only while equipped) and Passives (active once unlocked, equipped or not).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "category": "progression",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Legendary"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Complete 500 quests"
+    },
+    {
+      "name": "Arrow Perfected",
+      "faction": "demon",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "evilArtDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "evilArtDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Arrow Flight",
+      "conditions": [],
+      "notes": "+2 % Evil Art Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Arrow Flight.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Arrow Flight",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Arrow Flight"
+    },
+    {
+      "name": "Blood Manipulation Perfected",
+      "faction": "demon",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "evilArtDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "evilArtDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Blood Manipulation",
+      "conditions": [],
+      "notes": "+2 % Evil Art Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Blood Manipulation.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Blood Manipulation",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Blood Manipulation"
+    },
+    {
+      "name": "Cryokinesis Perfected",
+      "faction": "demon",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "evilArtDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "evilArtDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Cryokinesis",
+      "conditions": [],
+      "notes": "+2 % Evil Art Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Cryokinesis.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Cryokinesis",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Cryokinesis"
+    },
+    {
+      "name": "Dream Perfected",
+      "faction": "demon",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "evilArtDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "evilArtDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Dream Manipulation",
+      "conditions": [],
+      "notes": "+2 % Evil Art Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Dream Manipulation.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Dream Manipulation",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Dream Manipulation"
+    },
+    {
+      "name": "Obi Manipulation Perfected",
+      "faction": "demon",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "evilArtDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "evilArtDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Obi Manipulation",
+      "conditions": [],
+      "notes": "+2 % Evil Art Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Obi Manipulation.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Obi Manipulation",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Obi Manipulation"
+    },
+    {
+      "name": "Pyrokinesis Perfected",
+      "faction": "demon",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "evilArtDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "evilArtDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Pyrokinesis",
+      "conditions": [],
+      "notes": "+2 % Evil Art Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Pyrokinesis.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Pyrokinesis",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Pyrokinesis"
+    },
+    {
+      "name": "Reaper Perfected",
+      "faction": "demon",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "evilArtDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "evilArtDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Reaper (BDA)",
+      "conditions": [],
+      "notes": "+2 % Evil Art Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Reaper (BDA).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Reaper (BDA)",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Reaper (BDA)"
+    },
+    {
+      "name": "Shockwave Perfected",
+      "faction": "demon",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "evilArtDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "evilArtDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Shockwave",
+      "conditions": [],
+      "notes": "+2 % Evil Art Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Shockwave.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Shockwave",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Shockwave"
+    },
+    {
+      "name": "Tamari Perfected",
+      "faction": "demon",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "evilArtDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "evilArtDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Tamari (Temari balls)",
+      "conditions": [],
+      "notes": "+2 % Evil Art Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Tamari (Temari balls).",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Tamari (Temari balls)",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Tamari (Temari balls)"
+    },
+    {
+      "name": "Flame Perfected",
+      "faction": "slayer",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "breathingDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "breathingDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Flame Breathing",
+      "conditions": [],
+      "notes": "+2 % Breathing Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Flame Breathing.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Flame Breathing",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Flame Breathing"
+    },
+    {
+      "name": "Insect Perfected",
+      "faction": "slayer",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "breathingDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "breathingDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Insect Breathing",
+      "conditions": [],
+      "notes": "+2 % Breathing Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Insect Breathing.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Insect Breathing",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Insect Breathing"
+    },
+    {
+      "name": "Serpent Perfected",
+      "faction": "slayer",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "breathingDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "breathingDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Serpent Breathing",
+      "conditions": [],
+      "notes": "+2 % Breathing Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Serpent Breathing.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Serpent Breathing",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Serpent Breathing"
+    },
+    {
+      "name": "Sound Perfected",
+      "faction": "slayer",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "breathingDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "breathingDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Sound Breathing",
+      "conditions": [],
+      "notes": "+2 % Breathing Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Sound Breathing.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Sound Breathing",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Sound Breathing"
+    },
+    {
+      "name": "Stone Perfected",
+      "faction": "slayer",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "breathingDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "breathingDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Stone Breathing",
+      "conditions": [],
+      "notes": "+2 % Breathing Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Stone Breathing.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Stone Breathing",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Stone Breathing"
+    },
+    {
+      "name": "Thunder Perfected",
+      "faction": "slayer",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "breathingDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "breathingDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Thunder Breathing",
+      "conditions": [],
+      "notes": "+2 % Breathing Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Thunder Breathing.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Thunder Breathing",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Thunder Breathing"
+    },
+    {
+      "name": "Water Perfected",
+      "faction": "slayer",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "breathingDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "breathingDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Water Breathing",
+      "conditions": [],
+      "notes": "+2 % Breathing Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Water Breathing.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Water Breathing",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Water Breathing"
+    },
+    {
+      "name": "Wind Perfected",
+      "faction": "slayer",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "breathingDamageFactor": 1.02
+      },
+      "passiveAlwaysOn": {
+        "breathingDamageFactor": 1.005
+      },
+      "requirement": "Reach max mastery with Wind Breathing",
+      "conditions": [],
+      "notes": "+2 % Breathing Damage Factor when equipped, +0.5 % collection bonus once unlocked. Shared by arts of the same family; unlocked by Wind Breathing.",
+      "sources": [
+        {
+          "url": "https://techwiser.com/slayers-2-all-titles/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "tw_titles"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_titles"
+        },
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_titles"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "unlockArt": "Wind Breathing",
+      "category": "mastery",
+      "sourceNote": "TechWiser titles list updated 2026-09-24",
+      "gameTitle": {
+        "module": "CAM/Global/Titles/DefaultConfigs",
+        "disabled": false,
+        "rarity": "Epic"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Reach max mastery with Wind Breathing"
+    }
+  ]
+}

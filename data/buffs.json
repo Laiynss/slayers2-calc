@@ -1,0 +1,379 @@
+{
+  "generated": "2026-09-26",
+  "currentPatch": "V0.182",
+  "count": 16,
+  "data": [
+    {
+      "name": "Kamado Combat Intuition",
+      "faction": "both",
+      "type": "temporary_flat_potential",
+      "durationSec": 7,
+      "storeWindowSec": 10,
+      "conversion": 0.1,
+      "cooldownSec": null,
+      "formula": "bonusPerHit = 0.1 * damageTakenDuringWindow (applied to weapon + breathing/BDA damage for 7 s). Whether it is per hit or a pool is UNVERIFIED.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=hPrm2S8Vuyk",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-25",
+          "key": "yt_verm"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        }
+      ],
+      "sourceType": [
+        "video",
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high"
+    },
+    {
+      "name": "Soyama Combat Intuition",
+      "faction": "both",
+      "type": "temporary_flat_potential",
+      "durationSec": 7,
+      "storeWindowSec": 12,
+      "conversion": 0.1,
+      "npcShare": 0.5,
+      "playerShare": 0.75,
+      "cooldownSec": null,
+      "formula": "bonus = 0.1 * share * damageDealtDuringWindow",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=hPrm2S8Vuyk",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-25",
+          "key": "yt_verm"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        }
+      ],
+      "sourceType": [
+        "video",
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high"
+    },
+    {
+      "name": "Himejima Repetitive Action",
+      "faction": "both",
+      "type": "stacking_flat_m1",
+      "m1FlatPer100SkillDamage": 3,
+      "durationSec": "8-10",
+      "cap": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium"
+    },
+    {
+      "name": "Enhanced Hearing mark (Uzui 25%/10s; Agatsuma 20%/10s; Himejima 20%/14s)",
+      "faction": "both",
+      "type": "mark_damage_taken",
+      "notes": "Whether the mark multiplies all damage or only some is unknown.",
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium"
+    },
+    {
+      "name": "Agatsuma low HP",
+      "type": "conditional",
+      "adfPct": 12,
+      "additionalDamage": 4,
+      "condition": "hp<60%",
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium"
+    },
+    {
+      "name": "Shinazugawa mode",
+      "type": "temporary",
+      "adfPct": 10,
+      "windDamagePct": 20,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium"
+    },
+    {
+      "name": "Iguro mode",
+      "type": "temporary",
+      "adfPct": 5,
+      "serpentDamagePct": 20,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium"
+    },
+    {
+      "name": "Uzui Vital Draw Muscle",
+      "type": "temporary",
+      "adfPct": 15,
+      "durationSec": 6,
+      "condition": "fists",
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium"
+    },
+    {
+      "name": "Shabana zone",
+      "type": "temporary",
+      "adfPct": 25,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium"
+    },
+    {
+      "name": "Yahaba party buff",
+      "type": "party",
+      "adfPct": 10,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium"
+    },
+    {
+      "name": "Nightfall Hunt set (T3 Top+Bottom)",
+      "type": "conditional",
+      "damageFactor": 1.15,
+      "condition": "target hp<30%",
+      "sources": [
+        {
+          "url": "https://nerdschalk.com/project-slayers-2-new-update-brings-major-buffs-to-chest-bonuses-stats-and-transfers-v018/",
+          "sourceType": "wiki (patch summary of video 5AZP6QoHsEA)",
+          "date": "2026-09-26",
+          "key": "nc_v018"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.18",
+      "confidence": "medium"
+    },
+    {
+      "name": "Nightfall bleed (T3 weapons)",
+      "type": "dot",
+      "value": 0.005,
+      "sources": [
+        {
+          "url": "https://nerdschalk.com/project-slayers-2-new-update-brings-major-buffs-to-chest-bonuses-stats-and-transfers-v018/",
+          "sourceType": "wiki (patch summary of video 5AZP6QoHsEA)",
+          "date": "2026-09-26",
+          "key": "nc_v018"
+        },
+        {
+          "url": null,
+          "sourceType": "official",
+          "date": "2026-10-02",
+          "key": "official_v0195"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-10-02",
+      "patch": "V0.195",
+      "confidence": "low"
+    },
+    {
+      "name": "Kocho Poison Draw",
+      "type": "temporary",
+      "insectDamagePct": 20,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.17",
+      "confidence": "medium"
+    },
+    {
+      "name": "Rengoku Heart Ablaze",
+      "type": "temporary",
+      "burnDamagePct": 20,
+      "sources": [
+        {
+          "url": "https://allthings.how/rengoku-clan-in-slayers-2-stats-skills-and-heart-ablaze/",
+          "sourceType": "wiki",
+          "date": "2026-09-23",
+          "key": "ath_rengoku"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "current",
+      "confidence": "medium"
+    },
+    {
+      "name": "Dungeon cards (Ouwigahara)",
+      "type": "dungeon_only",
+      "notes": "Damage and Attack Speed cards exist; values unknown.",
+      "sources": [
+        {
+          "url": "https://allthings.how/project-slayers-2-kamado-clan-and-blood-manipulation-dungeon-build/",
+          "sourceType": "wiki",
+          "date": "2026-09-22",
+          "key": "ath_kamado_dungeon"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-22",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "low"
+    },
+    {
+      "name": "Crit",
+      "type": "mechanic",
+      "critMultiplier": null,
+      "notes": "Part 1 had 1.25x crits; no evidence of crits in Slayers 2.",
+      "sources": [
+        {
+          "url": "https://project-slayers.fandom.com/",
+          "sourceType": "wiki (mostly Part 1 content)",
+          "date": "various",
+          "key": "fandom"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": null,
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "low"
+    }
+  ]
+}

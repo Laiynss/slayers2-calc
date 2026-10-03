@@ -1,0 +1,538 @@
+{
+  "generated": "2026-09-29",
+  "currentPatch": "V0.182",
+  "count": 8,
+  "data": [
+    {
+      "name": "Insect Breathing",
+      "faction": "slayer",
+      "slot": "breathing",
+      "passives": [
+        {
+          "text": "poison damage over time (base ~5 ticks after a nerf, from ~9)"
+        }
+      ],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: C speed/range -20%, CD +3s; V stamina drain 8->4%/s, windup +0.3s, CD +2s, no i-frames; X windup +0.2s, CD +3s; Z windup +0.2s",
+        "V0.182 (official): Hundred-Legged Zigzag (V) starts chasing 1 s sooner, CD 20 -> 18 s; Fluttering Sting (C) CD 18 -> 16 s"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_tl"
+        },
+        {
+          "url": "https://slayers2wiki.com/breathing-styles/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_breath"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "trainer": null,
+      "unlockLevel": 25,
+      "unlock": "Slayer path, level 25, from the breathing trainer",
+      "reportedForms": [
+        "Butterfly Dance: Caprice",
+        "Bee Sting: True Flutter",
+        "Dragonfly Compound Eyes: Hexagonal",
+        "Centipede Zigzag"
+      ],
+      "reportedFormsSource": "s2w_breath",
+      "reportedFormsConflictsOfficial": true,
+      "trainerDrops": {
+        "haori": "Insect Haori",
+        "katana": "Insect Katana"
+      },
+      "masteryTitle": "Insect Perfected",
+      "obtain": "Learned from Insect Trainer Shinora (level 25 required)",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Insect",
+        "source_sha256": "1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Insect",
+      "weaponCategory": null
+    },
+    {
+      "name": "Flame Breathing",
+      "faction": "slayer",
+      "slot": "breathing",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: Z windup -20%, V (hold) 50% faster"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "https://slayers2wiki.com/breathing-styles/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_breath"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.182",
+      "confidence": "low",
+      "trainer": "Rengu (Mistfall Harbor)",
+      "unlockLevel": 25,
+      "unlock": "Slayer path, level 25, from the breathing trainer",
+      "reportedForms": [
+        "Unknowing Fire",
+        "Rising Scorching Sun",
+        "Blazing Universe",
+        "Blooming Flame Undulation",
+        "Flame Tiger",
+        "Rengoku"
+      ],
+      "reportedFormsSource": "s2w_breath",
+      "reportedFormsConflictsOfficial": true,
+      "trainerDrops": {
+        "haori": "Flame Haori Style 2",
+        "katana": "Flame Katana"
+      },
+      "masteryTitle": "Flame Perfected",
+      "obtain": "Learned from Flame Trainer Rengu (level 25 required)",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Flame",
+        "source_sha256": "689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Flame",
+      "weaponCategory": null
+    },
+    {
+      "name": "Water Breathing",
+      "faction": "slayer",
+      "slot": "breathing",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: Whirlpool strict stun 3.3->1.8s",
+        "V0.182 (official): Series weapons keep weapon effects after Whirl Pool, Water Wheel, Constant Flux, Dead Calm",
+        "V0.182 (official): Tomioka Water's Clarity 3% -> 5% Water damage per stack"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_tl"
+        },
+        {
+          "url": "https://slayers2wiki.com/breathing-styles/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_breath"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "trainer": "Urokodaki (Bamboo Grove)",
+      "unlockLevel": 25,
+      "unlock": "Slayer path, level 25, from the breathing trainer",
+      "reportedForms": [
+        "Water Surface Slash",
+        "Water Wheel",
+        "Flowing Dance",
+        "Striking Tide",
+        "Blessed Rain After the Drought",
+        "Whirlpool",
+        "Drop Ripple Thrust",
+        "Waterfall Basin",
+        "Splashing Water Flow",
+        "Constant Flux"
+      ],
+      "reportedFormsSource": "s2w_breath",
+      "reportedFormsConflictsOfficial": true,
+      "trainerDrops": {
+        "haori": "Water Haori",
+        "katana": "Water Katana"
+      },
+      "masteryTitle": "Water Perfected",
+      "obtain": "Learned from Water Trainer Urokodaki (level 25 required)",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Water",
+        "source_sha256": "961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Water",
+      "weaponCategory": null
+    },
+    {
+      "name": "Thunder Breathing",
+      "faction": "slayer",
+      "slot": "breathing",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.98: God Speed 80->50",
+        "v0.110: small buff"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-v0-98-every-breathing-and-blood-demon-art-balance-change/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-22",
+          "key": "ath_v098"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-update-v0-110-patch-notes-block-fixes-and-thunder-buffs/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-22",
+          "key": "ath_v110"
+        },
+        {
+          "url": "https://slayers2wiki.com/breathing-styles/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_breath"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-22",
+      "patch": "V0.182",
+      "confidence": "low",
+      "trainer": "Zentaro (Windy Peak)",
+      "unlockLevel": 25,
+      "unlock": "Slayer path, level 25, from the breathing trainer",
+      "reportedForms": [
+        "Thunderclap and Flash",
+        "Rice Spirit",
+        "Thunder Swarm",
+        "Distant Thunder",
+        "Heat Lightning",
+        "Rumble and Flash"
+      ],
+      "reportedFormsSource": "s2w_breath",
+      "reportedFormsConflictsOfficial": true,
+      "trainerDrops": {
+        "haori": "Thunder Haori",
+        "katana": "Thunder Katana"
+      },
+      "masteryTitle": "Thunder Perfected",
+      "obtain": "Learned from Thunder Trainer Zentaro (level 25 required)",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Thunder",
+        "source_sha256": "ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Thunder",
+      "weaponCategory": null
+    },
+    {
+      "name": "Wind Breathing",
+      "faction": "slayer",
+      "slot": "breathing",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: V 20% faster + 1s strict stun; Z first hit strict stun",
+        "V0.182 (official): Z/X/C/V +30% BLOCK damage (not HP damage), X and C windup -0.05 s, C long-range tornado flies 25% faster"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_tl"
+        },
+        {
+          "url": "https://slayers2wiki.com/breathing-styles/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_breath"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "trainer": null,
+      "unlockLevel": 25,
+      "unlock": "Slayer path, level 25, from the breathing trainer",
+      "reportedForms": [
+        "Dust Whirlwind Cutter",
+        "Claws Purifying Wind",
+        "Clean Storm Wind Tree",
+        "Rising Dust Storm",
+        "Cold Mountain Wind",
+        "Black Wind Mountain Mist"
+      ],
+      "reportedFormsSource": "s2w_breath",
+      "reportedFormsConflictsOfficial": true,
+      "trainerDrops": {
+        "haori": "Wind Haori",
+        "katana": "Wind Katana"
+      },
+      "masteryTitle": "Wind Perfected",
+      "obtain": "Learned from Wind Trainer Saneri (level 25 required)",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Wind",
+        "source_sha256": "623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Wind",
+      "weaponCategory": null
+    },
+    {
+      "name": "Serpent Breathing",
+      "faction": "slayer",
+      "slot": "breathing",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: V windup +0.25s"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "https://slayers2wiki.com/breathing-styles/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_breath"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.182",
+      "confidence": "low",
+      "trainer": "Obari (Bamboo Grove)",
+      "unlockLevel": 25,
+      "unlock": "Slayer path, level 25, from the breathing trainer",
+      "reportedForms": [
+        "Winding Serpent Slash",
+        "Venom Fangs of the Narrow Head",
+        "Coil Choke",
+        "Twin-Headed Reptile",
+        "Slithering Serpent"
+      ],
+      "reportedFormsSource": "s2w_breath",
+      "reportedFormsConflictsOfficial": true,
+      "trainerDrops": {
+        "haori": "Serpent Haori",
+        "katana": "Serpent Katana"
+      },
+      "masteryTitle": "Serpent Perfected",
+      "obtain": "Learned from Serpent Trainer Obari (level 25 required)",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Serpent",
+        "source_sha256": "e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Serpent",
+      "weaponCategory": null
+    },
+    {
+      "name": "Sound Breathing",
+      "faction": "slayer",
+      "slot": "breathing",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: Z windup +0.1s, X block -15%",
+        "V0.182 (official): Roar (X) breaks guards again"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_tl"
+        },
+        {
+          "url": "https://slayers2wiki.com/breathing-styles/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_breath"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "trainer": null,
+      "unlockLevel": 25,
+      "unlock": "Slayer path, level 25, from the breathing trainer",
+      "reportedForms": [
+        "Roar",
+        "Constant Resounding Slashes",
+        "String Performance"
+      ],
+      "reportedFormsSource": "s2w_breath",
+      "reportedFormsConflictsOfficial": true,
+      "trainerDrops": {
+        "haori": null,
+        "katana": "Sound Katana"
+      },
+      "masteryTitle": "Sound Perfected",
+      "obtain": "Learned from Sound Trainer Tengai (level 25 required)",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Sound",
+        "source_sha256": "524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Sound",
+      "weaponCategory": null
+    },
+    {
+      "name": "Stone Breathing",
+      "faction": "slayer",
+      "slot": "breathing",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_tl"
+        },
+        {
+          "url": "https://slayers2wiki.com/breathing-styles/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_breath"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "trainer": null,
+      "unlockLevel": 25,
+      "unlock": "Slayer path, level 25, from the breathing trainer",
+      "reportedForms": [
+        "Serpentinite Bipolar",
+        "Upper Smash",
+        "Stone Skin",
+        "Volcanic Rock Rapid Conquest",
+        "Arcs of Justice"
+      ],
+      "reportedFormsSource": "s2w_breath",
+      "reportedFormsConflictsOfficial": true,
+      "trainerDrops": {
+        "haori": "Stone Haori",
+        "katana": "Axe & Mace"
+      },
+      "masteryTitle": "Stone Perfected",
+      "obtain": "Learned from Stone Trainer Gyorei (level 25 required)",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Stone",
+        "source_sha256": "f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Stone",
+      "weaponCategory": "AxeAndMace"
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "generated": "2026-09-26",
+  "currentPatch": "V0.182",
+  "count": 11,
+  "data": [
+    {
+      "name": "Additional Damage node I",
+      "faction": "both",
+      "additionalDamage": 0.5,
+      "cost": null,
+      "maxRank": 1,
+      "notes": "The damage branch has FIVE Additional Damage nodes (+0.5, +0.5, +0.6, +0.7, +0.8 = 3.1), confirmed in-game by the user (2026-09-27). Guides listed only four (+0.5 to +0.8).",
+      "sources": [
+        {
+          "url": "User in-game screenshots/confirmation: skill tree damage branch + Slayer title tooltip (lyshiell)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-27",
+          "key": "user_0927"
+        },
+        {
+          "url": "https://allthings.how/project-slayers-2-best-build-for-every-breathing-style/",
+          "sourceType": "wiki",
+          "date": "unknown (Sep 2026)",
+          "key": "ath_everybuild"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QnfC307-siQ",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-19",
+          "key": "yt_corgi"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Q8eFz6aVUuE",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-25",
+          "key": "yt_drew"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "player-test",
+        "video",
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-27",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "totalAllADNodes": 3.1,
+      "gameFormula": "SkillTreeConfig \"Additional Damage\" Value {Start 0.5, StepFactor 0.5, StepAccel 0.1}, Ratio 45 -> 5 nodes; cumulative 0.5"
+    },
+    {
+      "name": "Additional Damage node II",
+      "faction": "both",
+      "additionalDamage": 0.5,
+      "cost": null,
+      "maxRank": 1,
+      "notes": "The damage branch has FIVE Additional Damage nodes (+0.5, +0.5, +0.6, +0.7, +0.8 = 3.1), confirmed in-game by the user (2026-09-27). Guides listed only four (+0.5 to +0.8).",
+      "sources": [
+        {
+          "url": "User in-game screenshots/confirmation: skill tree damage branch + Slayer title tooltip (lyshiell)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-27",
+          "key": "user_0927"
+        },
+        {
+          "url": "https://allthings.how/project-slayers-2-best-build-for-every-breathing-style/",
+          "sourceType": "wiki",
+          "date": "unknown (Sep 2026)",
+          "key": "ath_everybuild"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QnfC307-siQ",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-19",
+          "key": "yt_corgi"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Q8eFz6aVUuE",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-25",
+          "key": "yt_drew"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "player-test",
+        "video",
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-27",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "totalAllADNodes": 3.1,
+      "gameFormula": "SkillTreeConfig \"Additional Damage\" Value {Start 0.5, StepFactor 0.5, StepAccel 0.1}, Ratio 45 -> 5 nodes; cumulative 1.0"
+    },
+    {
+      "name": "Additional Damage node III",
+      "faction": "both",
+      "additionalDamage": 0.6,
+      "cost": null,
+      "maxRank": 1,
+      "notes": "The damage branch has FIVE Additional Damage nodes (+0.5, +0.5, +0.6, +0.7, +0.8 = 3.1), confirmed in-game by the user (2026-09-27). Guides listed only four (+0.5 to +0.8).",
+      "sources": [
+        {
+          "url": "User in-game screenshots/confirmation: skill tree damage branch + Slayer title tooltip (lyshiell)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-27",
+          "key": "user_0927"
+        },
+        {
+          "url": "https://allthings.how/project-slayers-2-best-build-for-every-breathing-style/",
+          "sourceType": "wiki",
+          "date": "unknown (Sep 2026)",
+          "key": "ath_everybuild"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QnfC307-siQ",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-19",
+          "key": "yt_corgi"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Q8eFz6aVUuE",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-25",
+          "key": "yt_drew"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "player-test",
+        "video",
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-27",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "totalAllADNodes": 3.1,
+      "gameFormula": "SkillTreeConfig \"Additional Damage\" Value {Start 0.5, StepFactor 0.5, StepAccel 0.1}, Ratio 45 -> 5 nodes; cumulative 1.6"
+    },
+    {
+      "name": "Additional Damage node IV",
+      "faction": "both",
+      "additionalDamage": 0.7,
+      "cost": null,
+      "maxRank": 1,
+      "notes": "The damage branch has FIVE Additional Damage nodes (+0.5, +0.5, +0.6, +0.7, +0.8 = 3.1), confirmed in-game by the user (2026-09-27). Guides listed only four (+0.5 to +0.8).",
+      "sources": [
+        {
+          "url": "User in-game screenshots/confirmation: skill tree damage branch + Slayer title tooltip (lyshiell)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-27",
+          "key": "user_0927"
+        },
+        {
+          "url": "https://allthings.how/project-slayers-2-best-build-for-every-breathing-style/",
+          "sourceType": "wiki",
+          "date": "unknown (Sep 2026)",
+          "key": "ath_everybuild"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QnfC307-siQ",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-19",
+          "key": "yt_corgi"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Q8eFz6aVUuE",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-25",
+          "key": "yt_drew"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "player-test",
+        "video",
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-27",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "totalAllADNodes": 3.1,
+      "gameFormula": "SkillTreeConfig \"Additional Damage\" Value {Start 0.5, StepFactor 0.5, StepAccel 0.1}, Ratio 45 -> 5 nodes; cumulative 2.3"
+    },
+    {
+      "name": "Additional Damage node V",
+      "faction": "both",
+      "additionalDamage": 0.8,
+      "cost": null,
+      "maxRank": 1,
+      "notes": "The damage branch has FIVE Additional Damage nodes (+0.5, +0.5, +0.6, +0.7, +0.8 = 3.1), confirmed in-game by the user (2026-09-27). Guides listed only four (+0.5 to +0.8).",
+      "sources": [
+        {
+          "url": "User in-game screenshots/confirmation: skill tree damage branch + Slayer title tooltip (lyshiell)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-27",
+          "key": "user_0927"
+        },
+        {
+          "url": "https://allthings.how/project-slayers-2-best-build-for-every-breathing-style/",
+          "sourceType": "wiki",
+          "date": "unknown (Sep 2026)",
+          "key": "ath_everybuild"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QnfC307-siQ",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-19",
+          "key": "yt_corgi"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Q8eFz6aVUuE",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-25",
+          "key": "yt_drew"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "player-test",
+        "video",
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-27",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "totalAllADNodes": 3.1,
+      "gameFormula": "SkillTreeConfig \"Additional Damage\" Value {Start 0.5, StepFactor 0.5, StepAccel 0.1}, Ratio 45 -> 5 nodes; cumulative 3.1"
+    },
+    {
+      "name": "Stamina Regen Speed branch (max)",
+      "faction": "both",
+      "staminaRegenAdd": 0.8,
+      "notes": "User stat bar 2026-09-26: 2.09x Stamina Regen = 1 + katana 0.09 + Flame Haori 0.10 + Flame Scarf 0.10 + tree 0.8 (additive). allthings PvE build shows 1.8x from the tree.",
+      "sources": [
+        {
+          "url": "User in-game screenshots: character stat bar + equipped tooltips (lyshiell, post-V0.182, exact tooltips)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-26",
+          "key": "user_0926"
+        },
+        {
+          "url": "https://allthings.how/project-slayers-2-best-pve-build-blood-manipulation-and-nightfall-sickles/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_pve"
+        }
+      ],
+      "sourceType": [
+        "player-test",
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium",
+      "totalAllADNodes": null
+    },
+    {
+      "name": "Health Regen Speed branch (max)",
+      "faction": "both",
+      "healthRegenAdd": 0.9,
+      "notes": "The user bar shows 2x Health Regen = 1 + tree 0.9 + Reaper's Outfit 0.1 (additive). This matches allthings 1.9x from the tree.",
+      "sources": [
+        {
+          "url": "https://allthings.how/project-slayers-2-best-pve-build-blood-manipulation-and-nightfall-sickles/",
+          "sourceType": "wiki",
+          "date": "2026-09-21",
+          "key": "ath_pve"
+        },
+        {
+          "url": "User in-game screenshots: character stat bar + equipped tooltips (lyshiell, post-V0.182, exact tooltips)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-26",
+          "key": "user_0926"
+        },
+        {
+          "url": "User in-game screenshots/confirmation: skill tree damage branch + Slayer title tooltip (lyshiell)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-27",
+          "key": "user_0927"
+        }
+      ],
+      "sourceType": [
+        "player-test",
+        "wiki"
+      ],
+      "date": "2026-09-27",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium",
+      "totalAllADNodes": null
+    },
+    {
+      "name": "Max Health branch (max)",
+      "faction": "both",
+      "maxHealth": null,
+      "maxHealthUpperBound": 480,
+      "notes": "The bar shows bonuses only (+ prefix): +1375 HP = gear 700 (Muzzle 160, Lantern 105, Flame Haori 150, Scarf 105, Reaper's Outfit 180) + Himejima 195 + 480. So the maxed Max Health branch + HP title passives = 480 (Reaper/Nemesis 13, Monster Hunter 10, Blooded 5 if unlocked). Base HP is not on the bar.",
+      "sources": [
+        {
+          "url": "User in-game screenshots: character stat bar + equipped tooltips (lyshiell, post-V0.182, exact tooltips)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-26",
+          "key": "user_0926"
+        },
+        {
+          "url": "User in-game screenshots/confirmation: skill tree damage branch + Slayer title tooltip (lyshiell)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-27",
+          "key": "user_0927"
+        }
+      ],
+      "sourceType": [
+        "player-test"
+      ],
+      "date": "2026-09-27",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium",
+      "totalAllADNodes": null
+    },
+    {
+      "name": "Max Stamina node (+23)",
+      "faction": "both",
+      "maxStamina": 23,
+      "notes": "Bar +567 Stamina = gear 360 (80+55+80+55+90) + Himejima 90 + node 23 + Slayer title passive 5 + 89 unexplained (more Max Stamina nodes, or stamina title passives?). Base stamina is not on the bar.",
+      "sources": [
+        {
+          "url": "User in-game screenshots: character stat bar + equipped tooltips (lyshiell, post-V0.182, exact tooltips)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-26",
+          "key": "user_0926"
+        },
+        {
+          "url": "User in-game screenshots/confirmation: skill tree damage branch + Slayer title tooltip (lyshiell)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-27",
+          "key": "user_0927"
+        }
+      ],
+      "sourceType": [
+        "player-test"
+      ],
+      "date": "2026-09-27",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium",
+      "totalAllADNodes": null
+    },
+    {
+      "name": "Attack speed nodes",
+      "faction": "both",
+      "attackSpeedFactor": null,
+      "notes": "None reported in the skill tree.",
+      "sources": [
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-skill-tree-guide-how-to-spend-skill-points-on-health-stamina-weapons-and-breathing/articleshow/134428394.html",
+          "sourceType": "wiki",
+          "date": "2026-09-23",
+          "key": "sr_skilltree"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-23",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "low",
+      "totalAllADNodes": null
+    },
+    {
+      "name": "Breathing / BDA / weapon branches",
+      "faction": "both",
+      "additionalDamage": null,
+      "notes": "These unlock moves with skill points + mastery. Damage nodes inside branches are unknown.",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-best-skill-tree-build-guide-for-slayer-and-demon/",
+          "sourceType": "wiki",
+          "date": "2026-09-22",
+          "key": "ath_skilltree"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-22",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "low",
+      "totalAllADNodes": null
+    }
+  ]
+}

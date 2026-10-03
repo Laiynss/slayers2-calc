@@ -1,0 +1,158 @@
+{
+  "generated": "2026-09-29",
+  "currentPatch": "V0.182",
+  "count": 4,
+  "data": [
+    {
+      "name": "All fighting styles (global change)",
+      "faction": "both",
+      "slot": "fighting_style",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: ALL fighting styles +3 damage, +3 block points, x1.05 damage multiplier"
+      ],
+      "notes": "The +3 damage / x1.05 may be per-hit M1 damage of fist styles; exact application unknown.",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.17",
+      "confidence": "medium",
+      "obtain": null
+    },
+    {
+      "name": "Soryu",
+      "faction": "both",
+      "slot": "fighting_style",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: ALL fighting styles +3 damage, +3 block points, x1.05 damage multiplier",
+        "V0.17: Z cooldown +7s"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.182",
+      "confidence": "low",
+      "obtain": "Soryu Expert Kazuma (level 62, demon or hybrid)",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/FightingStyles/Soryu",
+        "source_sha256": "773c35b58997e4a5317daff08a577c01f74c11f8fad8f591a5421eb21d9eae24",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/773c35b58997e4a5317daff08a577c01f74c11f8fad8f591a5421eb21d9eae24.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "reportedFormsConflictsOfficial": true
+    },
+    {
+      "name": "Tai Chi",
+      "faction": "both",
+      "slot": "fighting_style",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: ALL fighting styles +3 damage, +3 block points, x1.05 damage multiplier",
+        "V0.17: X damage +25%",
+        "V0.182 (official): Twin Harmony (X) moves 50% faster"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "Official V0.182 Balance Update notes (Discord, pasted by the user on 2026-09-26)",
+          "sourceType": "official",
+          "date": "2026-09-26",
+          "key": "official_v0182"
+        }
+      ],
+      "sourceType": [
+        "official",
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "obtain": "Tai Chi Expert Renjiro (level 65, slayer or hybrid)",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/FightingStyles/Tai Chi",
+        "source_sha256": "36b2e4fc87ee5b371cd70116331a539b36fd5b98c3e39627109dfa070ef3656c",
+        "projection": "CONSTANTES_ET_AFFECTATIONS_SIMPLES",
+        "json": ".cache/import/projections/36b2e4fc87ee5b371cd70116331a539b36fd5b98c3e39627109dfa070ef3656c.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "reportedFormsConflictsOfficial": true
+    },
+    {
+      "name": "Reaper",
+      "faction": "both",
+      "slot": "fighting_style",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: ALL fighting styles +3 damage, +3 block points, x1.05 damage multiplier",
+        "V0.18: works with Reaper BDA"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://nerdschalk.com/project-slayers-2-new-update-brings-major-buffs-to-chest-bonuses-stats-and-transfers-v018/",
+          "sourceType": "wiki (patch summary of video 5AZP6QoHsEA)",
+          "date": "2026-09-26",
+          "key": "nc_v018"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "obtain": "Quest “Reaping Blades Style” from Harvester of Souls Zurinyz (level 100, demon or hybrid, 15,000 Wen): pick up the Reaper Scroll (lake under the falls, bamboo shrine road) and defeat the Reaper Trainee",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/FightingStyles/Reaping Blades",
+        "source_sha256": "fcbb4602c78272bca11163303a4ef946f44ffeccd6f6cd5be1b37ca50169c7d5",
+        "projection": "CONSTANTES_ET_AFFECTATIONS_SIMPLES",
+        "json": ".cache/import/projections/fcbb4602c78272bca11163303a4ef946f44ffeccd6f6cd5be1b37ca50169c7d5.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "reportedFormsConflictsOfficial": true
+    }
+  ]
+}

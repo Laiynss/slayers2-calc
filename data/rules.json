@@ -1,0 +1,86 @@
+{
+  "maxEquipSlots": 5,
+  "maxCopiesPerEquipment": 1,
+  "equipmentUniquenessSource": {
+    "type": "user-correction",
+    "date": "2026-09-29",
+    "scope": "Only one copy of each item, even at different tiers."
+  },
+  "maxTitles": 3,
+  "slotTypes": [
+    "face",
+    "head",
+    "neck",
+    "ear",
+    "haori",
+    "body",
+    "cape",
+    "utility"
+  ],
+  "slotLabels": {
+    "face": "Mask",
+    "head": "Headwear",
+    "neck": "Necklace / scarf",
+    "ear": "Earrings",
+    "haori": "Haori / kata-aki / haori cape",
+    "body": "Outfit (uniform)",
+    "utility": "Lantern",
+    "cape": "Cape / boa (body)"
+  },
+  "configurableRules": {
+    "applyUnverifiedFactionRestrictions": {
+      "default": true,
+      "label": "Apply unverified faction restrictions (e.g. Demonic Horns = demon?)",
+      "description": "Items marked 'demon?' are assumed to be demon-only. Unverified.",
+      "confidence": "low",
+      "sourceKeys": [
+        "tw"
+      ]
+    }
+  },
+  "mutualExclusions": [],
+  "optimizerExcludeWeapons": [],
+  "nonEquippableEquipment": [
+    "Nightfall Top + Bottom set (T3)"
+  ],
+  "notes": "slotTypes = descriptive sub-types (display/grouping). Five shared slots, max one copy per item, no extra limit per type. mutualExclusions: [\"Item A\", \"Item B\"] pairs not allowed together (empty).",
+  "seriesWaterNote": "V0.182 official: Series weapons (Nightfall/Firstlight) keep their weapon effects after Whirl Pool, Water Wheel, Constant Flux, Dead Calm.",
+  "equipmentRule": "5 shared “Stats” slots for all wearable items (accessories, “Costume” outfits, “Clothing”: haori, tops, bottoms). No limit per type. Only one copy of each item can be worn, whatever its tier. Stats of distinct items add up (Illumination: only the highest counts).",
+  "equipCategories": {
+    "uniform": {
+      "label": "Outfit (Costume)",
+      "max": null
+    },
+    "clothing": {
+      "label": "Top / bottom (Clothing)",
+      "max": null
+    },
+    "haori": {
+      "label": "Haori (Clothing)",
+      "max": null
+    },
+    "accessory": {
+      "label": "Accessory",
+      "max": null
+    }
+  },
+  "equipCategoryOrder": [
+    "uniform",
+    "clothing",
+    "haori",
+    "accessory"
+  ],
+  "gameRuleSource": [
+    "CAM/Client/Components/Layout/NoneResetting/Menu/Pages/Inventory/ItemEquipepdFrame",
+    "ItemEquipepdFrame/EquippedOptions/Accessories (Stats One..Five)",
+    "CAM/Global/PlayerStatResolver/Solvers/Accessory",
+    "CAM/Global/Types/StatTypes (HighestOnlyStats = Illumination)",
+    "CAM/Global/Series (OutfitPassives: Top + Bottom worn, tier >= PassiveTier 3)"
+  ],
+  "seriesTierMultipliers": [
+    1,
+    1.15,
+    1.3
+  ],
+  "seriesTierNote": "Series items (Nightfall / Firstlight): stats × 1 / 1.15 / 1.3 by tier (T1 / T2 / T3). Refine only applies to RefineStats (Nightfall Top / Bottom: max HP only)."
+}

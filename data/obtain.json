@@ -1,0 +1,5537 @@
+{
+  "generated": "2026-09-29",
+  "data": {
+    "refine": {
+      "npc": "Refiner Hagane (Hidden Mist Village, level 65)",
+      "steps": [
+        {
+          "from": 0,
+          "ore": "Refinement Ore",
+          "count": 2,
+          "wen": 125,
+          "success": 90
+        },
+        {
+          "from": 1,
+          "ore": "Refinement Ore",
+          "count": 3,
+          "wen": 250,
+          "success": 85
+        },
+        {
+          "from": 2,
+          "ore": "Refinement Ore",
+          "count": 5,
+          "wen": 500,
+          "success": 80
+        },
+        {
+          "from": 3,
+          "ore": "Refinement Ore",
+          "count": 8,
+          "wen": 1000,
+          "success": 69
+        },
+        {
+          "from": 4,
+          "ore": "Refinement Ore",
+          "count": 12,
+          "wen": 2000,
+          "success": 51
+        },
+        {
+          "from": 5,
+          "ore": "Mythic Refinement Ore",
+          "count": 1,
+          "wen": 3250,
+          "success": 32.5
+        },
+        {
+          "from": 6,
+          "ore": "Mythic Refinement Ore",
+          "count": 2,
+          "wen": 5000,
+          "success": 20
+        },
+        {
+          "from": 7,
+          "ore": "Mythic Refinement Ore",
+          "count": 2,
+          "wen": 7500,
+          "success": 8
+        },
+        {
+          "from": 8,
+          "ore": "Mythic Refinement Ore",
+          "count": 3,
+          "wen": 12500,
+          "success": 5.5
+        },
+        {
+          "from": 9,
+          "ore": "Mythic Refinement Ore",
+          "count": 4,
+          "wen": 25000,
+          "success": 0.75
+        }
+      ],
+      "smelt": "5 Refinement Ore = 1 Mythic Refinement Ore",
+      "guard": "Refinement Guard (Black Marketer temporary stock, can also be fished)",
+      "oreSource": "Refinement Ore and Mythic Refinement Ore can be fished",
+      "module": "CAM/Global/Refinement"
+    },
+    "materials": {
+      "Metal Scraps / Silk Thread": "Sold by Ginzo (Mistfall Harbor, level 45)",
+      "Lost Cape / Lost Outfit / Lost Mask / Lost Lantern": "Fished"
+    },
+    "shops": [
+      {
+        "npc": "Ren",
+        "region": "Butterfly Estate",
+        "requirements": {
+          "Level": 75
+        },
+        "nightOnly": false,
+        "items": {
+          "Small Gourd": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Medium Gourd": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Large Gourd": {
+            "kind": "rotating",
+            "price": null
+          }
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Butterfly Estate/Npcs/Ren.module.luau",
+          "sha256": "d64b09928d680143fd957ccf606de910ac043757f58d777247010671ce13b0ca"
+        }
+      },
+      {
+        "npc": "Kuro",
+        "region": "Bamboo Grove",
+        "requirements": null,
+        "nightOnly": true,
+        "items": {
+          "Health Regen Potion": {
+            "kind": "shop",
+            "price": {
+              "Wen": 600
+            }
+          },
+          "Stamina Regen Potion": {
+            "kind": "shop",
+            "price": {
+              "Wen": 900
+            }
+          },
+          "Urokodaki's Mask": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Stylish Boa": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Sun Eve Drape": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Peppermint Scarf": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Heart of Night Necklace": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Tidal Earrings": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Cherry Blossom Lantern": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Crown of the Brave": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Black Dragon Horns": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Solstice Necklace": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Black-Cord Necklace": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Ivory edge Cloak": {
+            "kind": "rotating",
+            "price": null
+          }
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Bamboo Grove/Npcs/Kuro.module.luau",
+          "sha256": "25b563bcc0951df9229bbfd76fdf917155bf1d50eb86c290de2e5787815fbf8e"
+        }
+      },
+      {
+        "npc": "Baitmonger Nori",
+        "region": "Hidden Mist Village",
+        "requirements": null,
+        "nightOnly": false,
+        "items": {
+          "Fish Head": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Golden Tentacle x10": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Golden Tentacle x75": {
+            "kind": "rotating",
+            "price": null
+          }
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Hidden Mist Village/Npcs/Baitmonger Nori.module.luau",
+          "sha256": "2b30e10de11848836cbbf6a8bdb6e834824e801d36fb7b00203fb43cdd13071b"
+        }
+      },
+      {
+        "npc": "Winter Store Rep Lynx",
+        "region": "Iceveil Valley",
+        "requirements": null,
+        "nightOnly": false,
+        "items": {
+          "Shovel": {
+            "kind": "shop",
+            "price": {
+              "Wen": 1000
+            }
+          },
+          "Yukiume Fur Coat": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Wisteria Greatcoat": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Indigo Frost Coat": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Yamamichi Kimono": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Frostgrey Traveler's Coat": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Matsuba Haori": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Frostsilk Topper": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Conductor's Cap": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Sakura Felt Hat": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Ichimatsu Erimaki": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Raimon Erimaki": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Sakura Erimaki": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Murasaki Erimaki": {
+            "kind": "rotating",
+            "price": null
+          }
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Iceveil Valley/Npcs/Iceveil Settlement/Winter Store Rep Lynx.module.luau",
+          "sha256": "3598c5d9633252790bec9c35beb9ef5a6d88cbe79f5d786e28ac15c4497314ca"
+        }
+      },
+      {
+        "npc": "Fisherman Jeso",
+        "region": "Mistfall Harbor",
+        "requirements": null,
+        "nightOnly": false,
+        "items": {
+          "Basic Fishing Rod": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Rare Fishing Rod": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Worm": {
+            "kind": "rotating",
+            "price": null
+          }
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Mistfall Harbor/Npcs/Fisherman Jeso.module.luau",
+          "sha256": "24cfb4d8bb41f464c469db3a026734edc2b1fcacadad4c91718ea11f82b9d681"
+        }
+      },
+      {
+        "npc": "Elara",
+        "region": "Mistfall Harbor",
+        "nightOnly": false,
+        "requirements": null,
+        "items": {
+          "Wayfarer Mask": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Fern Weave Hakama": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Olive Flower Haori": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Purple Kumo Kesa": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Karakusa Kata-Aki": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Kamon Sodenashi": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Yozakura Yukata": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Azure Cloak": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Yagasuri Koshimaki": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Silent Striker Uniform": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Panther Mask": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Autumn Haori": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Checkered Haori": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Karakusa Cloak": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Silent Vesture": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Hiyozu's Scarf": {
+            "kind": "rotating",
+            "price": null
+          },
+          "Feathered Cape": {
+            "kind": "rotating",
+            "price": null
+          }
+        }
+      },
+      {
+        "npc": "Ginzo",
+        "region": "Mistfall Harbor",
+        "requirements": {
+          "Level": 45
+        },
+        "nightOnly": false,
+        "items": {
+          "Metal Scraps": {
+            "kind": "shop",
+            "price": {
+              "Wen": 500
+            }
+          },
+          "Silk Thread": {
+            "kind": "shop",
+            "price": {
+              "Wen": 350
+            }
+          }
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Mistfall Harbor/Npcs/Ginzo.module.luau",
+          "sha256": "4dc77cae0fc54d6d3fa275d0111851b11c556aaf4f4598457a2d23592c7bee3e"
+        }
+      },
+      {
+        "npc": "Alchemist Meku",
+        "region": "Mistfall Harbor",
+        "nightOnly": false,
+        "requirements": null,
+        "items": {
+          "Health Elixir": {
+            "kind": "shop",
+            "price": {
+              "Wen": 350,
+              "Demon Horns": 2
+            }
+          },
+          "Stamina Regen Elixir": {
+            "kind": "shop",
+            "price": {
+              "Wen": 750,
+              "Demon Horns": 2
+            }
+          },
+          "Health Regen Elixir": {
+            "kind": "shop",
+            "price": {
+              "Wen": 500,
+              "Demon Horns": 2
+            }
+          },
+          "Underwater Breathing Potion": {
+            "kind": "shop",
+            "price": {
+              "Wen": 600,
+              "Demon Horns": 6
+            }
+          }
+        }
+      },
+      {
+        "npc": "Black Marketer",
+        "region": "Misc",
+        "nightOnly": false,
+        "requirements": null,
+        "items": {
+          "Heavenly Boa": {
+            "kind": "timed",
+            "price": null
+          },
+          "Heavenly Crown": {
+            "kind": "timed",
+            "price": null
+          },
+          "Akatsuki Straw Hat": {
+            "kind": "timed",
+            "price": null
+          },
+          "Azure Guard Armour": {
+            "kind": "timed",
+            "price": null
+          },
+          "Gauntlet": {
+            "kind": "timed",
+            "price": null
+          },
+          "Golden Folk Mask": {
+            "kind": "timed",
+            "price": null
+          },
+          "Ashura\n8ks Mask": {
+            "kind": "timed",
+            "price": null
+          },
+          "Wind Earrings": {
+            "kind": "timed",
+            "price": null
+          },
+          "Heart of Night Earrings": {
+            "kind": "timed",
+            "price": null
+          },
+          "Azure Earrings": {
+            "kind": "timed",
+            "price": null
+          },
+          "Crimson Earrings": {
+            "kind": "timed",
+            "price": null
+          },
+          "Mimic Earrings": {
+            "kind": "timed",
+            "price": null
+          },
+          "Ying Yang Haori": {
+            "kind": "timed",
+            "price": null
+          },
+          "Black Dragon Tail": {
+            "kind": "timed",
+            "price": null
+          },
+          "Fox Mask": {
+            "kind": "timed",
+            "price": null
+          },
+          "Tidal Necklace": {
+            "kind": "timed",
+            "price": null
+          },
+          "Healing Gem Earrings": {
+            "kind": "timed",
+            "price": null
+          },
+          "Feather Tassel": {
+            "kind": "timed",
+            "price": null
+          },
+          "Dragon Kesa": {
+            "kind": "timed",
+            "price": null
+          },
+          "Eye Patch": {
+            "kind": "timed",
+            "price": null
+          },
+          "Shades": {
+            "kind": "timed",
+            "price": null
+          },
+          "Frozen Heart": {
+            "kind": "timed",
+            "price": null
+          },
+          "Frozen Heart Cache": {
+            "kind": "timed",
+            "price": null
+          },
+          "Frozen Heart Cache x5": {
+            "kind": "timed",
+            "price": null
+          },
+          "Refinement Guard": {
+            "kind": "timed",
+            "price": {
+              "Product": 3709568331
+            }
+          },
+          "Refinement Guard x5": {
+            "kind": "timed",
+            "price": {
+              "Product": 3709568384
+            }
+          }
+        }
+      },
+      {
+        "npc": "Rika",
+        "region": "Windy Peak",
+        "requirements": null,
+        "nightOnly": false,
+        "items": {
+          "Health Regen Potion": {
+            "kind": "shop",
+            "price": {
+              "Wen": 600
+            }
+          },
+          "Stamina Regen Potion": {
+            "kind": "shop",
+            "price": {
+              "Wen": 900
+            }
+          }
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Windy Peak/Npcs/Rika.module.luau",
+          "sha256": "c9d684b6c71268f1fa6de3eb7c52eef286979698c13cca47f579475978c42d0c"
+        }
+      },
+      {
+        "npc": "Raze",
+        "region": "Windy Peak",
+        "requirements": null,
+        "nightOnly": false,
+        "items": {
+          "Fancy Katana": {
+            "kind": "shop",
+            "price": {
+              "Wen": 1500
+            }
+          },
+          "Regular Katana": {
+            "kind": "shop",
+            "price": {
+              "Wen": 500
+            }
+          }
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Windy Peak/Npcs/Raze.module.luau",
+          "sha256": "e9d9000c02bfd00366ebf28101fb98d90c77e8cff4191821a41532c00558881a"
+        }
+      },
+      {
+        "npc": "Meku",
+        "region": "Mistfall Harbor",
+        "requirements": null,
+        "nightOnly": false,
+        "items": {
+          "Health Elixir": {
+            "kind": "shop",
+            "price": {
+              "Wen": 350,
+              "Demon Horns": 2
+            }
+          },
+          "Stamina Regen Elixir": {
+            "kind": "shop",
+            "price": {
+              "Wen": 750,
+              "Demon Horns": 2
+            }
+          },
+          "Health Regen Elixir": {
+            "kind": "shop",
+            "price": {
+              "Wen": 500,
+              "Demon Horns": 2
+            }
+          },
+          "Underwater Breathing Potion": {
+            "kind": "shop",
+            "price": {
+              "Wen": 600,
+              "Demon Horns": 6
+            }
+          }
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Mistfall Harbor/Npcs/Meku.module.luau",
+          "sha256": "475a4ed528144102d3d0fd8de57f2478f70c6a8aacb14236df5972ac9698eeff"
+        }
+      }
+    ],
+    "recipes": [
+      {
+        "amount": 1,
+        "station": "Hidden Mist",
+        "result": "Enryu Katana",
+        "price": {},
+        "required": [
+          {
+            "name": "Crude Iron Ingot",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": {},
+        "id": "enryu_katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Hidden Mist",
+        "result": "Shinkage Katana",
+        "price": {},
+        "required": [
+          {
+            "name": "Crude Iron Ingot",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": {},
+        "id": "shinkage_katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Hidden Mist",
+        "result": "Tengoku Katana",
+        "price": {},
+        "required": [
+          {
+            "name": "Crude Iron Ingot",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": {},
+        "id": "tengoku_katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwland",
+        "result": "Shotgun",
+        "price": {
+          "Wen": 25000
+        },
+        "required": [
+          {
+            "name": "Shotgun Schematic",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Silk Thread",
+            "amount": 200
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 100
+          }
+        ],
+        "id": "shotgun",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Volcanic Katana",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Flame Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "volcanic_katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Tornadic Katana",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Wind Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "tornadic_katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Tidal Katana",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Water Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "tidal_katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Thundercloud Katana",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Thunder Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "thundercloud_katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Serpentine Katana",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Serpent Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "serpentine_katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Butterfly Katana",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Insect Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "butterfly_katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Reverb Cleavers",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Sound Katanas",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "reverb_cleavers",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Seismic Axe and Mace",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Axe and Mace",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "seismic_axe_and_mace",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Damascus Bladed Wagasa",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Bladed Wagasa",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "damascus_bladed_wagasa",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Damascus Claws",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Claws",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "damascus_claws",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Damascus Gauntlet",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Gauntlet",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "damascus_gauntlet",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Damascus Scythe",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Scythe",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "damascus_scythe",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Damascus Shotgun",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Shotgun",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "damascus_shotgun",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Damascus Sickles",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Sickles",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "damascus_sickles",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Damascus Sickles",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Blood Sickles",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "damascus_sickles_blood",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Damascus Spear",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Spear",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "damascus_spear",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Damascus Tanto",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "Tanto",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "damascus_tanto",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "amount": 1,
+        "station": "Ouwigahara",
+        "result": "Damascus War Fans",
+        "price": {
+          "RunPoints": 90000
+        },
+        "required": [
+          {
+            "name": "War Fans",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Mythic Refinement Ore",
+            "amount": 10
+          },
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 300
+          }
+        ],
+        "refineKept": 1,
+        "id": "damascus_war_fans",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Katana",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Volcanic Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Firstlight Katana Schematic"
+        ],
+        "id": "Firstlight Katana__Volcanic Katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Katana",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Tornadic Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Firstlight Katana Schematic"
+        ],
+        "id": "Firstlight Katana__Tornadic Katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Katana",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Tidal Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Firstlight Katana Schematic"
+        ],
+        "id": "Firstlight Katana__Tidal Katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Katana",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Thundercloud Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Firstlight Katana Schematic"
+        ],
+        "id": "Firstlight Katana__Thundercloud Katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Katana",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight Katana Schematic"
+        ],
+        "id": "Firstlight Katana__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Katana",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Firstlight Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 12
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Firstlight Katana Schematic"
+        ],
+        "id": "Firstlight Katana__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Insect Katana",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Butterfly Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Firstlight Insect Katana Schematic"
+        ],
+        "id": "Firstlight Insect Katana__Butterfly Katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Insect Katana",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight Insect Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight Insect Katana Schematic"
+        ],
+        "id": "Firstlight Insect Katana__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Insect Katana",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Firstlight Insect Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 12
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Firstlight Insect Katana Schematic"
+        ],
+        "id": "Firstlight Insect Katana__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Sound Cleavers",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Reverb Cleavers",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Firstlight Sound Cleavers Schematic"
+        ],
+        "id": "Firstlight Sound Cleavers__Reverb Cleavers",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Sound Cleavers",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight Sound Cleavers",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight Sound Cleavers Schematic"
+        ],
+        "id": "Firstlight Sound Cleavers__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Sound Cleavers",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Firstlight Sound Cleavers",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 12
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Firstlight Sound Cleavers Schematic"
+        ],
+        "id": "Firstlight Sound Cleavers__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Bladed Wagasa",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Damascus Bladed Wagasa",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Firstlight Bladed Wagasa Schematic"
+        ],
+        "id": "Firstlight Bladed Wagasa__Damascus Bladed Wagasa",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Bladed Wagasa",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight Bladed Wagasa",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight Bladed Wagasa Schematic"
+        ],
+        "id": "Firstlight Bladed Wagasa__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Bladed Wagasa",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Firstlight Bladed Wagasa",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 12
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Firstlight Bladed Wagasa Schematic"
+        ],
+        "id": "Firstlight Bladed Wagasa__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Spear",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Damascus Spear",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Firstlight Spear Schematic"
+        ],
+        "id": "Firstlight Spear__Damascus Spear",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Spear",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight Spear",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight Spear Schematic"
+        ],
+        "id": "Firstlight Spear__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Spear",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Firstlight Spear",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 12
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Firstlight Spear Schematic"
+        ],
+        "id": "Firstlight Spear__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Tanto",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Damascus Tanto",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Firstlight Tanto Schematic"
+        ],
+        "id": "Firstlight Tanto__Damascus Tanto",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Tanto",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight Tanto",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight Tanto Schematic"
+        ],
+        "id": "Firstlight Tanto__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Tanto",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Firstlight Tanto",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 12
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Firstlight Tanto Schematic"
+        ],
+        "id": "Firstlight Tanto__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight War Fans",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Damascus War Fans",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Firstlight War Fans Schematic"
+        ],
+        "id": "Firstlight War Fans__Damascus War Fans",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight War Fans",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight War Fans",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight War Fans Schematic"
+        ],
+        "id": "Firstlight War Fans__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight War Fans",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Firstlight War Fans",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 12
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Firstlight War Fans Schematic"
+        ],
+        "id": "Firstlight War Fans__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Katana",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Volcanic Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Nightfall Katana Schematic"
+        ],
+        "id": "Nightfall Katana__Volcanic Katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Katana",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Tornadic Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Nightfall Katana Schematic"
+        ],
+        "id": "Nightfall Katana__Tornadic Katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Katana",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Tidal Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Nightfall Katana Schematic"
+        ],
+        "id": "Nightfall Katana__Tidal Katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Katana",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Thundercloud Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Nightfall Katana Schematic"
+        ],
+        "id": "Nightfall Katana__Thundercloud Katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Katana",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Nightfall Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Nightfall Katana Schematic"
+        ],
+        "id": "Nightfall Katana__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Katana",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Nightfall Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 12
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Nightfall Katana Schematic"
+        ],
+        "id": "Nightfall Katana__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Serpent Katana",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Serpentine Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Nightfall Serpent Katana Schematic"
+        ],
+        "id": "Nightfall Serpent Katana__Serpentine Katana",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Serpent Katana",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Nightfall Serpent Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Nightfall Serpent Katana Schematic"
+        ],
+        "id": "Nightfall Serpent Katana__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Serpent Katana",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Nightfall Serpent Katana",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 12
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Nightfall Serpent Katana Schematic"
+        ],
+        "id": "Nightfall Serpent Katana__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Axe and Mace",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Seismic Axe and Mace",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Nightfall Axe and Mace Schematic"
+        ],
+        "id": "Nightfall Axe and Mace__Seismic Axe and Mace",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Axe and Mace",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Nightfall Axe and Mace",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Nightfall Axe and Mace Schematic"
+        ],
+        "id": "Nightfall Axe and Mace__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Axe and Mace",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Nightfall Axe and Mace",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 12
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Nightfall Axe and Mace Schematic"
+        ],
+        "id": "Nightfall Axe and Mace__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Claws",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Damascus Claws",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Nightfall Claws Schematic"
+        ],
+        "id": "Nightfall Claws__Damascus Claws",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Claws",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Nightfall Claws",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Nightfall Claws Schematic"
+        ],
+        "id": "Nightfall Claws__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Claws",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Nightfall Claws",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 12
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Nightfall Claws Schematic"
+        ],
+        "id": "Nightfall Claws__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Gauntlet",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Damascus Gauntlet",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Nightfall Gauntlet Schematic"
+        ],
+        "id": "Nightfall Gauntlet__Damascus Gauntlet",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Gauntlet",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Nightfall Gauntlet",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Nightfall Gauntlet Schematic"
+        ],
+        "id": "Nightfall Gauntlet__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Gauntlet",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Nightfall Gauntlet",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 12
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Nightfall Gauntlet Schematic"
+        ],
+        "id": "Nightfall Gauntlet__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Scythe",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Damascus Scythe",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Nightfall Scythe Schematic"
+        ],
+        "id": "Nightfall Scythe__Damascus Scythe",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Scythe",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Nightfall Scythe",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Nightfall Scythe Schematic"
+        ],
+        "id": "Nightfall Scythe__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Scythe",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Nightfall Scythe",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 12
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Nightfall Scythe Schematic"
+        ],
+        "id": "Nightfall Scythe__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Sickles",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 500000
+        },
+        "required": [
+          {
+            "name": "Damascus Sickles",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 500
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 500
+          }
+        ],
+        "keep": [
+          "Nightfall Sickles Schematic"
+        ],
+        "id": "Nightfall Sickles__Damascus Sickles",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Sickles",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Nightfall Sickles",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Nightfall Sickles Schematic"
+        ],
+        "id": "Nightfall Sickles__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Sickles",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Nightfall Sickles",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 12
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Nightfall Sickles Schematic"
+        ],
+        "id": "Nightfall Sickles__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Lost Shotgun",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Lost Shotgun",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 2
+          },
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 2
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 2
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 2
+          },
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 2
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 2
+          }
+        ],
+        "keep": [],
+        "id": "Lost Shotgun__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Lost Shotgun",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Lost Shotgun",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 6
+          }
+        ],
+        "keep": [],
+        "id": "Lost Shotgun__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Haori",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "price": {
+          "Wen": 400000
+        },
+        "required": [
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 3
+          },
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 3
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 3
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 400
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 400
+          }
+        ],
+        "keep": [
+          "Firstlight Haori Schematic"
+        ],
+        "id": "Firstlight Haori",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Haori",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight Haori",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight Haori Schematic"
+        ],
+        "id": "Firstlight Haori__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Haori",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Firstlight Haori",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 12
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Firstlight Haori Schematic"
+        ],
+        "id": "Firstlight Haori__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Mask",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "price": {
+          "Wen": 200000
+        },
+        "required": [
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 2
+          },
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 2
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 2
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 200
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 200
+          }
+        ],
+        "keep": [
+          "Firstlight Mask Schematic"
+        ],
+        "id": "Firstlight Mask",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Mask",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 450000
+        },
+        "required": [
+          {
+            "name": "Firstlight Mask",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 3
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 4
+          }
+        ],
+        "keep": [
+          "Firstlight Mask Schematic"
+        ],
+        "id": "Firstlight Mask__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Mask",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight Mask",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight Mask Schematic"
+        ],
+        "id": "Firstlight Mask__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Lantern",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "price": {
+          "Wen": 200000
+        },
+        "required": [
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 2
+          },
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 2
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 2
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 200
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 200
+          }
+        ],
+        "keep": [
+          "Firstlight Lantern Schematic"
+        ],
+        "id": "Firstlight Lantern",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Lantern",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 450000
+        },
+        "required": [
+          {
+            "name": "Firstlight Lantern",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 3
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 4
+          }
+        ],
+        "keep": [
+          "Firstlight Lantern Schematic"
+        ],
+        "id": "Firstlight Lantern__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Lantern",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight Lantern",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Star Ore",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight Lantern Schematic"
+        ],
+        "id": "Firstlight Lantern__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Cape",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "price": {
+          "Wen": 200000
+        },
+        "required": [
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 2
+          },
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 2
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 2
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 200
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 200
+          }
+        ],
+        "keep": [
+          "Nightfall Cape Schematic"
+        ],
+        "id": "Nightfall Cape",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Cape",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 450000
+        },
+        "required": [
+          {
+            "name": "Nightfall Cape",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 3
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 4
+          }
+        ],
+        "keep": [
+          "Nightfall Cape Schematic"
+        ],
+        "id": "Nightfall Cape__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Cape",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Nightfall Cape",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Nightfall Cape Schematic"
+        ],
+        "id": "Nightfall Cape__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Mask",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "price": {
+          "Wen": 200000
+        },
+        "required": [
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 2
+          },
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 2
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 2
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 200
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 200
+          }
+        ],
+        "keep": [
+          "Nightfall Mask Schematic"
+        ],
+        "id": "Nightfall Mask",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Mask",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 450000
+        },
+        "required": [
+          {
+            "name": "Nightfall Mask",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 3
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 4
+          }
+        ],
+        "keep": [
+          "Nightfall Mask Schematic"
+        ],
+        "id": "Nightfall Mask__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Mask",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Nightfall Mask",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Nightfall Mask Schematic"
+        ],
+        "id": "Nightfall Mask__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Top",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "price": {
+          "Wen": 400000
+        },
+        "required": [
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 3
+          },
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 3
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 3
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 400
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 400
+          }
+        ],
+        "keep": [
+          "Nightfall Top Schematic"
+        ],
+        "id": "Nightfall Top",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Top",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Nightfall Top",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Nightfall Top Schematic"
+        ],
+        "id": "Nightfall Top__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Top",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Nightfall Top",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 12
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Nightfall Top Schematic"
+        ],
+        "id": "Nightfall Top__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Bottom",
+        "tier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "price": {
+          "Wen": 400000
+        },
+        "required": [
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 3
+          },
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 3
+          },
+          {
+            "name": "Nightfall Reinforced Plating",
+            "amount": 3
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 400
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 400
+          }
+        ],
+        "keep": [
+          "Nightfall Bottom Schematic"
+        ],
+        "id": "Nightfall Bottom",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Nightfall Bottom",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Nightfall Bottom",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 6
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Nightfall Bottom Schematic"
+        ],
+        "id": "Nightfall Bottom__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Nightfall Bottom",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Nightfall Bottom",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Nightfall Weaver's Cloth",
+            "amount": 12
+          },
+          {
+            "name": "Nightfall Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Nightfall Bottom Schematic"
+        ],
+        "id": "Nightfall Bottom__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Top",
+        "tier": 1,
+        "station": "Ouwigahara",
+        "amount": 1,
+        "fullPrice": true,
+        "price": {
+          "RunPoints": 500000,
+          "Wen": 200000
+        },
+        "required": [
+          {
+            "name": "Metal Scraps",
+            "amount": 400
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 400
+          }
+        ],
+        "additionalMaterials": [],
+        "keep": [
+          "Firstlight Top Schematic"
+        ],
+        "id": "Firstlight Top",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Top",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight Top",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight Top Schematic"
+        ],
+        "id": "Firstlight Top__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Top",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Firstlight Top",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 12
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Firstlight Top Schematic"
+        ],
+        "id": "Firstlight Top__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Bottom",
+        "tier": 1,
+        "station": "Ouwigahara",
+        "amount": 1,
+        "fullPrice": true,
+        "price": {
+          "RunPoints": 500000,
+          "Wen": 200000
+        },
+        "required": [
+          {
+            "name": "Metal Scraps",
+            "amount": 400
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 400
+          }
+        ],
+        "additionalMaterials": [],
+        "keep": [
+          "Firstlight Bottom Schematic"
+        ],
+        "id": "Firstlight Bottom",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        },
+        "v0195": "Series crafting prices of V0.195 (official notes); the difference is refunded for gear already crafted"
+      },
+      {
+        "result": "Firstlight Bottom",
+        "tier": 2,
+        "requiredTier": 1,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 750000
+        },
+        "required": [
+          {
+            "name": "Firstlight Bottom",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Metal Scraps",
+            "amount": 750
+          },
+          {
+            "name": "Silk Thread",
+            "amount": 750
+          },
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 6
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 6
+          }
+        ],
+        "keep": [
+          "Firstlight Bottom Schematic"
+        ],
+        "id": "Firstlight Bottom__t2",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      },
+      {
+        "result": "Firstlight Bottom",
+        "tier": 3,
+        "requiredTier": 2,
+        "station": "Ouwland",
+        "amount": 1,
+        "fullPrice": true,
+        "refineKept": 1,
+        "price": {
+          "Wen": 1500000
+        },
+        "required": [
+          {
+            "name": "Firstlight Bottom",
+            "amount": 1
+          }
+        ],
+        "additionalMaterials": [
+          {
+            "name": "Firstlight Weaver's Silk",
+            "amount": 12
+          },
+          {
+            "name": "Firstlight Forged Ingot",
+            "amount": 12
+          }
+        ],
+        "keep": [
+          "Firstlight Bottom Schematic"
+        ],
+        "id": "Firstlight Bottom__t3",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Crafting/DefaultConfigs.module.luau",
+          "sha256": "dcecceaea7984f46df22adaea05ea0b52c6206584c93118eea4ac2e917e855d7",
+          "method": "Read from the game’s crafting config",
+          "lines": "4–152"
+        }
+      }
+    ],
+    "quests": [
+      {
+        "name": "Ill walk the order",
+        "npc": "Lamplighter Isamu",
+        "region": "Misc",
+        "rewards": {
+          "Firstlight Lantern Schematic": {
+            "Quantity": 1
+          }
+        },
+        "requirements": null,
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Lamplighter Isamu.module.luau",
+          "sha256": "b57ab4cdfba07521338b4cd90c741bb5c925c4d6708790633d1acbe86d03c5f5"
+        }
+      },
+      {
+        "name": "Ill learn the Tai Chi Style(Lv 65)",
+        "npc": "Tai Chi Expert Renjiro",
+        "region": "Misc",
+        "rewards": {
+          "Wen": 1053,
+          "Exp": 2340,
+          "Power": {
+            "Name": "Tai Chi",
+            "GrantNotify": {
+              "Text": "Tai Chi is yours. Softness first, the rest follows.",
+              "Npc": {
+                "__rift_expression": {
+                  "id": 9,
+                  "kind": "AstExprIndexName",
+                  "location": "7,116 - 7,123",
+                  "source": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Tai Chi Expert Renjiro.module.luau"
+                }
+              }
+            }
+          }
+        },
+        "requirements": {
+          "Level": 65,
+          "Race": [
+            "Slayer",
+            "Hybrid"
+          ]
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Tai Chi Expert Renjiro.module.luau",
+          "sha256": "8fa150e91c8462160bc98a4155495d97eed474bb30a5b6be0735e35d80897fb4"
+        }
+      },
+      {
+        "name": "Ill find the forge(Lv 65)",
+        "npc": "Blacksmith Togane",
+        "region": "Hidden Mist Village",
+        "rewards": {
+          "Wen": 350,
+          "Exp": 3900
+        },
+        "requirements": {
+          "Level": 65
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Hidden Mist Village/NpcContents/Dialogues/Quests/Blacksmith Togane.module.luau",
+          "sha256": "d06bd1ef1f85ab3125148bf3e77ba4d767d84a8e7326b1bc933b0b0288b9b255"
+        }
+      },
+      {
+        "name": "Ill help you survive the winter(Lv 100)",
+        "npc": "Iceveil Guard Shiro",
+        "region": "Iceveil Valley",
+        "rewards": {
+          "Exp": 12000,
+          "Wen": 6000,
+          "Ore": {
+            "Quantity": 1
+          }
+        },
+        "requirements": {
+          "Level": 100
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Iceveil Valley/NpcContents/Dialogues/Quests/Iceveil Settlement/Iceveil Guard Shiro.module.luau",
+          "sha256": "30f5557ba6f13c1ab8a785baac9ed08f1cc27b44bd93490556364cc3a8a6f0fe"
+        }
+      },
+      {
+        "name": "Ill fill the winter stores(Lv 105)",
+        "npc": "Iceveil Guard Shiro",
+        "region": "Iceveil Valley",
+        "rewards": {
+          "Wen": 3825,
+          "Exp": 2900
+        },
+        "requirements": {
+          "Level": 105
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Iceveil Valley/NpcContents/Dialogues/Quests/Iceveil Settlement/Iceveil Guard Shiro.module.luau",
+          "sha256": "30f5557ba6f13c1ab8a785baac9ed08f1cc27b44bd93490556364cc3a8a6f0fe"
+        }
+      },
+      {
+        "name": "Ill restock the infirmary(Lv 70)",
+        "npc": "Shiori",
+        "region": "Butterfly Estate",
+        "rewards": {
+          "Exp": 7200,
+          "Wen": 810,
+          "Ore": {
+            "Quantity": 1
+          }
+        },
+        "requirements": {
+          "Level": 70
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Butterfly Estate/NpcContents/Dialogues/Quests/Shiori.module.luau",
+          "sha256": "fa0abba012989a68395d56456cc84b625aa25f27650998ed78e97ba0ae7cbc54"
+        }
+      },
+      {
+        "name": "Ill stock the reserves(Lv 75)",
+        "npc": "Shiori",
+        "region": "Butterfly Estate",
+        "rewards": {
+          "Wen": 2250,
+          "Exp": 2900
+        },
+        "requirements": {
+          "Level": 75
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Butterfly Estate/NpcContents/Dialogues/Quests/Shiori.module.luau",
+          "sha256": "fa0abba012989a68395d56456cc84b625aa25f27650998ed78e97ba0ae7cbc54"
+        }
+      },
+      {
+        "name": "Ill break their watch(Lv 75)",
+        "npc": "Demon Mokuro",
+        "region": "Final Selection Plains",
+        "rewards": {
+          "Wen": 608,
+          "Exp": 1350
+        },
+        "requirements": {
+          "Level": 75,
+          "Race": [
+            "Demon",
+            "Hybrid"
+          ]
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Final Selection Plains/NpcContents/Dialogues/Quests/The White Terror Lair/Demon Mokuro.module.luau",
+          "sha256": "03e02955e679a2725f5d5b0e04a560f467c10ea8c16152a82c33579a5c16bf8d"
+        }
+      },
+      {
+        "name": "Ill help you defeat them(Lv 90)",
+        "npc": "Wounded Slayer Tomoi",
+        "region": "Iceveil Valley",
+        "rewards": {
+          "Wen": 729,
+          "Exp": 1620
+        },
+        "requirements": {
+          "Level": 90,
+          "Race": [
+            "Slayer",
+            "Hybrid"
+          ]
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Iceveil Valley/NpcContents/Dialogues/Quests/Wounded Slayer Tomoi.module.luau",
+          "sha256": "4834cde4e72983eb71da5c46a00972a99ec345933b27165a60fe980126353682"
+        }
+      },
+      {
+        "name": "Ill look for the penny(Lv 14)",
+        "npc": "Liv",
+        "region": "Bamboo Grove",
+        "rewards": {
+          "Wen": 75,
+          "Exp": 840
+        },
+        "requirements": {
+          "Level": 14
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Bamboo Grove/NpcContents/Dialogues/Quests/Liv.module.luau",
+          "sha256": "e60905c68430a41f5eedc931aa453df134707fcfc3aed9e19050b017941813e5"
+        }
+      },
+      {
+        "name": "Ill find the coins(Lv 21)",
+        "npc": "Liv",
+        "region": "Bamboo Grove",
+        "rewards": {
+          "Wen": 270,
+          "Exp": 2280
+        },
+        "requirements": {
+          "Level": 21
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Bamboo Grove/NpcContents/Dialogues/Quests/Liv.module.luau",
+          "sha256": "e60905c68430a41f5eedc931aa453df134707fcfc3aed9e19050b017941813e5"
+        }
+      },
+      {
+        "name": "Ill learn Wind Breathing(Lv 25)",
+        "npc": "Wind Trainer",
+        "region": "Misc",
+        "rewards": {
+          "Wen": 405,
+          "Power": "Wind",
+          "Exp": 900
+        },
+        "requirements": {
+          "Level": 25
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Wind Trainer.module.luau",
+          "sha256": "e9eb50f19f8879689db4051132081e020465350bf636c04c8b51bf202ed16d6d"
+        }
+      },
+      {
+        "name": "I will clear out his guards(Lv 40)",
+        "npc": "Wagwan",
+        "region": "Bamboo Grove",
+        "rewards": {
+          "Wen": 324,
+          "Exp": 720
+        },
+        "requirements": {
+          "Level": 40
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Bamboo Grove/NpcContents/Dialogues/Quests/Wagwan.module.luau",
+          "sha256": "637e6aab4e6874a1ab4c7efed8f7672826a09338d908cccca76def044a033dd3"
+        }
+      },
+      {
+        "name": "I will take care of Hoyuzo(Lv 50)",
+        "npc": "Wagwan",
+        "region": "Bamboo Grove",
+        "rewards": {
+          "Wen": 540,
+          "Exp": 1200
+        },
+        "requirements": {
+          "Level": 50
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Bamboo Grove/NpcContents/Dialogues/Quests/Wagwan.module.luau",
+          "sha256": "637e6aab4e6874a1ab4c7efed8f7672826a09338d908cccca76def044a033dd3"
+        }
+      },
+      {
+        "name": "Ill find the pages",
+        "npc": "Kona",
+        "region": "Windy Peak",
+        "rewards": {
+          "Exp": 20,
+          "Wen": 10,
+          "Book of Guidance": {
+            "Unique": true,
+            "Quantity": 1
+          }
+        },
+        "requirements": null,
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Windy Peak/NpcContents/Dialogues/Quests/Kona.module.luau",
+          "sha256": "8bff923e9928bff17ec9b25d279cca765796c8984c30cc7cecfbae9d01d9a18b"
+        }
+      },
+      {
+        "name": "Ill clear out his subordinates(Lv 26)",
+        "npc": "Chaka",
+        "region": "Bamboo Grove",
+        "rewards": {
+          "Wen": 211,
+          "Exp": 468
+        },
+        "requirements": {
+          "Level": 26
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Bamboo Grove/NpcContents/Dialogues/Quests/Chaka.module.luau",
+          "sha256": "933b8cc76f45ee20f80f087b8d5bd23252b1cd3d82f23838ecd2806054e0019f"
+        }
+      },
+      {
+        "name": "Ill deal with Kaiden(Lv 34)",
+        "npc": "Chaka",
+        "region": "Bamboo Grove",
+        "rewards": {
+          "Wen": 367,
+          "Exp": 816
+        },
+        "requirements": {
+          "Level": 34
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Bamboo Grove/NpcContents/Dialogues/Quests/Chaka.module.luau",
+          "sha256": "933b8cc76f45ee20f80f087b8d5bd23252b1cd3d82f23838ecd2806054e0019f"
+        }
+      },
+      {
+        "name": "Ill learn the Soryu Style(Lv 62)",
+        "npc": "Soryu Expert Kazuma",
+        "region": "Misc",
+        "rewards": {
+          "Wen": 1004,
+          "Exp": 2232,
+          "Power": {
+            "Name": "Soryu",
+            "GrantNotify": {
+              "Text": "Soryu is yours now. Do not make me regret it.",
+              "Npc": {
+                "__rift_expression": {
+                  "id": 9,
+                  "kind": "AstExprIndexName",
+                  "location": "7,108 - 7,115",
+                  "source": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Soryu Expert Kazuma.module.luau"
+                }
+              }
+            }
+          }
+        },
+        "requirements": {
+          "Level": 62,
+          "Race": [
+            "Demon",
+            "Hybrid"
+          ]
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Soryu Expert Kazuma.module.luau",
+          "sha256": "a79955f25ca5113f80b8331a3faa3a819b61ada800901782cc456140d32f12be"
+        }
+      },
+      {
+        "name": "Ill find the jewelry box(Lv 45)",
+        "npc": "Ginzo",
+        "region": "Mistfall Harbor",
+        "rewards": {
+          "Wen": 240,
+          "Exp": 2700
+        },
+        "requirements": {
+          "Level": 45
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Mistfall Harbor/NpcContents/Dialogues/Quests/Ginzo.module.luau",
+          "sha256": "c2b7dbfade45a30b64e636122de0c20b263ac4fe7bc2b887d98c55bf1962364d"
+        }
+      },
+      {
+        "name": "Theyre not welcome here(Lv 90)",
+        "npc": "Demon Delroy",
+        "region": "Iceveil Valley",
+        "rewards": {
+          "Wen": 729,
+          "Exp": 1620
+        },
+        "requirements": {
+          "Level": 90,
+          "Race": [
+            "Demon",
+            "Hybrid"
+          ]
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Iceveil Valley/NpcContents/Dialogues/Quests/Demon Delroy.module.luau",
+          "sha256": "489280c0303d87eeb7a7662b4d256f7b070960ba010d62c5111f143145c34667"
+        }
+      },
+      {
+        "name": "Ill learn the Reaping Blades Style(Lv 100)",
+        "npc": "Harvester of Souls Zurinyz",
+        "region": "Misc",
+        "rewards": {
+          "Wen": 1620,
+          "Exp": 3600,
+          "Power": {
+            "Name": "Reaping Blades",
+            "GrantNotify": {
+              "Text": "The Reaping Blades are yours. Reap cleanly.",
+              "Npc": {
+                "__rift_expression": {
+                  "id": 9,
+                  "kind": "AstExprIndexName",
+                  "location": "7,115 - 7,122",
+                  "source": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Harvester of Souls Zurinyz.module.luau"
+                }
+              }
+            }
+          }
+        },
+        "requirements": {
+          "Level": 100,
+          "Race": [
+            "Demon",
+            "Hybrid"
+          ]
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Harvester of Souls Zurinyz.module.luau",
+          "sha256": "e17fee6a216c1fb3def8d0856f609e1e513ba02f43a179721c80406968738e7e"
+        }
+      },
+      {
+        "name": "Ill deliver the supply box(Lv 70)",
+        "npc": "Niko",
+        "region": "Mistfall Harbor",
+        "rewards": {
+          "Wen": 189,
+          "Exp": 420
+        },
+        "requirements": {
+          "Level": 70
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Mistfall Harbor/NpcContents/Dialogues/Quests/Niko.module.luau",
+          "sha256": "0a19d478c92413913cd90ff6a247f4123513bd9ec249b941bf1761d9291617eb"
+        }
+      },
+      {
+        "name": "Ill help clear them out",
+        "npc": "Kazu",
+        "region": "Windy Peak",
+        "rewards": {
+          "Exp": 40,
+          "Wen": 20,
+          "Suspicious Note": {
+            "Quantity": 1,
+            "NoSave": true,
+            "Unique": true
+          }
+        },
+        "requirements": null,
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Windy Peak/NpcContents/Dialogues/Quests/Kazu.module.luau",
+          "sha256": "108612218ae0ee5a1a8fcd49b09f828ad2fb7bf86e844bea41c894154d527ba2"
+        }
+      },
+      {
+        "name": "Ill learn Insect Breathing(Lv 25)",
+        "npc": "Insect Trainer",
+        "region": "Misc",
+        "rewards": {
+          "Wen": 405,
+          "Power": "Insect",
+          "Exp": 900
+        },
+        "requirements": {
+          "Level": 25
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Insect Trainer.module.luau",
+          "sha256": "3e091e66e8de08da98058801a0495f8aab293a27da8c0cc5386a089ce9086d29"
+        }
+      },
+      {
+        "name": "Ill clear the cave(Lv 62)",
+        "npc": "Jugg",
+        "region": "Mistfall Harbor",
+        "rewards": {
+          "Wen": 502,
+          "Exp": 1116
+        },
+        "requirements": {
+          "Level": 62,
+          "Race": [
+            "Slayer",
+            "Hybrid"
+          ]
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Mistfall Harbor/NpcContents/Dialogues/Quests/Dreamfall Hollow/Jugg.module.luau",
+          "sha256": "82ef57332125c1dde74927060b64112117f46767b8d83981a89211be9d87412e"
+        }
+      },
+      {
+        "name": "Ill learn Stone Breathing(Lv 25)",
+        "npc": "Stone Trainer",
+        "region": "Misc",
+        "rewards": {
+          "Wen": 405,
+          "Power": "Stone",
+          "Exp": 900
+        },
+        "requirements": {
+          "Level": 25,
+          "Items": [
+            "Axe and Mace",
+            "Seismic Axe and Mace",
+            "Nightfall Axe and Mace"
+          ]
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Stone Trainer.module.luau",
+          "sha256": "d031b1e940968dd51181f67f1ce1a67508d060fe2ff9f0509999d8fe4117e5c9"
+        }
+      },
+      {
+        "name": "Ill learn Thunder Breathing(Lv 25)",
+        "npc": "Thunder Trainer",
+        "region": "Misc",
+        "rewards": {
+          "Wen": 405,
+          "Power": "Thunder",
+          "Exp": 900
+        },
+        "requirements": {
+          "Level": 25
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Thunder Trainer.module.luau",
+          "sha256": "c52841263f90708ec429ee7ff7eb61c867778c961aeb9143450c40252cd5d8e6"
+        }
+      },
+      {
+        "name": "Ill learn Water Breathing(Lv 25)",
+        "npc": "Water Trainer",
+        "region": "Misc",
+        "rewards": {
+          "Wen": 405,
+          "Power": "Water",
+          "Exp": 900
+        },
+        "requirements": {
+          "Level": 25
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Water Trainer.module.luau",
+          "sha256": "cad5ddd710af4d6f7e653797c007f6cee1ae70509c31549a82585a57d91b00de"
+        }
+      },
+      {
+        "name": "Ill get this letter delivered",
+        "npc": "Noote",
+        "region": "Windy Peak",
+        "rewards": {
+          "Wen": 60,
+          "Exp": 480
+        },
+        "requirements": null,
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Windy Peak/NpcContents/Dialogues/Quests/Noote.module.luau",
+          "sha256": "cc197505a73026a5efa7280f8cb4966b3b66708d4061aeba08cbb63ebf2430ea"
+        }
+      },
+      {
+        "name": "Ill thin them out(Lv 75)",
+        "npc": "Demon Slayer Goro",
+        "region": "Butterfly Estate",
+        "rewards": {
+          "Wen": 608,
+          "Exp": 1350
+        },
+        "requirements": {
+          "Level": 75,
+          "Race": [
+            "Slayer",
+            "Hybrid"
+          ]
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Butterfly Estate/NpcContents/Dialogues/Quests/Veilfall Cavern/Demon Slayer Goro.module.luau",
+          "sha256": "dff00a910f8b25ed28ccdd11fa584662bca6acf0b567f9f401bfaffa458a65f9"
+        }
+      },
+      {
+        "name": "Ill go up after the greater ones(Lv 83)",
+        "npc": "Demon Slayer Goro",
+        "region": "Butterfly Estate",
+        "rewards": {
+          "Wen": 672,
+          "Exp": 1494
+        },
+        "requirements": {
+          "Level": 83,
+          "Race": [
+            "Slayer",
+            "Hybrid"
+          ]
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Butterfly Estate/NpcContents/Dialogues/Quests/Veilfall Cavern/Demon Slayer Goro.module.luau",
+          "sha256": "dff00a910f8b25ed28ccdd11fa584662bca6acf0b567f9f401bfaffa458a65f9"
+        }
+      },
+      {
+        "name": "Ill deliver the package",
+        "npc": "MoldySugar",
+        "region": "Windy Peak",
+        "rewards": {
+          "Wen": 30,
+          "Exp": 240
+        },
+        "requirements": null,
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Windy Peak/NpcContents/Dialogues/Quests/MoldySugar.module.luau",
+          "sha256": "361ca1fb170ea8a5a30f465d15cd0866d92d2068a9a334fe15c280a474f03bc6"
+        }
+      },
+      {
+        "name": "Ill drive back the frost(Lv 105)",
+        "npc": "Demon Slayer Mitsu",
+        "region": "Iceveil Valley",
+        "rewards": {
+          "Wen": 851,
+          "Exp": 1890
+        },
+        "requirements": {
+          "Level": 105
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Iceveil Valley/NpcContents/Dialogues/Quests/Demon Slayer Mitsu.module.luau",
+          "sha256": "90a44604a9970f6abdac69520f91bc73cd8abf106581f45a4d2dc3b4f2d97a63"
+        }
+      },
+      {
+        "name": "Ill put out the blaze(Lv 115)",
+        "npc": "Demon Slayer Mitsu",
+        "region": "Iceveil Valley",
+        "rewards": {
+          "Wen": 932,
+          "Exp": 2070
+        },
+        "requirements": {
+          "Level": 115
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Iceveil Valley/NpcContents/Dialogues/Quests/Demon Slayer Mitsu.module.luau",
+          "sha256": "90a44604a9970f6abdac69520f91bc73cd8abf106581f45a4d2dc3b4f2d97a63"
+        }
+      },
+      {
+        "name": "Ill drive them off(Lv 47)",
+        "npc": "Rin",
+        "region": "Mistfall Harbor",
+        "rewards": {
+          "Wen": 381,
+          "Exp": 846
+        },
+        "requirements": {
+          "Level": 47
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Mistfall Harbor/NpcContents/Dialogues/Quests/Rin.module.luau",
+          "sha256": "f65733c572aeadfc36650707a22306a547b0948061d3ffa8afd62515f0f19036"
+        }
+      },
+      {
+        "name": "Ill look for your blade(Lv 75)",
+        "npc": "Ren",
+        "region": "Butterfly Estate",
+        "rewards": {
+          "Wen": 495,
+          "Exp": 4500
+        },
+        "requirements": {
+          "Level": 75
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Butterfly Estate/NpcContents/Dialogues/Quests/Ren.module.luau",
+          "sha256": "4032e78d47404169767c17d711129be38e540162cf8aeabd361de7059a32f124"
+        }
+      },
+      {
+        "name": "Ill learn Sound Breathing(Lv 25)",
+        "npc": "Sound Trainer",
+        "region": "Misc",
+        "rewards": {
+          "Wen": 405,
+          "Power": "Sound",
+          "Exp": 900
+        },
+        "requirements": {
+          "Level": 25
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Sound Trainer.module.luau",
+          "sha256": "03508e46e37b592018f025a1d7e4d46ab1e0bbf4f1ed6a9ef881c44ea9074d33"
+        }
+      },
+      {
+        "name": "Ill find the permit stamp(Lv 45)",
+        "npc": "Sofen",
+        "region": "Mistfall Harbor",
+        "rewards": {
+          "Exp": 2700,
+          "Fishing Permit": {
+            "Quantity": 1
+          }
+        },
+        "requirements": {
+          "Level": 45
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Mistfall Harbor/NpcContents/Dialogues/Quests/Sofen.module.luau",
+          "sha256": "0ca74316ea2b04930c3b82d5085721558cbdc9c617f7daab33c4c26f9618d652"
+        }
+      },
+      {
+        "name": "Ill eliminate the Mizunoto(Lv 62)",
+        "npc": "Shady Individual",
+        "region": "Mistfall Harbor",
+        "rewards": {
+          "Wen": 473,
+          "Exp": 1050
+        },
+        "requirements": {
+          "Level": 62,
+          "Race": [
+            "Demon",
+            "Hybrid"
+          ]
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Mistfall Harbor/NpcContents/Dialogues/Quests/Seasons Crossing/Shady Individual.module.luau",
+          "sha256": "9e6fa2b839e33ebe16dba594ed2c8587e53e26bca5b300c5483fc61b1ba5d17b"
+        }
+      },
+      {
+        "name": "Ill take 3 bandits",
+        "npc": "Krue",
+        "region": "Windy Peak",
+        "rewards": {
+          "Wen": 12,
+          "Exp": 25
+        },
+        "requirements": null,
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Windy Peak/NpcContents/Dialogues/Quests/Krue.module.luau",
+          "sha256": "40452f00ebd1f3ce9db3971fc6cf34d9ec6a261f533c4796ee71b1af0209ffc5"
+        }
+      },
+      {
+        "name": "Ill take the bandit boss(Lv 7)",
+        "npc": "Krue",
+        "region": "Windy Peak",
+        "rewards": {
+          "Wen": 76,
+          "Exp": 168
+        },
+        "requirements": {
+          "Level": 7
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Windy Peak/NpcContents/Dialogues/Quests/Krue.module.luau",
+          "sha256": "40452f00ebd1f3ce9db3971fc6cf34d9ec6a261f533c4796ee71b1af0209ffc5"
+        }
+      },
+      {
+        "name": "Ill learn Serpent Breathing(Lv 25)",
+        "npc": "Serpent Trainer",
+        "region": "Misc",
+        "rewards": {
+          "Wen": 405,
+          "Power": "Serpent",
+          "Exp": 900
+        },
+        "requirements": {
+          "Level": 25
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Serpent Trainer.module.luau",
+          "sha256": "68e7e9d4b2261c759818dc1ba2e201afd60c573c3d0f9feddcfd08038261fbc4"
+        }
+      },
+      {
+        "name": "Ill drive the bears back(Lv 10)",
+        "npc": "Tom",
+        "region": "Bamboo Grove",
+        "rewards": {
+          "Exp": 180,
+          "Wen": 81,
+          "Bear Meat": {
+            "Quantity": 1,
+            "Unique": true,
+            "RequiresQuest": "Ill restock the pantry(Lv 10)",
+            "GrantNotify": {
+              "Npc": "Lucy",
+              "Text": "Bring it to me!"
+            }
+          }
+        },
+        "requirements": {
+          "Level": 10
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Bamboo Grove/NpcContents/Dialogues/Quests/Tom.module.luau",
+          "sha256": "4cf9a5c48d8f1c3e635c052d5a8c9b3c4008773d2f99195ac48f1717d16e8aab"
+        }
+      },
+      {
+        "name": "Ill fell the Mother Bear(Lv 18)",
+        "npc": "Tom",
+        "region": "Bamboo Grove",
+        "rewards": {
+          "Exp": 432,
+          "Wen": 194,
+          "Bear Meat": {
+            "Quantity": 1,
+            "Unique": true,
+            "RequiresQuest": "Ill restock the pantry(Lv 10)",
+            "GrantNotify": {
+              "Npc": "Lucy",
+              "Text": "Bring it to me!"
+            }
+          }
+        },
+        "requirements": {
+          "Level": 18
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Bamboo Grove/NpcContents/Dialogues/Quests/Tom.module.luau",
+          "sha256": "4cf9a5c48d8f1c3e635c052d5a8c9b3c4008773d2f99195ac48f1717d16e8aab"
+        }
+      },
+      {
+        "name": "Muzan Quest",
+        "npc": "Muzan",
+        "region": "Misc",
+        "rewards": {
+          "Muzan's Blood": {
+            "Quantity": 1
+          }
+        },
+        "requirements": null,
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Muzan.module.luau",
+          "sha256": "d4ca32119bc9866f38871831fca969bbc492ff54e4fa18651839f977838a446c"
+        }
+      },
+      {
+        "name": "Ill learn Flame Breathing(Lv 25)",
+        "npc": "Flame Trainer",
+        "region": "Misc",
+        "rewards": {
+          "Wen": 405,
+          "Power": "Flame",
+          "Exp": 900
+        },
+        "requirements": {
+          "Level": 25
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Misc/NpcContents/Dialogues/Quests/Flame Trainer.module.luau",
+          "sha256": "71c846c9a5dd0199c2e430222072fde28da3fd80da4110562dd7e3d370dba1a0"
+        }
+      },
+      {
+        "name": "Ill restock the pantry(Lv 10)",
+        "npc": "Lucy",
+        "region": "Windy Peak",
+        "rewards": {
+          "Exp": 180,
+          "Wen": 81,
+          "Cooked Bear Meat": {
+            "Quantity": 3
+          }
+        },
+        "requirements": {
+          "Level": 10
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Windy Peak/NpcContents/Dialogues/Quests/Lucy.module.luau",
+          "sha256": "d98f32951ca85122f799bb63cdea039d157a3ace3f286a759752b7a2adb67d73"
+        }
+      },
+      {
+        "name": "Ill see you to Windy Peak(Lv 105)",
+        "npc": "Shrine Messenger Akio",
+        "region": "Iceveil Valley",
+        "rewards": {
+          "Wen": 900,
+          "Exp": 2000
+        },
+        "requirements": {
+          "Level": 105
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Iceveil Valley/NpcContents/Dialogues/Quests/Iceveil Settlement/Shrine Messenger Akio.module.luau",
+          "sha256": "3668fc6a3a37a8920cef317f8f0509b03bd4207eea59fe1f67760dc22b45eead"
+        }
+      },
+      {
+        "name": "Ill haul in the deep catch(Lv 125)",
+        "npc": "Shrine Messenger Akio",
+        "region": "Iceveil Valley",
+        "rewards": {
+          "Wen": 3075,
+          "Exp": 4300
+        },
+        "requirements": {
+          "Level": 125
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Iceveil Valley/NpcContents/Dialogues/Quests/Iceveil Settlement/Shrine Messenger Akio.module.luau",
+          "sha256": "3668fc6a3a37a8920cef317f8f0509b03bd4207eea59fe1f67760dc22b45eead"
+        }
+      },
+      {
+        "name": "Ill fill your crates(Lv 45)",
+        "npc": "Angler Runo",
+        "region": "Mistfall Harbor",
+        "rewards": {
+          "Wen": 790,
+          "Exp": 1750
+        },
+        "requirements": {
+          "Level": 45
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Mistfall Harbor/NpcContents/Dialogues/Quests/Angler Runo.module.luau",
+          "sha256": "93ebc09e4f2c5633920bcdec31300e022fbb7aa76d58dbf8115c53701a8f04b6"
+        }
+      },
+      {
+        "name": "Ill land the good catch(Lv 60)",
+        "npc": "Angler Runo",
+        "region": "Mistfall Harbor",
+        "rewards": {
+          "Wen": 1035,
+          "Exp": 2300
+        },
+        "requirements": {
+          "Level": 60
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Mistfall Harbor/NpcContents/Dialogues/Quests/Angler Runo.module.luau",
+          "sha256": "93ebc09e4f2c5633920bcdec31300e022fbb7aa76d58dbf8115c53701a8f04b6"
+        }
+      },
+      {
+        "name": "Ill look for it(Lv 10)",
+        "npc": "Betty",
+        "region": "Bamboo Grove",
+        "rewards": {
+          "Wen": 60,
+          "Exp": 600
+        },
+        "requirements": {
+          "Level": 10
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/Ouwland/Content/Bamboo Grove/NpcContents/Dialogues/Quests/Betty.module.luau",
+          "sha256": "69c7d5709deb8bdf3df472fc44f8a126240a081dc74bbe6d65a45cc365d0b0f7"
+        }
+      }
+    ]
+  }
+}

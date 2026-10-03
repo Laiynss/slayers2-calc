@@ -1,0 +1,169 @@
+{
+  "generated": "2026-09-26",
+  "currentPatch": "V0.182",
+  "count": 27,
+  "data": [
+    {
+      "id": "t3r10_tooltip",
+      "what": "Nightfall / Firstlight Katana stats at Tier 3 Refine 10 (model: NF 22.43 AD / 1.179x, FL 15.6 / 1.192x)",
+      "test": "Screenshot any T3 R10 series weapon tooltip (AD and ADF). This checks the x3.00 refine step on top of the x1.30 tier and whether R10 raises ADF.",
+      "priority": "critical"
+    },
+    {
+      "id": "firstlight_tier_ad",
+      "what": "Firstlight tier AD at T2/T3 read directly (only Sound Cleavers T3 R8 \"+10\" spoken)",
+      "test": "Tooltip of a Firstlight weapon at T2 and T3.",
+      "priority": "medium"
+    },
+    {
+      "id": "reread_tooltips_v0182",
+      "what": "All pre-V0.182 factor values (TechWiser/videos) were rounded to 2 decimals",
+      "test": "Since V0.182 tooltips are exact (3 decimals). Re-read the ADF on the tooltip of every candidate item/weapon (Stone Haori, Flame Haori Style 1, Flame Scarf, Stone Necklace, Overdrive Earrings, Lost Mask, Firstlight Insect Katana, Nightfall weapons…) and replace the values in data/.",
+      "priority": "critical"
+    },
+    {
+      "id": "statbar_hp_stamina",
+      "what": "Unexplained +89 Max Stamina on the bar and the Max Health branch value (480 minus HP title passives)",
+      "test": "Screenshot the Max Stamina and Max Health branches of the skill tree and the Titles menu (which titles are unlocked).",
+      "priority": "low"
+    },
+    {
+      "id": "statbar_unknowns",
+      "what": "Stat-bar icons 1.25x and 1.01x",
+      "test": "Hover the icons. If the bar is alphabetical with the factor before the flat value, as the other icons suggest (ADF, AD, Block Points, Block Regen, DR Factor, DR, Health Regen, Illumination, Max Health, Max Stamina, Move Speed, ?, ?, Stamina Regen), these two sit between Movement Speed and Stamina Regen Speed.",
+      "priority": "low"
+    },
+    {
+      "id": "base_m1_by_level",
+      "what": "Base M1 damage per level (only Lv225 = 10 known)",
+      "test": "On a fresh/alt character, unequip all gear/titles; hit a training dummy at several levels (e.g. 1, 50, 100, 150, 225) and note the damage number.",
+      "priority": "medium"
+    },
+    {
+      "id": "adf_stacking",
+      "what": "Additive vs multiplicative ADF",
+      "test": "Lv225, no titles, Makomo/no-ADF clan if possible. (1) Insect Katana only -> damage D1. (2) + Flame Amigasa -> D2. (3) + Flame Haori Style 1 -> D3. Predictions: multiplicative D3 = 10 + 1.5*1.04*1.055*1.07 = 11.761; additive = 10 + 1.5*(1+0.04+0.055+0.07) = 11.748. Damage numbers are probably rounded to integers, so use large flat AD (e.g. a refined Nightfall weapon + Duelist gear) to amplify the difference.",
+      "priority": "critical"
+    },
+    {
+      "id": "flat_scope",
+      "what": "Does ADF multiply base M1 or only Additional Damage?",
+      "test": "Equip ONLY Flame Amigasa (ADF, no flat). If the damage stays 10, ADF only scales Additional Damage. If it becomes ~10.55 (maybe shown as 11), ADF multiplies the base too.",
+      "priority": "critical"
+    },
+    {
+      "id": "clan_adf_pool",
+      "what": "Is clan ADF (e.g. 23%) multiplicative with item ADF or additive?",
+      "test": "Same gear, compare the damage with a 0% clan vs Kamado/Rengoku (use clan slots to swap).",
+      "priority": "critical"
+    },
+    {
+      "id": "damage_rounding",
+      "what": "Damage popups show 2 decimals (26.57, 36.33, user 2026-09-27). Is the underlying value rounded or truncated?",
+      "test": "Low priority: compare many hits against predictions.",
+      "priority": "low"
+    },
+    {
+      "id": "cape_kataaki_category",
+      "what": "Lost Cape, the Kata-Aki, cloaks, sodenashi, koshimaki, obi belt and kesa are in the in-game Haori section (TechWiser 2026-09-25), so the site treats them as Haori (max 1). Confirm in-game.",
+      "test": "Equip a haori, then equip Lost Cape / a Kata-Aki; check whether the haori is unequipped. Also check that Nightfall Cape / Heavenly Boa (Body section) stack with an outfit.",
+      "priority": "medium"
+    },
+    {
+      "id": "lost_outfit_adf",
+      "what": "Lost Outfit ADF 1.01 (3 guides) vs 1.07 (Gamezebo)",
+      "test": "Read the Lost Outfit tooltip.",
+      "priority": "medium"
+    },
+    {
+      "id": "stairwalker",
+      "what": "Stairwalker hidden title stats",
+      "test": "Screenshot the title tooltip.",
+      "priority": "low"
+    },
+    {
+      "id": "boss_npc_stats",
+      "what": "Boss / NPC HP, defence and damage (no public source)",
+      "test": "Record boss HP bars and damage taken on the wiki bosses.",
+      "priority": "low"
+    },
+    {
+      "id": "accessory_stacking",
+      "what": "Confirm that the same accessory type stacks (e.g. two masks, two lanterns) and that only Uniform and Haori are unique.",
+      "test": "Equip Bamboo Muzzle + Red Oni Mask + Nightfall Mask; check that all stay equipped and all AD appears in the stat bar.",
+      "priority": "high"
+    },
+    {
+      "id": "attack_speed",
+      "what": "Base M1 cadence per weapon type, and the effect of Nemesis 1.03x",
+      "test": "Record a 10-chain M1 at 60 fps (count frames from the first hit to the 5th hit and to the next chain's first hit) with katana, claws, sickles, fists, with and without Nemesis.",
+      "priority": "high"
+    },
+    {
+      "id": "chain_reset",
+      "what": "Gap between 5-hit chains (end lag)",
+      "test": "Same recording: time from the 5th hit to the next 1st hit when holding M1.",
+      "priority": "high"
+    },
+    {
+      "id": "refine_curve",
+      "what": "Refine curve: mostly resolved 2026-09-28 (in-game Refiner panel gives x1.05/1.10/1.20/1.30/1.40/1.55/1.70/1.90/2.00/3.00 on two weapons). Still open: whether Great Success changes the result, and R10 ADF.",
+      "test": "Screenshot the tooltip after an R10 refine and after a Great Success.",
+      "priority": "medium"
+    },
+    {
+      "id": "mastery_damage",
+      "what": "Does mastery level add damage?",
+      "test": "Compare M1 on the same weapon type at different mastery levels (e.g. a fresh katana vs a mastered one) with identical gear.",
+      "priority": "high"
+    },
+    {
+      "id": "combat_intuition",
+      "what": "Is CI Damage Potential added per hit, and is it multiplied by ADF?",
+      "test": "Kamado: take a known amount of damage (e.g. 500 from an NPC), cash in, then M1 a dummy for 7 s. Check whether every hit gets +50 and whether the bonus decays.",
+      "priority": "medium"
+    },
+    {
+      "id": "skill_damage",
+      "what": "Per-move damage, cast time and cooldown for the breathings/BDAs",
+      "test": "On a dummy with fixed gear, record each move's total damage (sum of popups), time from press to last hit, and cooldown.",
+      "priority": "high"
+    },
+    {
+      "id": "marks",
+      "what": "Enhanced Hearing mark multiplier scope",
+      "test": "M1 a marked vs an unmarked dummy.",
+      "priority": "low"
+    },
+    {
+      "id": "fighting_style_bonus",
+      "what": "How the V0.17 +3 dmg / x1.05 applies to fist styles",
+      "test": "Fist M1 on a dummy with no gear.",
+      "priority": "low"
+    },
+    {
+      "id": "firstlight_insect_stats",
+      "what": "Confirm FL Insect Katana 4 / 1.15 (vs 1.1)",
+      "test": "Read the tooltip after crafting.",
+      "priority": "high"
+    },
+    {
+      "id": "slayer_progress",
+      "what": "Slayer Progress offensive bonuses",
+      "test": "Screenshot the Player Info -> Progression panel.",
+      "priority": "medium"
+    },
+    {
+      "id": "nightfall_mask_tiers",
+      "what": "Nightfall Mask tier scaling",
+      "test": "Tooltip at T1/T2/T3.",
+      "priority": "low"
+    },
+    {
+      "id": "post_v0182_hotfix",
+      "what": "Is the 2026-09-26 22:34 Paris place update the V0.182 release or a separate hotfix?",
+      "test": "Check the Discord #updates channel for any post after the V0.182 notes.",
+      "priority": "medium"
+    }
+  ]
+}

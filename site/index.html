@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slayers 2 M1 Calculator</title>
+<meta name="theme-color" content="#0b0a0c">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="hdr-inner">
+    <div class="brand">
+      <div class="seal" aria-hidden="true">滅</div>
+      <div class="brand-txt">
+        <h1>Slayers 2 <span>Permanent M1 &amp; best build</span></h1>
+        <div class="sub">
+          <span class="meta">Patch <b id="hdr-patch"></b></span>
+          <span class="meta">Data <b id="hdr-compiled"></b></span>
+        </div>
+      </div>
+    </div>
+    <nav id="tabs" aria-label="Sections">
+      <button data-tab="calc" class="active"><span class="ti" aria-hidden="true">算</span>Calculator</button>
+      <button data-tab="best"><span class="ti" aria-hidden="true">最</span>Best build</button>
+      <button data-tab="cmp"><span class="ti" aria-hidden="true">比</span>Compare</button>
+      <details id="more-sections" class="nav-more"><summary>More</summary><div class="nav-menu">
+      <button data-tab="craft"><span class="ti" aria-hidden="true">鍛</span>Crafting</button>
+      <button data-tab="loot"><span class="ti" aria-hidden="true">宝</span>Loot &amp; NPCs</button>
+      <button data-tab="db"><span class="ti" aria-hidden="true">録</span>Database</button>
+      <button data-tab="help"><span class="ti" aria-hidden="true">助</span>Help</button>
+      </div></details>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section id="tab-calc" class="tab active">
+    <div class="calc-grid">
+      <div class="panel" id="calc-editor"></div>
+      <div class="panel" id="calc-results"></div>
+    </div>
+    <details class="panel secondary-tools"><summary>Skills — calculated separately from M1</summary><div id="calc-skills"></div></details>
+  </section>
+  <section id="tab-best" class="tab"><div class="panel" id="best-form"></div><div id="best-out"></div></section>
+  <section id="tab-opt" class="tab"><div class="panel" id="opt-form"></div><div id="opt-results"></div></section>
+  <section id="tab-cmp" class="tab"><div class="cmp-grid"><div class="panel" id="cmp-a"></div><div class="panel" id="cmp-b"></div></div><div class="panel" id="cmp-out"></div></section>
+  <section id="tab-db" class="tab"><div class="panel" id="db"></div></section>
+  <section id="tab-craft" class="tab"><div class="panel" id="craft"></div></section>
+  <section id="tab-loot" class="tab"><div class="panel" id="loot"></div></section>
+  <section id="tab-patch" class="tab"><div class="panel" id="patch"></div></section>
+  <section id="tab-help" class="tab"><div class="panel" id="help"></div></section>
+</main>
+<footer>Fan project, not affiliated with Ouw Productions / Roblox.</footer>
+<script src="js/data.js"></script>
+<script src="js/config.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/optimizer.js"></script>
+<script src="js/bestbuild.js"></script>
+<script src="js/search-worker.js"></script>
+<script src="js/combobox.js"></script>
+<script src="js/acquisition.js"></script>
+<script src="js/loot.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

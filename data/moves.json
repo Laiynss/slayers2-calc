@@ -1,0 +1,2515 @@
+{
+  "notes": "Skill damage: no public damage data. damage = total damage of one use (sum of the numbers shown), hits = number of hits, castTime = s from press to last hit, cooldown = s. pveDamageMult = V0.182 PvE multiplier (vs NPC/boss); damageMeasuredVs = 'npc' if measured on an NPC/dummy after V0.182 (multiplier already included), otherwise 'player'. blockDamageChanges = block damage changes (never counted in DPS).",
+  "globalSkillCooldownSec": null,
+  "data": {
+    "Insect Breathing": [
+      {
+        "key": "Z",
+        "name": "Compound Eye Hexagon",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 17,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Insect",
+          "source_sha256": "1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 28,
+        "maxHold": 3.2,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true,
+          "additional_damage_scale": 0.42,
+          "cancel_bypass": true
+        },
+        "previousSiteName": "Butterfly Dance: Caprice (?)"
+      },
+      {
+        "key": "X",
+        "name": "True Flutter",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 16,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Insect",
+          "source_sha256": "1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 14,
+        "maxHold": 3,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        },
+        "previousSiteName": "Bee Sting: True Flutter (?)"
+      },
+      {
+        "key": "C",
+        "name": "Fluttering Sting",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 16,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [
+          "V0.182 officiel : CD 18 -> 16 s"
+        ],
+        "cooldownSource": {
+          "key": "official_v0182",
+          "date": "2026-09-26"
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Insect",
+          "source_sha256": "1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 22,
+        "maxHold": 1.1,
+        "boss": null,
+        "skillStats": null
+      },
+      {
+        "key": "V",
+        "name": "Hundred-Legged Zigzag",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 18,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [
+          "V0.182 official: CD 20 -> 18 s, starts the chase 1 s earlier"
+        ],
+        "cooldownSource": {
+          "key": "official_v0182",
+          "date": "2026-09-26"
+        },
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Insect",
+          "source_sha256": "1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 26,
+        "maxHold": 3.3,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        }
+      },
+      {
+        "key": "B",
+        "name": "Illusory Light",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Insect",
+          "source_sha256": "1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/1bb32ef97cd1a39640bf2f3f1787d65a34b9f9500f144ee537e122d133b7f931.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 8,
+        "boss": "Shinora",
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Blood Manipulation": [
+      {
+        "key": "Z",
+        "name": "Bend",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 13,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Blood Manipulation",
+          "source_sha256": "7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 18,
+        "maxHold": 3,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.26
+        }
+      },
+      {
+        "key": "X",
+        "name": "Rampant Arc Rampage",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 16,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Blood Manipulation",
+          "source_sha256": "7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 22,
+        "maxHold": 3,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.34,
+          "cancel_bypass": true
+        }
+      },
+      {
+        "key": "C",
+        "name": "On Slaught",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 16,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": 1.1,
+        "pveKind": "scaling",
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [
+          "V0.182 official (PvE): damage scaling +10 % vs NPC/boss (modelled as ×1.10, upper bound)."
+        ],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Blood Manipulation",
+          "source_sha256": "7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 24,
+        "maxHold": 2,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.44,
+          "strict_stun": true
+        }
+      },
+      {
+        "key": "V",
+        "name": "Rotating Blood Scythe",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 16,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Blood Manipulation",
+          "source_sha256": "7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 24,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.5,
+          "strict_stun": true
+        }
+      },
+      {
+        "key": "B",
+        "name": "Circular Slashes",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Blood Manipulation",
+          "source_sha256": "7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 5,
+        "boss": "Gyutai",
+        "skillStats": {
+          "additional_damage_scale": 0.65
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Obi Manipulation": [
+      {
+        "key": "Z",
+        "name": "Obi Barrage",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 14,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [
+          "V0.182: +150% block damage",
+          "final slash +40% block damage"
+        ],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Obi Manipulation",
+          "source_sha256": "88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 20,
+        "maxHold": 4,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true,
+          "additional_damage_scale": 0.56,
+          "cancel_bypass": true
+        }
+      },
+      {
+        "key": "X",
+        "name": "Obi Pursuit",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 12,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [
+          "V0.182: +40% block damage"
+        ],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Obi Manipulation",
+          "source_sha256": "88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 18,
+        "maxHold": 2,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        }
+      },
+      {
+        "key": "C",
+        "name": "Obi Grab",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 14,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [
+          "V0.182: +40% block damage"
+        ],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Obi Manipulation",
+          "source_sha256": "88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 22,
+        "maxHold": 1,
+        "boss": null,
+        "skillStats": null
+      },
+      {
+        "key": "V",
+        "name": "Obi Field",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 16,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [
+          "V0.182 official: 25 % less delay between traps; traps deal 30 % more damage"
+        ],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Obi Manipulation",
+          "source_sha256": "88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 24,
+        "maxHold": 7,
+        "boss": null,
+        "skillStats": {
+          "stun_bypass_skill": true,
+          "cancel_bypass": true
+        }
+      },
+      {
+        "key": "B",
+        "name": "Obi Charge",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Obi Manipulation",
+          "source_sha256": "88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 5,
+        "boss": "Datai",
+        "skillStats": {
+          "cancel_bypass": true,
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Pyrokinesis": [
+      {
+        "key": "Z",
+        "name": "Blood Tiles",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 14,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [
+          "V0.182 official: 0.2 s less endlag"
+        ],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Pyrokenesis",
+          "source_sha256": "328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 20,
+        "maxHold": 4,
+        "boss": null,
+        "skillStats": null
+      },
+      {
+        "key": "X",
+        "name": "Blood Strike",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 13,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Pyrokenesis",
+          "source_sha256": "328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 18,
+        "maxHold": 0.9,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        }
+      },
+      {
+        "key": "C",
+        "name": "Fiery Slash",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 16,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Pyrokenesis",
+          "source_sha256": "328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 24,
+        "maxHold": 5.5,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true,
+          "additional_damage_scale": 0.62,
+          "cancel_bypass": true
+        }
+      },
+      {
+        "key": "V",
+        "name": "Heel Bash",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 17,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Pyrokenesis",
+          "source_sha256": "328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 24,
+        "maxHold": 4,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        }
+      },
+      {
+        "key": "B",
+        "name": "Blood Rupture",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Pyrokenesis",
+          "source_sha256": "328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 1.7,
+        "boss": "Nezura",
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Shockwave": [
+      {
+        "key": "Z",
+        "name": "Demon Core",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 15,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Shockwave",
+          "source_sha256": "0beb4b0024b62e906156c78ae685fde1db777edaafe903503f8c2569caf40ab6",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/0beb4b0024b62e906156c78ae685fde1db777edaafe903503f8c2569caf40ab6.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 20,
+        "maxHold": 2.5,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.63
+        }
+      },
+      {
+        "key": "X",
+        "name": "Compass Needle",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 13,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Shockwave",
+          "source_sha256": "0beb4b0024b62e906156c78ae685fde1db777edaafe903503f8c2569caf40ab6",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/0beb4b0024b62e906156c78ae685fde1db777edaafe903503f8c2569caf40ab6.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 18,
+        "maxHold": 3,
+        "boss": null,
+        "skillStats": null
+      },
+      {
+        "key": "C",
+        "name": "Explosive Fury",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 16,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Shockwave",
+          "source_sha256": "0beb4b0024b62e906156c78ae685fde1db777edaafe903503f8c2569caf40ab6",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/0beb4b0024b62e906156c78ae685fde1db777edaafe903503f8c2569caf40ab6.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 24,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.67
+        }
+      }
+    ],
+    "Dream Manipulation": [
+      {
+        "key": "Z",
+        "name": "Melodic Whisper",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 13,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": 1.2,
+        "pveKind": "damage",
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [
+          "V0.182 official (PvE): damage +20 % vs NPC/boss"
+        ],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Dream",
+          "source_sha256": "409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 18,
+        "maxHold": 2,
+        "boss": null,
+        "skillStats": {
+          "cancel_bypass": true
+        }
+      },
+      {
+        "key": "X",
+        "name": "Ordained Flesh",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 16,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": 1.2,
+        "pveKind": "scaling",
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [
+          "V0.182 official (PvE): damage scaling +20 % vs NPC/boss (modelled as ×1.20, upper bound)"
+        ],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Dream",
+          "source_sha256": "409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 24,
+        "maxHold": 1.67,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.6,
+          "cancel_bypass": true
+        }
+      },
+      {
+        "key": "C",
+        "name": "Piercing Flesh",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 14,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Dream",
+          "source_sha256": "409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 22,
+        "maxHold": 3,
+        "boss": null,
+        "skillStats": null
+      },
+      {
+        "key": "V",
+        "name": "Flesh Barrage",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 16,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Dream",
+          "source_sha256": "409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 24,
+        "maxHold": 0.67,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.35,
+          "cancel_bypass": true
+        }
+      },
+      {
+        "key": "B",
+        "name": "Flesh Monster",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Dream",
+          "source_sha256": "409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 0.2,
+        "boss": "Enru",
+        "skillStats": {
+          "additional_damage_scale": 0.22,
+          "iframe": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Arrow Flight": [
+      {
+        "key": "Z",
+        "name": "Arrow Flight",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 10,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": 1.35,
+        "pveKind": "damage",
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [
+          "V0.182 official (PvE): damage +35 % vs NPC/boss"
+        ],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Arrow",
+          "source_sha256": "23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 14,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null
+      },
+      {
+        "key": "X",
+        "name": "Arrow Eruption",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 17,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Arrow",
+          "source_sha256": "23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 24,
+        "maxHold": 0.4,
+        "boss": null,
+        "skillStats": {
+          "stun_bypass_skill": true,
+          "cancel_bypass": true
+        }
+      },
+      {
+        "key": "C",
+        "name": "Arrow Smackdown",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 12,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Arrow",
+          "source_sha256": "23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 18,
+        "maxHold": 3,
+        "boss": null,
+        "skillStats": null
+      },
+      {
+        "key": "V",
+        "name": "Torrential Arrows",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 16,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Arrow",
+          "source_sha256": "23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 24,
+        "maxHold": 0.8,
+        "boss": null,
+        "skillStats": null
+      },
+      {
+        "key": "B",
+        "name": "Koketsu Arrow",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Arrow",
+          "source_sha256": "23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 0.6,
+        "boss": "Yahari",
+        "skillStats": {
+          "additional_damage_scale": 0.45
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Wind Breathing": [
+      {
+        "key": "Z",
+        "name": "Mountain Wind",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 13,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [
+          "V0.182: +30% block damage"
+        ],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Wind",
+          "source_sha256": "623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 18,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null
+      },
+      {
+        "key": "X",
+        "name": "Purifying Claws",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 12,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [
+          "V0.182: +30% block damage"
+        ],
+        "notes": [
+          "V0.182 : windup -0,05 s"
+        ],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Wind",
+          "source_sha256": "623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 18,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null
+      },
+      {
+        "key": "C",
+        "name": "Rising Dust Storm",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 18,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [
+          "V0.182: +30% block damage"
+        ],
+        "notes": [
+          "V0.182: windup -0.05 s; long-range tornado 25 % faster"
+        ],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Wind",
+          "source_sha256": "623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 28,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.3
+        }
+      },
+      {
+        "key": "V",
+        "name": "Whirlwind Cutter",
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "cooldown": 17,
+        "verified": false,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "pveDamageMult": null,
+        "pveKind": null,
+        "damageMeasuredVs": null,
+        "blockDamageChanges": [
+          "V0.182: +30% block damage"
+        ],
+        "notes": [],
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Wind",
+          "source_sha256": "623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "stamina": 26,
+        "maxHold": 1.2,
+        "boss": null,
+        "skillStats": null
+      },
+      {
+        "key": "B",
+        "name": "Idaten Typhoon",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Wind",
+          "source_sha256": "623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/623aed6786d44e8c9dbd88a5754f1d105e10f076947d5bff26b2a69ec9f86cfc.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 5,
+        "boss": "Saneri",
+        "skillStats": {
+          "additional_damage_scale": 0.32
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Water Breathing": [
+      {
+        "key": "Z",
+        "name": "Water Surface Slash",
+        "cooldown": 10,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Water",
+          "source_sha256": "961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 14,
+        "maxHold": 3,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "X",
+        "name": "Whirl Pool",
+        "cooldown": 13,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Water",
+          "source_sha256": "961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 18,
+        "maxHold": 2,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.5,
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "C",
+        "name": "Water Wheel",
+        "cooldown": 16,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Water",
+          "source_sha256": "961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 24,
+        "maxHold": 3.5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "V",
+        "name": "Constant Flux",
+        "cooldown": 18,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Water",
+          "source_sha256": "961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 26,
+        "maxHold": 2.9,
+        "boss": null,
+        "skillStats": {
+          "iframe": true,
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "B",
+        "name": "Dead Calm",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Water",
+          "source_sha256": "961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/961286da4bc97fd5d7fda2a90ba810f0aaceb2f5ab71d2da7e05347d86b0a94e.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 8.3,
+        "boss": "Giyen",
+        "skillStats": {
+          "strict_stun": true,
+          "additional_damage_scale": 0.5,
+          "cancel_bypass": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Flame Breathing": [
+      {
+        "key": "Z",
+        "name": "Unknowing Fire",
+        "cooldown": 17,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Flame",
+          "source_sha256": "689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 22,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true,
+          "cancel_bypass": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "X",
+        "name": "Blazing Universe",
+        "cooldown": 14,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Flame",
+          "source_sha256": "689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 18,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "C",
+        "name": "Flame Undulation",
+        "cooldown": 15,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Flame",
+          "source_sha256": "689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 24,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "V",
+        "name": "Flame Tiger",
+        "cooldown": 20,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Flame",
+          "source_sha256": "689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 26,
+        "maxHold": 3.2,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "B",
+        "name": "Purgatory",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Flame",
+          "source_sha256": "689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/689b3aca7388d8923d9b347beed02a8f6edd4964dbc756464763ec45ba78712a.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 5,
+        "boss": "Rengu",
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Serpent Breathing": [
+      {
+        "key": "Z",
+        "name": "Serpent Slash",
+        "cooldown": 15,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Serpent",
+          "source_sha256": "e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 18,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.5,
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "X",
+        "name": "Coil Choke",
+        "cooldown": 18,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Serpent",
+          "source_sha256": "e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 24,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.8
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "C",
+        "name": "Venom Fangs",
+        "cooldown": 15,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Serpent",
+          "source_sha256": "e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 22,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "V",
+        "name": "Twin-Headed Reptile",
+        "cooldown": 19,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Serpent",
+          "source_sha256": "e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 26,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.75
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "B",
+        "name": "Slithering Serpent",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Serpent",
+          "source_sha256": "e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/e17f13a9057aa6a3453e2faaa5da67e61398f3baa75c309170a81ab243b9559e.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 5,
+        "boss": "Obari",
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Sound Breathing": [
+      {
+        "key": "Z",
+        "name": "Bursting Bloom",
+        "cooldown": 10,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Sound",
+          "source_sha256": "524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 14,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "X",
+        "name": "Roar",
+        "cooldown": 13,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Sound",
+          "source_sha256": "524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 20,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "cancel_bypass": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "C",
+        "name": "Exploding Beads",
+        "cooldown": 15,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Sound",
+          "source_sha256": "524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 22,
+        "maxHold": 2.5,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "V",
+        "name": "Resounding Slashes",
+        "cooldown": 20,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Sound",
+          "source_sha256": "524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 24,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.39
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "B",
+        "name": "String Performance",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Sound",
+          "source_sha256": "524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/524341f09d2fcf04e6234db0a0afb720744601f3011ba92c44aa022dd882ea5e.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 5,
+        "boss": "Tengai",
+        "skillStats": {
+          "additional_damage_scale": 0.35
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Stone Breathing": [
+      {
+        "key": "Z",
+        "name": "Volcanic Conquest",
+        "cooldown": 12,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Stone",
+          "source_sha256": "f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 18,
+        "maxHold": 2.3,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "X",
+        "name": "Seismic Burst",
+        "cooldown": 10,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Stone",
+          "source_sha256": "f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 14,
+        "maxHold": 0.85,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "C",
+        "name": "Upper Smash",
+        "cooldown": 15,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Stone",
+          "source_sha256": "f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 24,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "V",
+        "name": "Stone Wall",
+        "cooldown": 19,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Stone",
+          "source_sha256": "f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 24,
+        "maxHold": 2.5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "B",
+        "name": "Arcs of Justice",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Stone",
+          "source_sha256": "f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/f833e8e3d1ad763195dfd35349bbb27e7bc9a505a9c21faccaaa63ae0df6597f.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 3,
+        "boss": "Gyorei",
+        "skillStats": {
+          "additional_damage_scale": 0.32,
+          "cancel_bypass": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Thunder Breathing": [
+      {
+        "key": "Z",
+        "name": "Thunder Clap and Flash",
+        "cooldown": 12,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Thunder",
+          "source_sha256": "ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 14,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "X",
+        "name": "Lightning Fold",
+        "cooldown": 13,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Thunder",
+          "source_sha256": "ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 18,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "C",
+        "name": "Rice Spirit",
+        "cooldown": 17,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Thunder",
+          "source_sha256": "ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 24,
+        "maxHold": 3,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "V",
+        "name": "Godspeed",
+        "cooldown": 18,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Thunder",
+          "source_sha256": "ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 26,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "B",
+        "name": "Flaming Thunder God",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/Breathings/Thunder",
+          "source_sha256": "ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/ef9f63e74c66c3fdfbc92186747ca1ce1a39e3520a6512e5c81a90429d5878b6.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 5,
+        "boss": "Zentaro",
+        "skillStats": {
+          "additional_damage_scale": 0.24
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Cryokinesis": [
+      {
+        "key": "Z",
+        "name": "Wintry Icicles",
+        "cooldown": 15,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Cryokinesis",
+          "source_sha256": "a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 22,
+        "maxHold": 2,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.3
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "X",
+        "name": "Cold White Princesses",
+        "cooldown": 28,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Cryokinesis",
+          "source_sha256": "a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 22,
+        "maxHold": 2.5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "C",
+        "name": "Barren Hanging Garden",
+        "cooldown": 16,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Cryokinesis",
+          "source_sha256": "a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 22,
+        "maxHold": 0.6,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "V",
+        "name": "Freezing Cloud",
+        "cooldown": 16,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Cryokinesis",
+          "source_sha256": "a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 24,
+        "maxHold": 4,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "B",
+        "name": "Bodhisattva",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Cryokinesis",
+          "source_sha256": "a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 3.55,
+        "boss": "Domae",
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Reaper (BDA)": [
+      {
+        "key": "X",
+        "name": "Reaptide",
+        "cooldown": 19,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Reaper",
+          "source_sha256": "f347089ff406ecfa7181252b05a1d2bd0f7991981c714fe10dd94dc8139e72e1",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/f347089ff406ecfa7181252b05a1d2bd0f7991981c714fe10dd94dc8139e72e1.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 28,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "C",
+        "name": "Sonido",
+        "cooldown": 10,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Reaper",
+          "source_sha256": "f347089ff406ecfa7181252b05a1d2bd0f7991981c714fe10dd94dc8139e72e1",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/f347089ff406ecfa7181252b05a1d2bd0f7991981c714fe10dd94dc8139e72e1.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 14,
+        "maxHold": 3,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.25
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "V",
+        "name": "Phantom Step",
+        "cooldown": 18,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Reaper",
+          "source_sha256": "f347089ff406ecfa7181252b05a1d2bd0f7991981c714fe10dd94dc8139e72e1",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/f347089ff406ecfa7181252b05a1d2bd0f7991981c714fe10dd94dc8139e72e1.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 26,
+        "maxHold": 3.4,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "B",
+        "name": "Sonido Surge",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Reaper",
+          "source_sha256": "f347089ff406ecfa7181252b05a1d2bd0f7991981c714fe10dd94dc8139e72e1",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/f347089ff406ecfa7181252b05a1d2bd0f7991981c714fe10dd94dc8139e72e1.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 0.6,
+        "boss": "Reaper",
+        "skillStats": {
+          "transparent": true,
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Tamari (Temari balls)": [
+      {
+        "key": "Z",
+        "name": "Spinning Throw",
+        "cooldown": 13,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Tamari",
+          "source_sha256": "da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 18,
+        "maxHold": 2.7,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "X",
+        "name": "Dunk",
+        "cooldown": 14,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Tamari",
+          "source_sha256": "da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 20,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "C",
+        "name": "Piercing Kick",
+        "cooldown": 15,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Tamari",
+          "source_sha256": "da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b.json",
+          "pointer": "/data/Skills/3",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 22,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "V",
+        "name": "Meteor",
+        "cooldown": 18,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Tamari",
+          "source_sha256": "da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b.json",
+          "pointer": "/data/Skills/4",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 26,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "additional_damage_scale": 0.88
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "B",
+        "name": "Spiraling Shot",
+        "cooldown": 50,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Tamari",
+          "source_sha256": "da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b.json",
+          "pointer": "/data/Skills/5",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 35,
+        "maxHold": 2,
+        "boss": "Sumari",
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Reaper": [
+      {
+        "key": "Cross Reaver",
+        "name": "Cross Reaver",
+        "cooldown": 12,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/FightingStyles/Reaping Blades",
+          "source_sha256": "fcbb4602c78272bca11163303a4ef946f44ffeccd6f6cd5be1b37ca50169c7d5",
+          "projection": "CONSTANTES_ET_AFFECTATIONS_SIMPLES",
+          "json": ".cache/import/projections/fcbb4602c78272bca11163303a4ef946f44ffeccd6f6cd5be1b37ca50169c7d5.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 18,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "Traversal Reap",
+        "name": "Traversal Reap",
+        "cooldown": 18,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/FightingStyles/Reaping Blades",
+          "source_sha256": "fcbb4602c78272bca11163303a4ef946f44ffeccd6f6cd5be1b37ca50169c7d5",
+          "projection": "CONSTANTES_ET_AFFECTATIONS_SIMPLES",
+          "json": ".cache/import/projections/fcbb4602c78272bca11163303a4ef946f44ffeccd6f6cd5be1b37ca50169c7d5.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 28,
+        "maxHold": 5,
+        "boss": "ReaperTrainee",
+        "skillStats": {
+          "additional_damage_scale": 0.74
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Soryu": [
+      {
+        "key": "Bone Breaker",
+        "name": "Bone Breaker",
+        "cooldown": 25,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/FightingStyles/Soryu",
+          "source_sha256": "773c35b58997e4a5317daff08a577c01f74c11f8fad8f591a5421eb21d9eae24",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/773c35b58997e4a5317daff08a577c01f74c11f8fad8f591a5421eb21d9eae24.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 22,
+        "maxHold": 2.5,
+        "boss": null,
+        "skillStats": null,
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "Face Breaker",
+        "name": "Face Breaker",
+        "cooldown": 14,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/FightingStyles/Soryu",
+          "source_sha256": "773c35b58997e4a5317daff08a577c01f74c11f8fad8f591a5421eb21d9eae24",
+          "projection": "PROJECTION_STATIQUE_PARTIELLE",
+          "json": ".cache/import/projections/773c35b58997e4a5317daff08a577c01f74c11f8fad8f591a5421eb21d9eae24.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 22,
+        "maxHold": 1.2,
+        "boss": "SoryuTrainee",
+        "skillStats": {
+          "cancel_bypass": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ],
+    "Tai Chi": [
+      {
+        "key": "Flowing Palm",
+        "name": "Flowing Palm",
+        "cooldown": 12,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/FightingStyles/Tai Chi",
+          "source_sha256": "36b2e4fc87ee5b371cd70116331a539b36fd5b98c3e39627109dfa070ef3656c",
+          "projection": "CONSTANTES_ET_AFFECTATIONS_SIMPLES",
+          "json": ".cache/import/projections/36b2e4fc87ee5b371cd70116331a539b36fd5b98c3e39627109dfa070ef3656c.json",
+          "pointer": "/data/Skills/1",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 18,
+        "maxHold": 5,
+        "boss": null,
+        "skillStats": {
+          "strict_stun": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      },
+      {
+        "key": "Twin Harmony",
+        "name": "Twin Harmony",
+        "cooldown": 14,
+        "source": "game_dump",
+        "date": "2026-09-28",
+        "evidence": {
+          "module": "ReplicatedStorage/CAM/Global/Powers/FightingStyles/Tai Chi",
+          "source_sha256": "36b2e4fc87ee5b371cd70116331a539b36fd5b98c3e39627109dfa070ef3656c",
+          "projection": "CONSTANTES_ET_AFFECTATIONS_SIMPLES",
+          "json": ".cache/import/projections/36b2e4fc87ee5b371cd70116331a539b36fd5b98c3e39627109dfa070ef3656c.json",
+          "pointer": "/data/Skills/2",
+          "capture": "capture_20260929_100345_13880529_42370984"
+        },
+        "verified": false,
+        "stamina": 22,
+        "maxHold": 1.25,
+        "boss": "TaiChiTrainee",
+        "skillStats": {
+          "additional_damage_scale": 0.625,
+          "cancel_bypass": true
+        },
+        "damage": null,
+        "hits": null,
+        "castTime": null,
+        "damageMeasuredVs": null,
+        "notes": []
+      }
+    ]
+  },
+  "generated": "2026-09-29"
+}

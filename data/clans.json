@@ -1,0 +1,2182 @@
+{
+  "generated": "2026-09-26",
+  "currentPatch": "V0.182",
+  "count": 28,
+  "data": [
+    {
+      "name": "Rengoku",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Supreme (0.1%)",
+      "additionalDamageFactorPct": 26.0,
+      "additionalDamageFactor": 1.26,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 278.0,
+      "maxStamina": 125.0,
+      "effects": [
+        {
+          "name": "Indomitable Will",
+          "text": "Area control: knockback, fear and stun. No direct M1 bonus. Base cooldown 90 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 12,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Pain Resistance",
+          "text": "No slowdown at low HP; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 4,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Master Swordsman",
+          "text": "+20 % Katana/Weapon mastery; not applied as a direct M1 multiplier.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 6,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Heart Ablaze Mode",
+          "text": "+18 % ADF for 45 s; +20 % burn damage, +5 % speed and stamina regen. Cost 375; cooldown 90 s. Burns the attacker for 2 % of their max HP/s for 3 s, separate from M1.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 33,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Ignition Hit",
+          "text": "First M1 of a chain: burn for 3 s, does not stack. Also Purgatory, Flame Undulation, Flame Tiger and Blazing Universe. Tick amount not given; not included in the direct hit.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 37,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Status Immunity",
+          "text": "−50 % Flame damage and immune to Indomitable Will; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 38,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        }
+      ],
+      "conditions": [],
+      "notes": "Only effects that apply to the calculated damage count toward M1; the others are described only.",
+      "sources": [
+        {
+          "key": "game_dump",
+          "url": null,
+          "sourceType": "local source contract",
+          "date": "2026-09-29"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 0.1,
+      "otherStats": {
+        "damageReduction": 2,
+        "damageReductionFactor": 1.06
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Supreme",
+        "archetype": "Ascendant",
+        "rarity": 7
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 0.1 % per spin (Supreme)",
+      "runtimeDetails": [
+        {
+          "name": "Indomitable Will",
+          "text": "Area control: knockback, fear and stun. No direct M1 bonus. Base cooldown 90 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 12,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Pain Resistance",
+          "text": "No slowdown at low HP; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 4,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Master Swordsman",
+          "text": "+20 % Katana/Weapon mastery; not applied as a direct M1 multiplier.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 6,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Heart Ablaze Mode",
+          "text": "+18 % ADF for 45 s; +20 % burn damage, +5 % speed and stamina regen. Cost 375; cooldown 90 s. Burns the attacker for 2 % of their max HP/s for 3 s, separate from M1.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 33,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Ignition Hit",
+          "text": "First M1 of a chain: burn for 3 s, does not stack. Also Purgatory, Flame Undulation, Flame Tiger and Blazing Universe. Tick amount not given; not included in the direct hit.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 37,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Status Immunity",
+          "text": "−50 % Flame damage and immune to Indomitable Will; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 38,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        }
+      ],
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+        "line": 28,
+        "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+      },
+      "previousSources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": "https://allthings.how/rengoku-clan-in-slayers-2-stats-skills-and-heart-ablaze/",
+          "sourceType": "wiki",
+          "date": "2026-09-23",
+          "key": "ath_rengoku"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ]
+    },
+    {
+      "name": "Kamado",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Supreme (0.1%)",
+      "additionalDamageFactorPct": 23.0,
+      "additionalDamageFactor": 1.23,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 263.0,
+      "maxStamina": 130.0,
+      "effects": [
+        {
+          "name": "Indomitable Will",
+          "text": "Area control: knockback, fear and stun. No direct M1 bonus. Base cooldown 90 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 12,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Pain Resistance",
+          "text": "No slowdown at low HP; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 4,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Enhanced Speed",
+          "text": "+5 % movement speed; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 7,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Combat Intuition",
+          "text": "Stores damage taken for 10 s; second activation after 0.3 s or end of window: storage ×0.1 added to AD for 7 s. Base cooldown 60 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 7,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Regen Adrenal",
+          "text": "Demon/Hybrid only: +14 % HP regen, kept in combat for 7 s. Cooldown 45 s; no M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 22,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Headbutt",
+          "text": "Breaks guard and knocks down; guard unusable for 3 s. Cooldown 25 s. Direct damage not given in this description.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 24,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Adaptive Breathing",
+          "text": "Below 35 % HP: +5 % HP regen. Below 30 % stamina: +5 % stamina regen. Sun immunity; no M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 8,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Damage Reduction Factor",
+          "text": "Below 25 % HP: +10 % damage reduction; no bonus to damage dealt.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 26,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        }
+      ],
+      "conditions": [],
+      "notes": "Only effects that apply to the calculated damage count toward M1; the others are described only.",
+      "sources": [
+        {
+          "key": "game_dump",
+          "url": null,
+          "sourceType": "local source contract",
+          "date": "2026-09-29"
+        }
+      ],
+      "sourceType": [
+        "video",
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 0.1,
+      "otherStats": {
+        "damageReduction": 2,
+        "damageReductionFactor": 1.06,
+        "sunImmunity": true
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Supreme",
+        "archetype": "Ascendant",
+        "rarity": 7
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 0.1 % per spin (Supreme)",
+      "runtimeDetails": [
+        {
+          "name": "Indomitable Will",
+          "text": "Area control: knockback, fear and stun. No direct M1 bonus. Base cooldown 90 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 12,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Pain Resistance",
+          "text": "No slowdown at low HP; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 4,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Enhanced Speed",
+          "text": "+5 % movement speed; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 7,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Combat Intuition",
+          "text": "Stores damage taken for 10 s; second activation after 0.3 s or end of window: storage ×0.1 added to AD for 7 s. Base cooldown 60 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 7,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Regen Adrenal",
+          "text": "Demon/Hybrid only: +14 % HP regen, kept in combat for 7 s. Cooldown 45 s; no M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 22,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Headbutt",
+          "text": "Breaks guard and knocks down; guard unusable for 3 s. Cooldown 25 s. Direct damage not given in this description.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 24,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Adaptive Breathing",
+          "text": "Below 35 % HP: +5 % HP regen. Below 30 % stamina: +5 % stamina regen. Sun immunity; no M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 8,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Damage Reduction Factor",
+          "text": "Below 25 % HP: +10 % damage reduction; no bonus to damage dealt.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 26,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        }
+      ],
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+        "line": 15,
+        "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+      },
+      "previousSources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fQMIV4oSzTE",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-19",
+          "key": "yt_tana"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ]
+    },
+    {
+      "name": "Soyama",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Supreme (0.1%)",
+      "additionalDamageFactorPct": 22.0,
+      "additionalDamageFactor": 1.22,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 255.0,
+      "maxStamina": 128.0,
+      "effects": [
+        {
+          "name": "Indomitable Will",
+          "text": "Area control: knockback, fear and stun. No direct M1 bonus. Base cooldown 90 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 12,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Pain Resistance",
+          "text": "No slowdown at low HP; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 4,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Enhanced Speed",
+          "text": "+5 % movement speed; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 7,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Combat Intuition",
+          "text": "Stores for 12 s 50 % of damage dealt to NPCs and 75 % to players; +8 % damage reduction while storing. Release: storage ×0.1 added to AD for 7 s. Cooldown 60 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 48,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Bell Splitter",
+          "text": "Counter: stun, −30 % target speed for 3 s and −35 % target fist ADF for 10 s. Not an offensive bonus for the caster. Fail: attacks blocked for 2 s; max hold 4 s; cooldown 75 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 54,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        }
+      ],
+      "conditions": [],
+      "notes": "Only effects that apply to the calculated damage count toward M1; the others are described only.",
+      "sources": [
+        {
+          "key": "game_dump",
+          "url": null,
+          "sourceType": "local source contract",
+          "date": "2026-09-29"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 0.1,
+      "otherStats": {
+        "damageReduction": 2,
+        "damageReductionFactor": 1.06
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Supreme",
+        "archetype": "Ascendant",
+        "rarity": 7
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 0.1 % per spin (Supreme)",
+      "runtimeDetails": [
+        {
+          "name": "Indomitable Will",
+          "text": "Area control: knockback, fear and stun. No direct M1 bonus. Base cooldown 90 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 12,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Pain Resistance",
+          "text": "No slowdown at low HP; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 4,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Enhanced Speed",
+          "text": "+5 % movement speed; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 7,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Combat Intuition",
+          "text": "Stores for 12 s 50 % of damage dealt to NPCs and 75 % to players; +8 % damage reduction while storing. Release: storage ×0.1 added to AD for 7 s. Cooldown 60 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 48,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Bell Splitter",
+          "text": "Counter: stun, −30 % target speed for 3 s and −35 % target fist ADF for 10 s. Not an offensive bonus for the caster. Fail: attacks blocked for 2 s; max hold 4 s; cooldown 75 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 54,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        }
+      ],
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+        "line": 41,
+        "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+      },
+      "previousSources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ]
+    },
+    {
+      "name": "Uzui",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Supreme (0.1%)",
+      "additionalDamageFactorPct": 21.0,
+      "additionalDamageFactor": 1.21,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 248.0,
+      "maxStamina": 135.0,
+      "effects": [
+        {
+          "name": "Pain Resistance",
+          "text": "No slowdown at low HP; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 4,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Enhanced Speed",
+          "text": "+5 % movement speed; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 7,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Enhanced Hearing",
+          "text": "+25 % damage to hit targets for 10 s; cooldown 40 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 66,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Vital Draw",
+          "text": "Random Heart/Muscle/Lungs draw. Muscle: +15 % fist ADF and 5 M1 dodges for 6 s. Heart: +150 HP. Lungs: +150 max stamina for 15 s and 150 restored. Cooldown 45 s; don’t enable Muscle for the other draws.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 67,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Musical Score",
+          "text": "Listens for 6 s; keeps received skills for 30 s. A repeat deals its damage but stuns the attacker for 2 s and uses up the imprint. Cooldown 56.25 s; no M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 68,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Tactical Intellect",
+          "text": "+25 % quest experience; no M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 5,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Indomitable Will Immunity",
+          "text": "Immune to Indomitable Will.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 8,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Poison Immunity",
+          "text": "Poison immunity.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 70,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        }
+      ],
+      "conditions": [],
+      "notes": "Only effects that apply to the calculated damage count toward M1; the others are described only.",
+      "sources": [
+        {
+          "key": "game_dump",
+          "url": null,
+          "sourceType": "local source contract",
+          "date": "2026-09-29"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 0.1,
+      "otherStats": {
+        "damageReduction": 2,
+        "damageReductionFactor": 1.06
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Supreme",
+        "archetype": "Ascendant",
+        "rarity": 7
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 0.1 % per spin (Supreme)",
+      "runtimeDetails": [
+        {
+          "name": "Pain Resistance",
+          "text": "No slowdown at low HP; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 4,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Enhanced Speed",
+          "text": "+5 % movement speed; no direct M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 7,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Enhanced Hearing",
+          "text": "+25 % damage to hit targets for 10 s; cooldown 40 s.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 66,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Vital Draw",
+          "text": "Random Heart/Muscle/Lungs draw. Muscle: +15 % fist ADF and 5 M1 dodges for 6 s. Heart: +150 HP. Lungs: +150 max stamina for 15 s and 150 restored. Cooldown 45 s; don’t enable Muscle for the other draws.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 67,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Musical Score",
+          "text": "Listens for 6 s; keeps received skills for 30 s. A repeat deals its damage but stuns the attacker for 2 s and uses up the imprint. Cooldown 56.25 s; no M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 68,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        },
+        {
+          "name": "Tactical Intellect",
+          "text": "+25 % quest experience; no M1 bonus.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 5,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Indomitable Will Immunity",
+          "text": "Immune to Indomitable Will.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Shared.module.luau",
+            "line": 8,
+            "sha256": "59ae2b3df7f6e392ce1415cccc6723dfe68f5bc09e573af0c9618385e1f08100"
+          }
+        },
+        {
+          "name": "Poison Immunity",
+          "text": "Poison immunity.",
+          "gameEvidence": {
+            "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+            "line": 70,
+            "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+          }
+        }
+      ],
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+        "line": 60,
+        "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+      },
+      "previousSources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ]
+    },
+    {
+      "name": "Iguro",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Mythic (0.9%)",
+      "additionalDamageFactorPct": 20.0,
+      "additionalDamageFactor": 1.2,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 165,
+      "maxStamina": 85,
+      "effects": [
+        {
+          "name": "Mode",
+          "text": "+20% Serpent damage factor and +5% ADF",
+          "adfPct": 5,
+          "serpentDamagePct": 20
+        }
+      ],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 0.9,
+      "otherStats": {
+        "movementSpeedFactor": 1.05,
+        "damageReduction": 1,
+        "damageReductionFactor": 1.02
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Mythic",
+        "archetype": "Duelist",
+        "rarity": 6
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 0.9 % per spin (Mythic)"
+    },
+    {
+      "name": "Agatsuma",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Mythic (0.9%)",
+      "additionalDamageFactorPct": 19.0,
+      "additionalDamageFactor": 1.19,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 158,
+      "maxStamina": 90,
+      "effects": [
+        {
+          "name": "High-HP penalty",
+          "text": "attacks 5% slower above 90% HP",
+          "attackSpeedFactor": 0.95,
+          "condition": "hp>90%"
+        },
+        {
+          "name": "Low-HP bonus",
+          "text": "+12% ADF and +4 AD below 60% HP",
+          "adfPct": 12,
+          "additionalDamage": 4,
+          "condition": "hp<60%"
+        },
+        {
+          "name": "Enhanced Hearing mark",
+          "markDamagePct": 20,
+          "durationSec": 10
+        },
+        {
+          "name": "Sleepless Knight mode",
+          "text": "+20% Thunder damage, +3% ADF, 12% cooldown reduction",
+          "adfPct": 3
+        }
+      ],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 0.9,
+      "otherStats": {
+        "movementSpeedFactor": 1.05,
+        "staminaRegen": 1.04
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Mythic",
+        "archetype": "Phantom",
+        "rarity": 6
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 0.9 % per spin (Mythic)"
+    },
+    {
+      "name": "Douma",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Mythic (0.9%)",
+      "additionalDamageFactorPct": 18.0,
+      "additionalDamageFactor": 1.18,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 180,
+      "maxStamina": 95,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 0.9,
+      "otherStats": {
+        "staminaRegen": 1.05,
+        "damageReduction": 1,
+        "damageReductionFactor": 1.05,
+        "coldImmunity": true
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Mythic",
+        "archetype": "Tank",
+        "rarity": 6
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 0.9 % per spin (Mythic)"
+    },
+    {
+      "name": "Shinazugawa",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Mythic (0.9%)",
+      "additionalDamageFactorPct": 18.0,
+      "additionalDamageFactor": 1.18,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 203,
+      "maxStamina": 90,
+      "effects": [
+        {
+          "name": "Low HP",
+          "adfPct": 5,
+          "condition": "hp<30%"
+        },
+        {
+          "name": "Mode",
+          "text": "+20% Wind damage, +10% ADF",
+          "adfPct": 10
+        }
+      ],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 0.9,
+      "otherStats": {
+        "healthRegen": 1.05,
+        "movementSpeedFactor": 1.05,
+        "damageReduction": 2,
+        "damageReductionFactor": 1.03
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Mythic",
+        "archetype": "Tank",
+        "rarity": 6
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 0.9 % per spin (Mythic)"
+    },
+    {
+      "name": "Himejima",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Mythic (0.9%)",
+      "additionalDamageFactorPct": 17.0,
+      "additionalDamageFactor": 1.17,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 195,
+      "maxStamina": 90,
+      "effects": [
+        {
+          "name": "Damage Reduction",
+          "value": 2
+        },
+        {
+          "name": "Damage Reduction Factor",
+          "value": "5%"
+        },
+        {
+          "name": "Block Regen",
+          "value": "+10%"
+        },
+        {
+          "name": "Block Points",
+          "value": 3
+        },
+        {
+          "name": "Repetitive Action",
+          "text": "+3 M1 damage per 100 skill damage dealt, stacking, fades after 8-10 s",
+          "m1FlatPer100SkillDmg": 3,
+          "durationSec": "8-10",
+          "cap": null
+        },
+        {
+          "name": "Enhanced Hearing mark",
+          "markDamagePct": 20,
+          "durationSec": 14,
+          "note": "another source says 25%"
+        }
+      ],
+      "conditions": [],
+      "notes": "PGG V0.182 panel: +195 HP, +90 Stamina, +17% ADF, +2 Damage Reduction, +5% Damage Reduction Factor, +10% Block Regen, +3 Block Points. The user stat bar (2026-09-26) matches: Block Points 5.95 = katana 2.95 + 3; Block Regen 1.85x = 1.75 + 0.10 (additive); Damage Reduction +2; DR Factor 1.05x. 17% fits the additive ADF pool only if another +1.5% source exists (unidentified 5th item?); if not, Himejima would be 18.5%.",
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": "User in-game screenshots: character stat bar + equipped tooltips (lyshiell, post-V0.182, exact tooltips)",
+          "sourceType": "player-test (screenshot)",
+          "date": "2026-09-26",
+          "key": "user_0926"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "player-test",
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 0.9,
+      "otherStats": {
+        "damageReduction": 2,
+        "damageReductionFactor": 1.05,
+        "blockRegen": 1.1
+      },
+      "blockPoints": 3,
+      "gameClan": {
+        "module": "CAM/Clans/Mythic",
+        "archetype": "Sentinel",
+        "rarity": 6
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 0.9 % per spin (Mythic)"
+    },
+    {
+      "name": "Tamayo",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Mythic (0.9%)",
+      "additionalDamageFactorPct": 12.0,
+      "additionalDamageFactor": 1.12,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 113,
+      "maxStamina": 25,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 0.9,
+      "otherStats": {
+        "healthRegen": 1.04
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Mythic",
+        "archetype": "Titan",
+        "rarity": 6
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 0.9 % per spin (Mythic)"
+    },
+    {
+      "name": "Tomioka",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Legendary (4%)",
+      "additionalDamageFactorPct": 15.0,
+      "additionalDamageFactor": 1.15,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 117,
+      "maxStamina": 24,
+      "effects": [
+        {
+          "name": "After block",
+          "text": "next Water skill +15%"
+        },
+        {
+          "name": "Tidal Blood",
+          "text": "V0.182 (official): slow on Water Breathing hits 10%/3s -> 20%/5s"
+        },
+        {
+          "name": "Water's Clarity",
+          "text": "V0.182 (official): Water damage per stack 3% -> 5% (max stacks unknown)",
+          "waterDamagePctPerStack": 5,
+          "maxStacks": null
+        }
+      ],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "Official V0.182 Balance Update notes (Discord, pasted by the user on 2026-09-26)",
+          "sourceType": "official",
+          "date": "2026-09-26",
+          "key": "official_v0182"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "official",
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 4.0,
+      "otherStats": {},
+      "gameClan": {
+        "module": "CAM/Clans/Legendary",
+        "archetype": "Technician",
+        "rarity": 5
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 4 % per spin (Legendary)"
+    },
+    {
+      "name": "Shabana",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Legendary (4%)",
+      "additionalDamageFactorPct": 13.0,
+      "additionalDamageFactor": 1.13,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 108,
+      "maxStamina": 25,
+      "effects": [
+        {
+          "name": "Zone",
+          "adfPct": 25,
+          "condition": "inside zone"
+        }
+      ],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 4.0,
+      "otherStats": {
+        "movementSpeedFactor": 1.05
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Legendary",
+        "archetype": "Titan",
+        "rarity": 5
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 4 % per spin (Legendary)"
+    },
+    {
+      "name": "Kocho",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Legendary (4%)",
+      "additionalDamageFactorPct": 12.0,
+      "additionalDamageFactor": 1.12,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 113,
+      "maxStamina": 26,
+      "effects": [
+        {
+          "name": "Aerial Mastery",
+          "text": "+25% airborne sword damage",
+          "condition": "airborne"
+        },
+        {
+          "name": "Poison Draw mode (V0.17 rework)",
+          "text": "+20% Insect damage, +10% move speed, +15% dash speed, +10% poison damage, 5% CDR",
+          "insectDamagePct": 20
+        }
+      ],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.17 rework",
+      "confidence": "high",
+      "rollChancePct": 4.0,
+      "otherStats": {
+        "movementSpeedFactor": 1.05
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Legendary",
+        "archetype": "Phantom",
+        "rarity": 5
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 4 % per spin (Legendary)"
+    },
+    {
+      "name": "Ubuyashiki",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Legendary (4%)",
+      "additionalDamageFactorPct": -6.0,
+      "additionalDamageFactor": 0.94,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 128,
+      "maxStamina": -10,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 4.0,
+      "otherStats": {},
+      "gameClan": {
+        "module": "CAM/Clans/Legendary",
+        "archetype": "Titan",
+        "rarity": 5
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 4 % per spin (Legendary)"
+    },
+    {
+      "name": "Sabito",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Rare (12%)",
+      "additionalDamageFactorPct": 10.0,
+      "additionalDamageFactor": 1.1,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 75,
+      "maxStamina": null,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 12.0,
+      "otherStats": {},
+      "gameClan": {
+        "module": "CAM/Clans/Rare",
+        "archetype": "Duelist",
+        "rarity": 3
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 12 % per spin (Rare)"
+    },
+    {
+      "name": "Yahaba",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Rare (12%)",
+      "additionalDamageFactorPct": 10.0,
+      "additionalDamageFactor": 1.1,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 65,
+      "maxStamina": null,
+      "effects": [
+        {
+          "name": "Party buff",
+          "adfPct": 10
+        }
+      ],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 12.0,
+      "otherStats": {},
+      "gameClan": {
+        "module": "CAM/Clans/Rare",
+        "archetype": "Technician",
+        "rarity": 3
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 12 % per spin (Rare)"
+    },
+    {
+      "name": "Urokodaki",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Rare (12%)",
+      "additionalDamageFactorPct": 9.0,
+      "additionalDamageFactor": 1.09,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 69,
+      "maxStamina": null,
+      "effects": [
+        {
+          "name": "Water",
+          "waterDamagePct": 15
+        }
+      ],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 12.0,
+      "otherStats": {
+        "movementSpeedFactor": 1.04
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Rare",
+        "archetype": "Technician",
+        "rarity": 3
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 12 % per spin (Rare)"
+    },
+    {
+      "name": "Susumaru",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Rare (12%)",
+      "additionalDamageFactorPct": 9.0,
+      "additionalDamageFactor": 1.09,
+      "additionalDamage": 0.5,
+      "attackSpeedFactor": null,
+      "maxHealth": 60,
+      "maxStamina": null,
+      "effects": [],
+      "conditions": [],
+      "notes": "Source also says \"50% Additional Damage\" (meaning unclear).",
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 12.0,
+      "otherStats": {},
+      "gameClan": {
+        "module": "CAM/Clans/Rare",
+        "archetype": "Technician",
+        "rarity": 3
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 12 % per spin (Rare)"
+    },
+    {
+      "name": "Makomo",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Rare (12%)",
+      "additionalDamageFactorPct": null,
+      "additionalDamageFactor": null,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 72,
+      "maxStamina": null,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 12.0,
+      "otherStats": {
+        "blockRegen": 1.1
+      },
+      "blockPoints": 4,
+      "gameClan": {
+        "module": "CAM/Clans/Rare",
+        "archetype": "Sentinel",
+        "rarity": 3
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 12 % per spin (Rare)"
+    },
+    {
+      "name": "Kaneki",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Uncommon (23%)",
+      "additionalDamageFactorPct": 5.0,
+      "additionalDamageFactor": 1.05,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 41,
+      "maxStamina": null,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 23.0,
+      "otherStats": {
+        "movementSpeedFactor": 1.05
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Uncommon",
+        "archetype": "Titan",
+        "rarity": 2
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 23 % per spin (Uncommon)"
+    },
+    {
+      "name": "Kurotsume",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Uncommon (23%)",
+      "additionalDamageFactorPct": 5.0,
+      "additionalDamageFactor": 1.05,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 35,
+      "maxStamina": null,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 23.0,
+      "otherStats": {
+        "movementSpeedFactor": 1.05
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Uncommon",
+        "archetype": "Titan",
+        "rarity": 2
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 23 % per spin (Uncommon)"
+    },
+    {
+      "name": "Aoshima",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Uncommon (23%)",
+      "additionalDamageFactorPct": 5.0,
+      "additionalDamageFactor": 1.05,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 36,
+      "maxStamina": null,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 23.0,
+      "otherStats": {
+        "movementSpeedFactor": 1.04
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Uncommon",
+        "archetype": "Titan",
+        "rarity": 2
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 23 % per spin (Uncommon)"
+    },
+    {
+      "name": "Aori",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Uncommon (23%)",
+      "additionalDamageFactorPct": 5.0,
+      "additionalDamageFactor": 1.05,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 39,
+      "maxStamina": null,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 23.0,
+      "otherStats": {
+        "movementSpeedFactor": 1.03
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Uncommon",
+        "archetype": "Titan",
+        "rarity": 2
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 23 % per spin (Uncommon)"
+    },
+    {
+      "name": "Yamagiri",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Uncommon (23%)",
+      "additionalDamageFactorPct": null,
+      "additionalDamageFactor": null,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": 42,
+      "maxStamina": 22,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 23.0,
+      "otherStats": {
+        "staminaRegen": 1.05
+      },
+      "gameClan": {
+        "module": "CAM/Clans/Uncommon",
+        "archetype": "Titan",
+        "rarity": 2
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 23 % per spin (Uncommon)"
+    },
+    {
+      "name": "Aokawa",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Common (60%)",
+      "additionalDamageFactorPct": 3.0,
+      "additionalDamageFactor": 1.03,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": null,
+      "maxStamina": null,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 60.0,
+      "otherStats": {},
+      "gameClan": {
+        "module": "CAM/Clans/Common",
+        "archetype": "Technician",
+        "rarity": 1
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 60 % per spin (Common)"
+    },
+    {
+      "name": "Saito",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Common (60%)",
+      "additionalDamageFactorPct": 2.0,
+      "additionalDamageFactor": 1.02,
+      "additionalDamage": null,
+      "attackSpeedFactor": null,
+      "maxHealth": null,
+      "maxStamina": null,
+      "effects": [],
+      "conditions": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 60.0,
+      "otherStats": {},
+      "gameClan": {
+        "module": "CAM/Clans/Common",
+        "archetype": "Technician",
+        "rarity": 1
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 60 % per spin (Common)"
+    },
+    {
+      "name": "Yukimori",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Common (60%)",
+      "additionalDamageFactorPct": null,
+      "additionalDamageFactor": null,
+      "additionalDamage": 0.3,
+      "attackSpeedFactor": null,
+      "maxHealth": null,
+      "maxStamina": null,
+      "effects": [],
+      "conditions": [],
+      "notes": "Source: \"30% AD as displayed\" (unclear)",
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 60.0,
+      "otherStats": {},
+      "gameClan": {
+        "module": "CAM/Clans/Common",
+        "archetype": "Technician",
+        "rarity": 1
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 60 % per spin (Common)"
+    },
+    {
+      "name": "Kanzaki",
+      "faction": "both",
+      "slot": "clan",
+      "rarity": "Common (60%)",
+      "additionalDamageFactorPct": null,
+      "additionalDamageFactor": null,
+      "additionalDamage": 0.2,
+      "attackSpeedFactor": null,
+      "maxHealth": null,
+      "maxStamina": null,
+      "effects": [],
+      "conditions": [],
+      "notes": "Source: \"20% AD as displayed\" (unclear)",
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://slayers2wiki.com/clans/",
+          "sourceType": "wiki (aggregator of PGG)",
+          "date": "2026-09-23",
+          "key": "s2w"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182 (HP +50% in V0.182; ADF unchanged)",
+      "confidence": "high",
+      "rollChancePct": 60.0,
+      "otherStats": {},
+      "gameClan": {
+        "module": "CAM/Clans/Common",
+        "archetype": "Technician",
+        "rarity": 1
+      },
+      "obtainRaw": null,
+      "obtain": "Clan spin: 60 % per spin (Common)"
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "generated": "2026-09-26",
+  "currentPatch": "V0.182",
+  "count": 32,
+  "data": [
+    {
+      "item": "Bamboo Muzzle ADF",
+      "values": [
+        {
+          "value": 1.015,
+          "source": "user in-game test"
+        },
+        {
+          "value": 1.01,
+          "source": "TechWiser; Drew tooltip (pre-V0.182)"
+        }
+      ],
+      "likelyCurrent": 1.015,
+      "status": "resolved by official V0.182 note",
+      "reason": "Official V0.182: tooltips used to round to 2 decimals (1.017 displayed as 1.02) while the full bonus was always applied. From V0.182 on, tooltips show exact values, so post-patch screenshots are exact. Pre-V0.182 tooltip values in this dataset (TechWiser, videos) may be off by up to +/-0.005."
+    },
+    {
+      "item": "Demonic Lantern ADF",
+      "values": [
+        {
+          "value": 1.015,
+          "source": "user"
+        },
+        {
+          "value": 1.01,
+          "source": "TechWiser; Drew tooltip"
+        }
+      ],
+      "likelyCurrent": 1.015,
+      "status": "resolved by official V0.182 note",
+      "reason": "Same rounding; exact from V0.182."
+    },
+    {
+      "item": "Flame Amigasa ADF",
+      "values": [
+        {
+          "value": 1.055,
+          "source": "user"
+        },
+        {
+          "value": 1.06,
+          "source": "TechWiser"
+        }
+      ],
+      "likelyCurrent": 1.055,
+      "status": "resolved by official V0.182 note",
+      "reason": "Rounding; exact from V0.182."
+    },
+    {
+      "item": "Bamboo Muzzle AD",
+      "values": [
+        {
+          "value": 2,
+          "source": "TechWiser 9/25, Drew tooltip 9/25, user"
+        },
+        {
+          "value": 1,
+          "source": "sportsrant v2 gear 9/24"
+        }
+      ],
+      "likelyCurrent": 2,
+      "reason": "Newer in-game tooltip."
+    },
+    {
+      "item": "Firstlight Insect Katana ADF",
+      "values": [
+        {
+          "value": 1.15,
+          "source": "TechWiser, PGG, roonby, dtek"
+        },
+        {
+          "value": 1.1,
+          "source": "allthings.how"
+        }
+      ],
+      "likelyCurrent": 1.15,
+      "reason": "Four sources vs one; verify on the user's own tooltip after crafting."
+    },
+    {
+      "item": "Nightfall Serpent Katana",
+      "values": [
+        {
+          "value": "+4 / 1.2x",
+          "source": "TechWiser, allthings (launch)"
+        },
+        {
+          "value": "+3 / 1.15x",
+          "source": "nerdschalk V0.18"
+        },
+        {
+          "value": "+3.5 / 1.17x",
+          "source": "official V0.182 notes"
+        }
+      ],
+      "likelyCurrent": "+3.5 / 1.17x",
+      "status": "resolved (official)",
+      "reason": "Official V0.182 buff."
+    },
+    {
+      "item": "Red Oni Mask vs Bamboo Muzzle slot",
+      "values": [
+        {
+          "value": "both Face (mutually exclusive)",
+          "source": "TechWiser"
+        },
+        {
+          "value": "equipped together",
+          "source": "allthings Kamado dungeon build (9/22)"
+        },
+        {
+          "value": "accessories stack: both can be worn together",
+          "source": "user 2026-09-27 (resolved)"
+        }
+      ],
+      "likelyCurrent": "unknown",
+      "reason": "Decisive for the optimizer; needs an in-game check."
+    },
+    {
+      "item": "Refine scaling",
+      "values": [
+        {
+          "value": "NF Katana/Sickles T1 R8 = +10.93 AD (base 5.75), ADF unchanged",
+          "source": "Drew tooltip; allthings/sportsrant"
+        },
+        {
+          "value": "Serpent Katana table: +10 = +12.48 flat & x1.55",
+          "source": "allthings Hagane"
+        }
+      ],
+      "likelyCurrent": "tooltip observation",
+      "reason": "The observed tooltip beats an unexplained table; the refine model is unresolved."
+    },
+    {
+      "item": "Refine effect on Block Points",
+      "values": [
+        {
+          "value": "unchanged at R8 (6.2)",
+          "source": "Drew tooltip NF Katana"
+        },
+        {
+          "value": "+10 at R8 (7.95 -> 17.95)",
+          "source": "allthings NF Sickles"
+        }
+      ],
+      "likelyCurrent": "unknown",
+      "reason": "Not damage-relevant."
+    },
+    {
+      "item": "Kamado HP",
+      "values": [
+        {
+          "value": 175,
+          "source": "in-game 9/19, allthings"
+        },
+        {
+          "value": 262.5,
+          "source": "PGG V0.182"
+        }
+      ],
+      "likelyCurrent": 262.5,
+      "reason": "V0.182 clan HP +50%."
+    },
+    {
+      "item": "Title passive applies when not slotted",
+      "values": [
+        {
+          "value": "yes",
+          "source": "sportsrant"
+        },
+        {
+          "value": "only while slotted",
+          "source": "some guides"
+        },
+        {
+          "value": "Buffs = while equipped; Passives = once unlocked",
+          "source": "in-game title tooltip (user 2026-09-27)"
+        }
+      ],
+      "likelyCurrent": "passives active once unlocked",
+      "status": "resolved (in-game tooltip)",
+      "reason": "The title tooltip has separate Buffs (equipped) and Passives (unlocked) sections."
+    },
+    {
+      "item": "Skill tree AD nodes",
+      "values": [
+        {
+          "value": "4 nodes +0.5/+0.6/+0.7/+0.8 = 2.6",
+          "source": "guides"
+        },
+        {
+          "value": "5 nodes +0.5/+0.5/+0.6/+0.7/+0.8 = 3.1",
+          "source": "user in-game 2026-09-27"
+        }
+      ],
+      "likelyCurrent": 3.1,
+      "status": "resolved (in-game)",
+      "reason": "Direct in-game check."
+    },
+    {
+      "item": "Max level",
+      "values": [
+        {
+          "value": 225,
+          "source": "user, allthings level guide, Drew video Lv225"
+        },
+        {
+          "value": 255,
+          "source": "allthings article title (typo)"
+        }
+      ],
+      "likelyCurrent": 225,
+      "reason": "In-game."
+    },
+    {
+      "item": "Himejima Enhanced Hearing mark",
+      "values": [
+        {
+          "value": "20%/14s",
+          "source": "PGG/slayers2wiki"
+        },
+        {
+          "value": "25%",
+          "source": "other"
+        }
+      ],
+      "likelyCurrent": "unknown",
+      "reason": ""
+    },
+    {
+      "item": "Flame Scarf ADF",
+      "values": [
+        {
+          "value": 1.055,
+          "source": "user tooltip 2026-09-26 (exact)"
+        },
+        {
+          "value": 1.06,
+          "source": "TechWiser (rounded)"
+        }
+      ],
+      "likelyCurrent": 1.055,
+      "status": "resolved",
+      "reason": "Exact post-V0.182 tooltip."
+    },
+    {
+      "item": "Butterfly Katana ADF",
+      "values": [
+        {
+          "value": 1.078,
+          "source": "user tooltip 2026-09-26 (exact)"
+        },
+        {
+          "value": 1.08,
+          "source": "TechWiser (rounded)"
+        }
+      ],
+      "likelyCurrent": 1.078,
+      "status": "resolved",
+      "reason": "Exact post-V0.182 tooltip."
+    },
+    {
+      "item": "Tidal Katana ADF",
+      "values": [
+        {
+          "value": 1.08,
+          "source": "TechWiser"
+        },
+        {
+          "value": 1.1,
+          "source": "dtek"
+        }
+      ],
+      "likelyCurrent": 1.08,
+      "reason": "Newer source."
+    },
+    {
+      "item": "Volcanic Katana AD",
+      "values": [
+        {
+          "value": 4,
+          "source": "TechWiser"
+        },
+        {
+          "value": 5.6,
+          "source": "itemlevel"
+        },
+        {
+          "value": 6.8,
+          "source": "other"
+        }
+      ],
+      "likelyCurrent": 4,
+      "reason": "Higher values are probably refined copies."
+    },
+    {
+      "item": "Stat-bar factor aggregation (user 2026-09-26/27)",
+      "values": [
+        {
+          "value": "ADF 1.418x = 1 + 0.078 (Butterfly Katana) + 0.015 (Muzzle) + 0.015 (Lantern) + 0.07 (Flame Haori 1) + 0.055 (Flame Scarf) + 0.015 (Reaper's Outfit) + 0.17 (Himejima)",
+          "source": "user stat bar + all 6 tooltips"
+        },
+        {
+          "value": "multiplicative: 1.4888",
+          "source": "calculation"
+        },
+        {
+          "value": "Block Regen 1.85 = 1.75+0.10; Stamina Regen 2.09 = 1.09+0.1+0.1+0.8; Health Regen 2 = 1+0.9+0.1",
+          "source": "user stat bar"
+        }
+      ],
+      "likelyCurrent": "additive pool",
+      "status": "CONFIRMED for the stat bar (high)",
+      "reason": "Exact to 3 decimals with every source identified."
+    },
+    {
+      "item": "Stat-bar AD 11.85 reconstruction (user 2026-09-27)",
+      "values": [
+        {
+          "value": "items 6.5 + Reaper's Outfit 1 + nodes 3.1 + Bonebreaker buff 1 + passives Hard Hitter 0.1 + Bonebreaker 0.15 = 11.85",
+          "source": "user tooltips + analysis"
+        }
+      ],
+      "likelyCurrent": 11.85,
+      "status": "resolved (exact): Reaper's Outfit confirmed by tooltip",
+      "reason": "The +1 AD / 1.015x item predicted from the bar was confirmed in-game. Title passives count once unlocked; Devastator is not unlocked."
+    },
+    {
+      "item": "Lantern slot",
+      "values": [
+        {
+          "value": "Body",
+          "source": "TechWiser"
+        },
+        {
+          "value": "Utility",
+          "source": "some guides; the user wears Demonic Lantern + Reaper's Outfit together (2026-09-27)"
+        }
+      ],
+      "likelyCurrent": "utility",
+      "status": "resolved (in-game loadout)",
+      "reason": "An outfit occupies Body, so the lantern must be in another slot."
+    },
+    {
+      "item": "Clan ADF stacking display",
+      "values": [
+        {
+          "value": "clan shows \"23%\"",
+          "source": "Kamado panel"
+        },
+        {
+          "value": "items show \"1.xx x\"",
+          "source": "tooltips"
+        },
+        {
+          "value": "Demon Progress shows \"+0.04 Evil Art Damage Factor\"",
+          "source": "Verm"
+        }
+      ],
+      "likelyCurrent": "unknown",
+      "reason": "The display differences hint that clan % and progress factors may be ADDED into one factor pool while items multiply. Needs testing."
+    },
+    {
+      "item": "Nightfall Katana T3 R10 stats",
+      "values": [
+        {
+          "value": "~+18 AD, ~1.3x",
+          "source": "allthings / sportsrant M1 build guides (approximate)"
+        },
+        {
+          "value": "+22.43 AD, 1.179x (model)",
+          "source": "in-game refine panel x tier multiplier (fits 9 exact points)"
+        }
+      ],
+      "likelyCurrent": "model (22.43 / 1.179), unverified at R10",
+      "status": "open (no direct T3 R10 tooltip found)",
+      "reason": "The guides' +18 equals the T1-basis panel value 17.25. Verify with any T3 R10 tooltip."
+    },
+    {
+      "item": "Refine +10 effect on ADF",
+      "values": [
+        {
+          "value": "unchanged (panel lists only Damage)",
+          "source": "Refiner panel; R1-R9 tooltips"
+        },
+        {
+          "value": "ADF bonus doubles (20% -> 40%)",
+          "source": "second-hand screenshot described by Corgi (Nightfall Serpent Katana R10)"
+        }
+      ],
+      "likelyCurrent": "unknown",
+      "status": "open",
+      "reason": "Only one second-hand report; no R10 tooltip seen."
+    },
+    {
+      "item": "Refine success list read as damage",
+      "values": [
+        {
+          "value": "+7: 3.75 / +8: 4.5 / +9: 5.5 / +10: 100 damage",
+          "source": "allthings / sportsrant M1 guides"
+        },
+        {
+          "value": "success chances (e.g. 5.5% at 8->9)",
+          "source": "Refiner panel (Mizurri)"
+        }
+      ],
+      "likelyCurrent": "success chances",
+      "status": "resolved",
+      "reason": "The panel shows 5.5% success for 8->9."
+    },
+    {
+      "item": "Lost Outfit ADF",
+      "values": [
+        {
+          "value": 1.01,
+          "source": "nerdschalk, sportsrant, allthings"
+        },
+        {
+          "value": 1.07,
+          "source": "Gamezebo"
+        }
+      ],
+      "likelyCurrent": 1.01,
+      "status": "open (3 sources vs 1)",
+      "reason": "No patch note mentions the Lost set; kept the majority value. Read the tooltip."
+    },
+    {
+      "item": "Lost set HP",
+      "values": [
+        {
+          "value": "Mask 60 / Cape 55 / Lantern 45",
+          "source": "nerdschalk, Gamezebo"
+        },
+        {
+          "value": "Mask 90 / Cape 85 / Lantern 70",
+          "source": "TechWiser 2026-09-25"
+        }
+      ],
+      "likelyCurrent": "TechWiser values",
+      "status": "resolved (newest)",
+      "reason": "TechWiser values are about x1.5 the older ones, matching the V0.17-V0.182 HP increase; TechWiser is the newest list."
+    },
+    {
+      "item": "Emberheart Lantern HP",
+      "values": [
+        {
+          "value": 25,
+          "source": "Corgi tooltip 2026-09-19"
+        },
+        {
+          "value": 40,
+          "source": "TechWiser 2026-09-25"
+        }
+      ],
+      "likelyCurrent": 40,
+      "status": "resolved (newest)",
+      "reason": "Newer list (after the HP rescale)."
+    },
+    {
+      "item": "Explosive Blood vs Pyrokinesis",
+      "values": [
+        {
+          "value": "separate BDAs",
+          "source": "earlier dataset"
+        },
+        {
+          "value": "same art (Explosive Blood = Pyrokinesis)",
+          "source": "slayers2wiki, PGG \"Explosive Blood (Pyrokinesis)\", TechWiser titles (single \"Pyrokinesis Perfected\")"
+        }
+      ],
+      "likelyCurrent": "same art",
+      "status": "resolved",
+      "reason": "Merged; \"Explosive Blood\" kept as an alias."
+    },
+    {
+      "item": "Reverb Katana name",
+      "values": [
+        {
+          "value": "Reverb Katana",
+          "source": "earlier TechWiser revision"
+        },
+        {
+          "value": "Reverb Cleavers",
+          "source": "TechWiser 2026-09-25"
+        }
+      ],
+      "likelyCurrent": "Reverb Cleavers",
+      "status": "resolved (newest)",
+      "reason": "Renamed; the old name is an alias (saved builds are migrated)."
+    },
+    {
+      "item": "Community move names vs official V0.182 names",
+      "values": [
+        {
+          "value": "e.g. Obi: Sash Whip / Eight-Layered Obi Slash / Obi Bind",
+          "source": "slayers2wiki (community-reported)"
+        },
+        {
+          "value": "Obi Barrage (Z), Obi Pursuit (X), Obi Grab (C), Obi Field (V), Obi Charge (Ult)",
+          "source": "official V0.182 notes"
+        }
+      ],
+      "likelyCurrent": "official names",
+      "status": "resolved (official)",
+      "reason": "Same for Pyrokinesis (Blood Tiles, Blood Rupture), Blood Manipulation (On Slaught), Insect (Hundred-Legged Zigzag, Fluttering Sting). Community lists are kept in the JSON (reportedForms) but not shown for these arts."
+    },
+    {
+      "item": "Heavenly title set (Stairwalker)",
+      "values": [
+        {
+          "value": "hidden title, stats unknown",
+          "source": "nerdschalk"
+        }
+      ],
+      "likelyCurrent": "unknown",
+      "status": "open",
+      "reason": "No source gives the Stairwalker buff/passive."
+    }
+  ]
+}

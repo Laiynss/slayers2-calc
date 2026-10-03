@@ -1,0 +1,219 @@
+{
+  "generated": "2026-09-26",
+  "currentPatch": "V0.195",
+  "count": 10,
+  "data": [
+    {
+      "patch": "Launch",
+      "date": "2026-09-18",
+      "changes": [
+        "Game release (Slayers 2, place 16205713724)"
+      ],
+      "sources": [
+        {
+          "url": "https://games.roblox.com/v1/games?universeIds=5595353122",
+          "sourceType": "official (Roblox API)",
+          "date": "2026-09-26",
+          "key": "roblox"
+        }
+      ]
+    },
+    {
+      "patch": "V0.98",
+      "date": "2026-09-21/22",
+      "changes": [
+        "Breathing/BDA balance pass; Thunder God Speed 80->50"
+      ],
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-v0-98-every-breathing-and-blood-demon-art-balance-change/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-22",
+          "key": "ath_v098"
+        }
+      ]
+    },
+    {
+      "patch": "v0.110",
+      "date": "2026-09-22",
+      "changes": [
+        "Block fixes; Thunder small buff"
+      ],
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-update-v0-110-patch-notes-block-fixes-and-thunder-buffs/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-22",
+          "key": "ath_v110"
+        }
+      ]
+    },
+    {
+      "patch": "V.12",
+      "date": "2026-09-22/23",
+      "changes": [
+        "Economy changes"
+      ],
+      "sources": []
+    },
+    {
+      "patch": "v0.140",
+      "date": "2026-09-23",
+      "changes": [
+        "Global skill cooldowns; all counters share one cooldown; Ouwigahara crash safety"
+      ],
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-global-skill-cooldowns-what-changed-in-v0-140/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-23",
+          "key": "ath_v140"
+        }
+      ]
+    },
+    {
+      "patch": "V0.17",
+      "date": "2026-09-24",
+      "changes": [
+        "Sickles Z dmg/scaling -35%, windup +0.15s, Z block -40%, X block -25%",
+        "Blood Manipulation V block -50%, C scaling -45%, Ult -35%",
+        "Pyrokinesis C 30% faster, Z +25%",
+        "Shockwave Z/C block -50%",
+        "Cryokinesis Z block -25%, X +0.1s windup +3s CD",
+        "Flame Z windup -20%, V 50% faster",
+        "Serpent V windup +0.25s",
+        "Water Whirlpool stun 3.3->1.8s",
+        "Insect C/V/X/Z nerfs (see breathings.json)",
+        "Wind V faster + stun",
+        "Sound Z windup +0.1s, X block -15%",
+        "Axe & Mace swing speed and damage +5%",
+        "Shotgun Z speed +20%, X windup -20%",
+        "Umbrella X damage +20%",
+        "ALL fighting styles +3 damage, +3 BP, x1.05 damage; Soryu Z CD +7s; Tai Chi X +25%",
+        "Gear max HP +50%",
+        "Clan reworks: Kocho, Uzui, Iguro"
+      ],
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        }
+      ]
+    },
+    {
+      "patch": "V0.18",
+      "date": "2026-09-25/26",
+      "changes": [
+        "Firstlight/Nightfall gear +50% HP (replaces old set bonus)",
+        "Nightfall Hunt set: +15% dmg vs <30% HP",
+        "Nightfall bleed 0.6%->0.4%",
+        "Nightfall Serpent Katana AD 4->3, ADF 19.6%->15%",
+        "Firstlight Daybreak Guard heal 0.4%->0.6%",
+        "Reaper FS works with Reaper BDA",
+        "Hagane refine transfer; Togane tier transfer"
+      ],
+      "sources": [
+        {
+          "url": "https://nerdschalk.com/project-slayers-2-new-update-brings-major-buffs-to-chest-bonuses-stats-and-transfers-v018/",
+          "sourceType": "wiki (patch summary of video 5AZP6QoHsEA)",
+          "date": "2026-09-26",
+          "key": "nc_v018"
+        }
+      ]
+    },
+    {
+      "patch": "V0.182",
+      "date": "2026-09-26",
+      "official": true,
+      "changes": [
+        "Nightfall Serpent Katana: Additional Damage 3 -> 3.5, Additional Damage Factor 15% -> 17%",
+        "Item stats now show exact bonuses (+1.7% shows 1.017x instead of 1.02x); the full bonus was/is always applied",
+        "Insect: Hundred-Legged Zigzag (V) starts chasing 1 s sooner; V cooldown 20 -> 18 s; Fluttering Sting (C) cooldown 18 -> 16 s",
+        "Obi: Obi Barrage (Z) +150% block damage, final slash +40% block damage; Obi Pursuit (X) and Obi Grab (C) +40% block damage; Obi Field (V) 25% less delay between traps, traps deal 30% more damage; Obi Charge (Ultimate) cannot be interrupted",
+        "Pyrokinesis: Blood Tiles (Z) 0.2 s less endlag; Blood Rupture (Ultimate) dashes 20% faster and further",
+        "Tai Chi: Twin Harmony (X) moves 50% faster",
+        "Wind: Z, X, C, V +30% block damage; X and C windup -0.05 s; C long-range tornado flies 25% faster",
+        "Sound: Roar (X) breaks guards again",
+        "Tomioka: Tidal Blood slow on Water Breathing hits 10%/3 s -> 20%/5 s; Water's Clarity Water damage per stack 3% -> 5%",
+        "PvE only (vs NPCs and bosses): Arrow Flight (Z) +35% damage; Blood Manipulation On Slaught (C) damage scaling +10%; Dream X damage scaling +20%; Dream Z damage +20%",
+        "General: resetting/swapping Breathing, Evil Art or Fighting Style refunds skill tree points; slow/debuff icons always show above heads; Arrow Flight void fix",
+        "Series weapons keep weapon effects after Water Breathing Whirl Pool, Water Wheel, Constant Flux, Dead Calm",
+        "(PGG, not in the pasted official list) Clan HP bonuses +50%"
+      ],
+      "blockDamageOnly": [
+        "Obi Z/X/C block damage",
+        "Wind Z/X/C/V block damage",
+        "Sound Roar guardbreak"
+      ],
+      "sources": [
+        {
+          "url": "Official V0.182 Balance Update notes (Discord, pasted by the user on 2026-09-26)",
+          "sourceType": "official",
+          "date": "2026-09-26",
+          "key": "official_v0182"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_tl"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_clans"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-demon-art-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_bda"
+        }
+      ]
+    },
+    {
+      "patch": "unlabelled",
+      "date": "2026-09-26T22:34 (Paris)",
+      "changes": [
+        "Roblox API: place updated at 20:34:50Z (V0.182 release, official notes dated 2026-09-26)"
+      ],
+      "sources": [
+        {
+          "url": "https://games.roblox.com/v1/games?universeIds=5595353122",
+          "sourceType": "official (Roblox API)",
+          "date": "2026-09-26",
+          "key": "roblox"
+        }
+      ]
+    },
+    {
+      "patch": "V0.195",
+      "date": "2026-10-02 (notes pasted by the user)",
+      "changes": [
+        "Firstlight Bladed Wagasa, Spear, Tanto, War Fans had Nightfall stats by accident: AD 5.75 -> 4, factor 14.8 % (as Firstlight Katana), more Block Points/Regen",
+        "Nightfall Bleed 0.4% -> 0.5% of max health per tick",
+        "Daybreak Guard cooldown 1 s -> 1.5 s",
+        "Nightfall Serpent Katana AD 3.5 -> 4",
+        "Firstlight Top/Bottom stamina 63 -> 100, DR 4.6% -> 5%",
+        "Firstlight Mask HP 160 -> 180, stamina 63 -> 75",
+        "Firstlight Lantern Block Points 1.15 -> 5, HP 100 -> 130, stamina 40 -> 90, +1 flat DR",
+        "Nightfall Top/Bottom AD 1.15 -> 2, factor 1.7% -> 3%, stamina 58 -> 95",
+        "Nightfall Cape HP 90 -> 120, stamina 58 -> 80, new +1.5 AD and +2% factor",
+        "Series T1 crafting: weapons 500k Wen / 500 scraps+thread; outfits 400k / 400, set materials 3; accessories 200k / 200, set materials 2",
+        "Firstlight Top/Bottom at the tower 200k Wen, 400 scraps/thread (500k points kept); accessory tier-ups T2 450k, T3 750k",
+        "Loadouts save titles; ranked matchmaking changes"
+      ],
+      "sources": [
+        {
+          "url": null,
+          "sourceType": "official",
+          "date": "2026-10-02",
+          "key": "official_v0195"
+        }
+      ]
+    }
+  ]
+}

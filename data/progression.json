@@ -1,0 +1,174 @@
+{
+  "generated": "2026-09-26",
+  "currentPatch": "V0.182",
+  "data": {
+    "character": {
+      "name": "Character level",
+      "faction": "both",
+      "maxLevel": 225,
+      "baseM1AtMaxLevel": 10,
+      "baseM1ByLevel": null,
+      "levelScalingFormula": null,
+      "skillPointsPerLevel": 3,
+      "totalSkillPointsAtMax": 675,
+      "notes": "3 skill points per level, 675 at Lv225 (user, 2026-09-26). Base M1 = 10 at Lv225 is the user's measurement. A Lv221 base of 9.52 was quoted earlier but equals 19.37 - 9.85 exactly (observed hit minus displayed AD), so it is DERIVED under the Base+AD assumption, not measured. No public source gives base M1 by level. One allthings title says \"0 to 255\" (typo/conflict).",
+      "sources": [
+        {
+          "url": "user in-game test (lyshiell)",
+          "sourceType": "player-test",
+          "date": "2026-09-26",
+          "key": "user"
+        },
+        {
+          "url": "https://allthings.how/project-slayers-2-level-1-225-guide-for-slayers-and-demons/",
+          "sourceType": "wiki",
+          "date": "2026-09-19",
+          "key": "ath_lvl"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Q8eFz6aVUuE",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-25",
+          "key": "yt_drew"
+        }
+      ],
+      "sourceType": [
+        "player-test",
+        "video",
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high"
+    },
+    "demonProgress": {
+      "name": "Demon Progress",
+      "faction": "demon",
+      "maxLevel": 4,
+      "atMax": {
+        "maxHealth": 100,
+        "maxHealthFactorAdd": 0.08,
+        "evilArtDamageFactorAdd": 0.04,
+        "additionalDamage": 2,
+        "illumination?": 0.15
+      },
+      "perLevel": null,
+      "notes": "In-game panel at Lv4 (Max), Verm 2026-09-25. Per-level breakdown unknown.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=hPrm2S8Vuyk",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-25",
+          "key": "yt_verm"
+        },
+        {
+          "url": "https://allthings.how/slayers-2-how-to-get-max-demon-progress-fast-full-guide/",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "ath_demonprog"
+        },
+        {
+          "url": null,
+          "sourceType": "game data (decompiled client modules, user export)",
+          "date": "2026-09-28",
+          "key": "game_dump"
+        }
+      ],
+      "sourceType": [
+        "video",
+        "wiki",
+        "game data"
+      ],
+      "date": "2026-09-25",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "high",
+      "levels": {
+        "1": {},
+        "2": {
+          "maxHealth": 50,
+          "maxHealthFactor": 1.05,
+          "illumination": 0.2
+        },
+        "3": {
+          "maxHealth": 75,
+          "maxHealthFactor": 1.07,
+          "healthRegen": 1.1
+        },
+        "4": {
+          "maxHealth": 100,
+          "maxHealthFactor": 1.08,
+          "illumination": 0.15,
+          "evilArtDamageFactorAdd": 0.04,
+          "additionalDamage": 2
+        }
+      },
+      "damageByLevel": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2
+      },
+      "obtain": "Demon progression (Player Info → Progression): 4 levels; lv. 2 = +50 HP, lv. 3 = +75 HP, lv. 4 = +100 HP, +2 AD, +0.04 Evil Art Damage Factor"
+    },
+    "slayerProgress": {
+      "name": "Slayer Progress",
+      "faction": "slayer",
+      "maxLevel": 4,
+      "atMax": {
+        "additionalDamage": null,
+        "breathingDamageFactorAdd": null
+      },
+      "perLevel": null,
+      "notes": "Reported as HP/stamina only plus a Breathing Boost movement skill (15.2 s). No damage bonus found. Verify the in-game panel.",
+      "sources": [
+        {
+          "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-breathing-boost-guide-how-to-raise-slayer-progress-and-get-the-hidden-speed-skill/articleshow/134450792.html",
+          "sourceType": "wiki",
+          "date": "2026-09-24",
+          "key": "sr_slayerprog"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "medium",
+      "obtain": "Slayer progression (Player Info → Progression): HP / stamina and the Breathing Boost skill, no damage bonus"
+    },
+    "mastery": {
+      "name": "Weapon / Breathing / BDA mastery",
+      "faction": "both",
+      "maxLevel": 400,
+      "damageEffect": null,
+      "notes": "Max mastery Lv400 seen on screen (Sword, Thunder). Several guides say mastery raises damage; no numbers are public.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=Q8eFz6aVUuE",
+          "sourceType": "video (in-game tooltip screenshot)",
+          "date": "2026-09-25",
+          "key": "yt_drew"
+        },
+        {
+          "url": "https://allthings.how/project-slayers-2-kamado-clan-and-blood-manipulation-dungeon-build/",
+          "sourceType": "wiki",
+          "date": "2026-09-22",
+          "key": "ath_kamado_dungeon"
+        },
+        {
+          "url": "https://allthings.how/project-slayers-2-best-build-for-every-breathing-style/",
+          "sourceType": "wiki",
+          "date": "unknown (Sep 2026)",
+          "key": "ath_everybuild"
+        }
+      ],
+      "sourceType": [
+        "video",
+        "wiki"
+      ],
+      "date": "2026-09-25",
+      "patch": "V0.110-V0.182 era (no later change found)",
+      "confidence": "low"
+    }
+  }
+}

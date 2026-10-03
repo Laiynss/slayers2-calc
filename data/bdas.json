@@ -1,0 +1,546 @@
+{
+  "generated": "2026-09-29",
+  "currentPatch": "V0.182",
+  "count": 9,
+  "data": [
+    {
+      "name": "Blood Manipulation",
+      "faction": "demon",
+      "slot": "bda",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: V block -50%, C scaling -45%, Ult damage/scaling -35%",
+        "V0.182 (official, PvE only): On Slaught (C) damage scaling +10% vs NPCs and bosses"
+      ],
+      "notes": "Requires Sickles.",
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-demon-art-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_bda"
+        },
+        {
+          "url": "https://slayers2wiki.com/blood-demon-arts/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_bda"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "aliases": [
+        "Blood Sickles"
+      ],
+      "anime wielder (community)": "Gyutaro",
+      "reportedForms": [
+        "Flying Blood Sickles",
+        "Rampant Arc Slash",
+        "Blood Sickle Rain"
+      ],
+      "reportedFormsSource": "s2w_bda",
+      "reportedFormsConflictsOfficial": true,
+      "unlock": "Demon path (drink Muzan's Blood); BDA rolled/chosen as a demon",
+      "masteryTitle": "Blood Manipulation Perfected",
+      "obtain": "Crush the “Blood Manipulation Orb”, then quest “Blood Manipulation Core Training”: Cup Training, Push ups, Aim Training + defeat 5 Mizunotos",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Blood Manipulation",
+        "source_sha256": "7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/7faaa0934c24c188f7ae7e4b46de570ae6d294bd4b3f0e477d25329f637e35bd.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Blood Manipulation",
+      "weaponCategory": null
+    },
+    {
+      "name": "Obi Manipulation",
+      "faction": "demon",
+      "slot": "bda",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "earlier: +10% kit-wide damage, guardbreak",
+        "V0.182 (official): Obi Barrage (Z) +150% block damage, final slash +40% block damage; Obi Pursuit (X) and Obi Grab (C) +40% block damage; Obi Field (V) 25% less delay between traps and traps deal 30% more damage; Obi Charge (Ultimate) cannot be interrupted"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-demon-art-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_bda"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_tl"
+        },
+        {
+          "url": "https://slayers2wiki.com/blood-demon-arts/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_bda"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "aliases": [
+        "Obi"
+      ],
+      "anime wielder (community)": "Daki",
+      "reportedForms": [
+        "Sash Whip",
+        "Eight-Layered Obi Slash",
+        "Obi Bind"
+      ],
+      "reportedFormsSource": "s2w_bda",
+      "reportedFormsConflictsOfficial": true,
+      "unlock": "Demon path (drink Muzan's Blood); BDA rolled/chosen as a demon",
+      "masteryTitle": "Obi Manipulation Perfected",
+      "obtain": "Crush the “Obi Manipulation Orb”, then quest “Obi Manipulation Core Training”: Barbell squats, Boulder Push, Boulder Split + defeat 5 Mizunotos",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Obi Manipulation",
+        "source_sha256": "88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/88b3f989cc46c2dc12f0c9154f656a9ce1f8f853478b53b1f7e12029ed9b840e.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Obi Manipulation",
+      "weaponCategory": null
+    },
+    {
+      "name": "Pyrokinesis",
+      "faction": "demon",
+      "slot": "bda",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: C barrage 30% faster, Z damage +25%",
+        "V0.182 (official): Blood Tiles (Z) 0.2 s less endlag; Blood Rupture (Ultimate) dashes 20% faster and further"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-demon-art-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_bda"
+        },
+        {
+          "url": "https://slayers2wiki.com/blood-demon-arts/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_bda"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "aliases": [
+        "Explosive Blood"
+      ],
+      "anime wielder (community)": "Nezuko",
+      "reportedForms": [
+        "Blood Burst",
+        "Exploding Blood Slash",
+        "Pyrokinetic Wave"
+      ],
+      "reportedFormsSource": "s2w_bda",
+      "reportedFormsConflictsOfficial": true,
+      "unlock": "Demon path (drink Muzan's Blood); BDA rolled/chosen as a demon",
+      "masteryTitle": "Pyrokinesis Perfected",
+      "obtain": "Crush the “Pyrokenesis Orb”, then quest “Pyrokenesis Core Training”: Push ups, Boulder Push, Aim Training + defeat 5 Mizunotos",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Pyrokenesis",
+        "source_sha256": "328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/328d9d85b7ad4ffba2007e4c1afe6d2c698af4d82483d6bd50547de3808a3622.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Pyrokenesis",
+      "weaponCategory": null
+    },
+    {
+      "name": "Shockwave",
+      "faction": "demon",
+      "slot": "bda",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: Z/C block damage -50%"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-demon-art-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_bda"
+        },
+        {
+          "url": "https://slayers2wiki.com/blood-demon-arts/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_bda"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "aliases": [],
+      "anime wielder (community)": "Akaza",
+      "reportedForms": [
+        "Compass Needle",
+        "Disorder",
+        "Air Type",
+        "Annihilation Type"
+      ],
+      "reportedFormsSource": "s2w_bda",
+      "reportedFormsConflictsOfficial": true,
+      "unlock": "Demon path (drink Muzan's Blood); BDA rolled/chosen as a demon",
+      "masteryTitle": "Shockwave Perfected",
+      "obtain": "Crush the “Shockwave Orb”, then quest “Shockwave Core Training”: Push ups, Barbell squats, Boulder Push, Boulder Split + defeat 5 Mizunotos",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Shockwave",
+        "source_sha256": "0beb4b0024b62e906156c78ae685fde1db777edaafe903503f8c2569caf40ab6",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/0beb4b0024b62e906156c78ae685fde1db777edaafe903503f8c2569caf40ab6.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Shockwave",
+      "weaponCategory": null
+    },
+    {
+      "name": "Cryokinesis",
+      "faction": "demon",
+      "slot": "bda",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.17: Z block -25%, X +0.1s windup, +3s CD"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+          "sourceType": "wiki (patch summary)",
+          "date": "2026-09-24",
+          "key": "ath_v017"
+        },
+        {
+          "url": "https://slayers2wiki.com/blood-demon-arts/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_bda"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-24",
+      "patch": "V0.182",
+      "confidence": "low",
+      "aliases": [
+        "Ice"
+      ],
+      "anime wielder (community)": "Douma",
+      "reportedForms": [
+        "Frozen Lotus",
+        "Ice Pillars",
+        "Crystalline Divine Child",
+        "Scattering Lotus Blizzard"
+      ],
+      "reportedFormsSource": "s2w_bda",
+      "reportedFormsConflictsOfficial": true,
+      "unlock": "Demon path (drink Muzan's Blood); BDA rolled/chosen as a demon",
+      "masteryTitle": "Cryokinesis Perfected",
+      "obtain": "Crush the “Cryokinesis Orb”, then quest “Cryokinesis Core Training”: Meditate, Boulder Split, Underwater Rocks + defeat 5 Mizunotos",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Cryokinesis",
+        "source_sha256": "a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/a6187e2de37bae8208d7eafe8a1a593a9d4fde34cd461fd22982174a9e929531.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Cryokinesis",
+      "weaponCategory": null
+    },
+    {
+      "name": "Dream Manipulation",
+      "faction": "demon",
+      "slot": "bda",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.182 (official, PvE only): Dream Z damage +20%, Dream X damage scaling +20% vs NPCs and bosses"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-demon-art-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_bda"
+        },
+        {
+          "url": "https://slayers2wiki.com/blood-demon-arts/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_bda"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "aliases": [
+        "Dream"
+      ],
+      "anime wielder (community)": "Enmu",
+      "reportedForms": [
+        "Whispered Sleep",
+        "Dream Tendrils",
+        "Nightmare Bind"
+      ],
+      "reportedFormsSource": "s2w_bda",
+      "reportedFormsConflictsOfficial": true,
+      "unlock": "Demon path (drink Muzan's Blood); BDA rolled/chosen as a demon",
+      "masteryTitle": "Dream Perfected",
+      "obtain": "Crush the “Dream Orb”, then quest “Dream Core Training”: Meditate, Cup Training, Aim Training + defeat 5 Mizunotos",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Dream",
+        "source_sha256": "409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/409da8f15bcbf1628c43551d5e91d6696086d831627005632a74bf23ad40e59a.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Dream",
+      "weaponCategory": null
+    },
+    {
+      "name": "Arrow Flight",
+      "faction": "demon",
+      "slot": "bda",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.182 (official, PvE only): Arrow Flight (Z) +35% damage vs NPCs and bosses; void fix"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-demon-art-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_bda"
+        },
+        {
+          "url": "https://slayers2wiki.com/blood-demon-arts/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_bda"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "aliases": [
+        "Arrow"
+      ],
+      "anime wielder (community)": "Yahaba",
+      "reportedForms": [
+        "Arrow Push",
+        "Arrow Pull",
+        "Vector Slam"
+      ],
+      "reportedFormsSource": "s2w_bda",
+      "reportedFormsConflictsOfficial": true,
+      "unlock": "Demon path (drink Muzan's Blood); BDA rolled/chosen as a demon",
+      "masteryTitle": "Arrow Perfected",
+      "obtain": "Crush the “Arrow Orb”, then quest “Arrow Core Training”: Meditate, Aim Training, Boulder Push + defeat 5 Mizunotos",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Arrow",
+        "source_sha256": "23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/23cba3c73c8c5e5eee7a68aa84c532b5ce43d91db2f45dcbc05522b315a587d3.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Arrow",
+      "weaponCategory": null
+    },
+    {
+      "name": "Reaper (BDA)",
+      "faction": "demon",
+      "slot": "bda",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [
+        "V0.18: Reaper fighting style now works with Reaper BDA"
+      ],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://nerdschalk.com/project-slayers-2-new-update-brings-major-buffs-to-chest-bonuses-stats-and-transfers-v018/",
+          "sourceType": "wiki (patch summary of video 5AZP6QoHsEA)",
+          "date": "2026-09-26",
+          "key": "nc_v018"
+        },
+        {
+          "url": "https://slayers2wiki.com/blood-demon-arts/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_bda"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "aliases": [
+        "Reaper"
+      ],
+      "anime wielder (community)": null,
+      "reportedForms": [
+        "Reaping Slash",
+        "Harvest Dash",
+        "Death Spin"
+      ],
+      "reportedFormsSource": "s2w_bda",
+      "reportedFormsConflictsOfficial": true,
+      "unlock": "Demon path (drink Muzan's Blood); BDA rolled/chosen as a demon",
+      "masteryTitle": "Reaper Perfected",
+      "obtain": "Crush the “Reaper Orb”, then quest “Reaper Core Training”: Cup Training, Aim Training, Boulder Split + defeat 5 Mizunotos",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Reaper",
+        "source_sha256": "f347089ff406ecfa7181252b05a1d2bd0f7991981c714fe10dd94dc8139e72e1",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/f347089ff406ecfa7181252b05a1d2bd0f7991981c714fe10dd94dc8139e72e1.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Reaper",
+      "weaponCategory": null
+    },
+    {
+      "name": "Tamari (Temari balls)",
+      "faction": "demon",
+      "slot": "bda",
+      "passives": [],
+      "m1Bonus": null,
+      "attackSpeedFactor": null,
+      "moves": null,
+      "movesNote": "Per-move base damage, cast time and cooldown are not published anywhere found. Fill in from in-game testing.",
+      "recentChanges": [],
+      "notes": null,
+      "sources": [
+        {
+          "url": "https://progameguides.com/roblox/slayers-2-demon-art-tier-list/",
+          "sourceType": "wiki",
+          "date": "2026-09-26",
+          "key": "pgg_bda"
+        },
+        {
+          "url": "https://slayers2wiki.com/blood-demon-arts/",
+          "sourceType": "wiki (community-reported)",
+          "date": "2026-09-23",
+          "key": "s2w_bda"
+        }
+      ],
+      "sourceType": [
+        "wiki"
+      ],
+      "date": "2026-09-26",
+      "patch": "V0.182",
+      "confidence": "low",
+      "aliases": [
+        "Tamari",
+        "Temari"
+      ],
+      "anime wielder (community)": "Susamaru",
+      "reportedForms": [
+        "Tamari Throw",
+        "Six-Arm Volley",
+        "Ricochet"
+      ],
+      "reportedFormsSource": "s2w_bda",
+      "reportedFormsConflictsOfficial": true,
+      "unlock": "Demon path (drink Muzan's Blood); BDA rolled/chosen as a demon",
+      "masteryTitle": "Tamari Perfected",
+      "obtain": "Crush the “Tamari Orb”, then quest “Tamari Core Training”: Cup Training, Push ups, Boulder Split + defeat 5 Mizunotos",
+      "gamePower": {
+        "module": "ReplicatedStorage/CAM/Global/Powers/DemonArts/Tamari",
+        "source_sha256": "da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b",
+        "projection": "PROJECTION_STATIQUE_PARTIELLE",
+        "json": ".cache/import/projections/da25b9338b149ae14fe6b828893cac73fea005d2719a83d6f5a871b65e05635b.json",
+        "capture": "capture_20260929_100345_13880529_42370984"
+      },
+      "gameName": "Tamari",
+      "weaponCategory": null
+    }
+  ]
+}

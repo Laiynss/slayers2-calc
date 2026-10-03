@@ -1,0 +1,347 @@
+{
+  "user": {
+    "url": "user in-game test (lyshiell)",
+    "sourceType": "player-test",
+    "date": "2026-09-26"
+  },
+  "tw": {
+    "url": "https://techwiser.com/slayers-2-items-accessories-weapons/",
+    "sourceType": "wiki",
+    "date": "2026-09-25"
+  },
+  "pgg_wt": {
+    "url": "https://progameguides.com/roblox/slayers-2-weapon-tier-list/",
+    "sourceType": "wiki",
+    "date": "2026-09-22"
+  },
+  "pgg_clans": {
+    "url": "https://progameguides.com/roblox/slayers-2-clans-tier-list-best-clans-ranked/",
+    "sourceType": "wiki",
+    "date": "2026-09-26"
+  },
+  "pgg_tl": {
+    "url": "https://progameguides.com/roblox/slayers-2-tier-list/",
+    "sourceType": "wiki",
+    "date": "2026-09-26"
+  },
+  "pgg_bda": {
+    "url": "https://progameguides.com/roblox/slayers-2-demon-art-tier-list/",
+    "sourceType": "wiki",
+    "date": "2026-09-26"
+  },
+  "pgg_ref": {
+    "url": "https://progameguides.com/roblox/complete-slayers-2-weapons-refinement-guide-ores-location-more/",
+    "sourceType": "wiki",
+    "date": "2026-09-26"
+  },
+  "pgg_secret": {
+    "url": "https://progameguides.com/roblox/all-secret-weapons-in-slayers-2-how-to-get-them/",
+    "sourceType": "wiki",
+    "date": "2026-09-26"
+  },
+  "nc_v018": {
+    "url": "https://nerdschalk.com/project-slayers-2-new-update-brings-major-buffs-to-chest-bonuses-stats-and-transfers-v018/",
+    "sourceType": "wiki (patch summary of video 5AZP6QoHsEA)",
+    "date": "2026-09-26"
+  },
+  "nc_lost": {
+    "url": "https://nerdschalk.com/slayers-2-all-lost-equipments-drop-rates-boss-location-and-farming-steps/",
+    "sourceType": "wiki",
+    "date": "2026-09-23"
+  },
+  "ath_v017": {
+    "url": "https://allthings.how/slayers-2-balance-update-v0-17-every-nerf-and-buff-explained/",
+    "sourceType": "wiki (patch summary)",
+    "date": "2026-09-24"
+  },
+  "ath_v098": {
+    "url": "https://allthings.how/slayers-2-v0-98-every-breathing-and-blood-demon-art-balance-change/",
+    "sourceType": "wiki (patch summary)",
+    "date": "2026-09-22"
+  },
+  "ath_v110": {
+    "url": "https://allthings.how/slayers-2-update-v0-110-patch-notes-block-fixes-and-thunder-buffs/",
+    "sourceType": "wiki (patch summary)",
+    "date": "2026-09-22"
+  },
+  "ath_v140": {
+    "url": "https://allthings.how/slayers-2-global-skill-cooldowns-what-changed-in-v0-140/",
+    "sourceType": "wiki (patch summary)",
+    "date": "2026-09-23"
+  },
+  "ath_titles": {
+    "url": "https://allthings.how/slayers-2-titles-how-to-get-every-title-and-its-buffs/",
+    "sourceType": "wiki",
+    "date": "2026-09-21"
+  },
+  "sr_titles": {
+    "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-all-titles-guide-combat-fishing-tower-quest-race-and-mastery-rewards/articleshow/134452885.html",
+    "sourceType": "wiki",
+    "date": "2026-09-24"
+  },
+  "ath_hagane": {
+    "url": "https://allthings.how/project-slayers-2-how-to-upgrade-weapons-and-rods-with-refiner-hagane/",
+    "sourceType": "wiki",
+    "date": "2026-09-24"
+  },
+  "sr_hagane": {
+    "url": "https://sportsrant.indiatimes.com/gaming/project-slayers-2-refiner-hagane-guide-how-to-upgrade-weapons-and-fishing-rods/articleshow/134481307.html",
+    "sourceType": "wiki",
+    "date": "2026-09-25"
+  },
+  "ath_pve": {
+    "url": "https://allthings.how/project-slayers-2-best-pve-build-blood-manipulation-and-nightfall-sickles/",
+    "sourceType": "wiki",
+    "date": "2026-09-21"
+  },
+  "sr_pve": {
+    "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-best-pve-build-blood-manipulation-soryu-and-nightfall-sickles-setup-explained/articleshow/134452013.html",
+    "sourceType": "wiki",
+    "date": "2026-09-24"
+  },
+  "ath_nfk": {
+    "url": "https://allthings.how/project-slayers-2-how-to-get-the-nightfall-katana-schematic-2/",
+    "sourceType": "wiki",
+    "date": "2026-09-23"
+  },
+  "ath_demonprog": {
+    "url": "https://allthings.how/slayers-2-how-to-get-max-demon-progress-fast-full-guide/",
+    "sourceType": "wiki",
+    "date": "2026-09-24"
+  },
+  "sr_slayerprog": {
+    "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-breathing-boost-guide-how-to-raise-slayer-progress-and-get-the-hidden-speed-skill/articleshow/134450792.html",
+    "sourceType": "wiki",
+    "date": "2026-09-24"
+  },
+  "ath_skilltree": {
+    "url": "https://allthings.how/slayers-2-best-skill-tree-build-guide-for-slayer-and-demon/",
+    "sourceType": "wiki",
+    "date": "2026-09-22"
+  },
+  "sr_skilltree": {
+    "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-skill-tree-guide-how-to-spend-skill-points-on-health-stamina-weapons-and-breathing/articleshow/134428394.html",
+    "sourceType": "wiki",
+    "date": "2026-09-23"
+  },
+  "ath_lvl": {
+    "url": "https://allthings.how/project-slayers-2-level-1-225-guide-for-slayers-and-demons/",
+    "sourceType": "wiki",
+    "date": "2026-09-19"
+  },
+  "ath_rengoku": {
+    "url": "https://allthings.how/rengoku-clan-in-slayers-2-stats-skills-and-heart-ablaze/",
+    "sourceType": "wiki",
+    "date": "2026-09-23"
+  },
+  "ath_everybuild": {
+    "url": "https://allthings.how/project-slayers-2-best-build-for-every-breathing-style/",
+    "sourceType": "wiki",
+    "date": "unknown (Sep 2026)"
+  },
+  "ath_forge": {
+    "url": "https://allthings.how/slayers-2-how-to-forge-v2-weapons-and-endgame-sets/",
+    "sourceType": "wiki",
+    "date": "2026-09-23"
+  },
+  "ath_kamado_dungeon": {
+    "url": "https://allthings.how/project-slayers-2-kamado-clan-and-blood-manipulation-dungeon-build/",
+    "sourceType": "wiki",
+    "date": "2026-09-22"
+  },
+  "ath_slayerweapons": {
+    "url": "https://allthings.how/slayers-2-how-to-get-every-slayer-weapon/",
+    "sourceType": "wiki",
+    "date": "2026-09-21"
+  },
+  "ath_swords": {
+    "url": "https://allthings.how/slayers-2-how-to-get-every-sword-and-katana-in-roblox/",
+    "sourceType": "wiki",
+    "date": "2026-09-21"
+  },
+  "ath_nfarmor": {
+    "url": "https://allthings.how/slayers-2-how-to-get-all-nightfall-armors-full-guide/",
+    "sourceType": "wiki",
+    "date": "2026-09-22"
+  },
+  "ath_accessories": {
+    "url": "https://allthings.how/project-slayers-2-best-accessories-for-duelist-and-bulwark-builds/",
+    "sourceType": "wiki",
+    "date": "2026-09-21"
+  },
+  "il_build": {
+    "url": "https://itemlevel.net/project-slayers-2-best-build-for-every-breathing/",
+    "sourceType": "wiki",
+    "date": "2026-09-20"
+  },
+  "sr_v2gear": {
+    "url": "https://sportsrant.indiatimes.com/gaming/project-slayers-2-v2-gear-guide-how-to-get-every-duelist-item-and-craft-v2-equipment/articleshow/134452702.html",
+    "sourceType": "wiki",
+    "date": "2026-09-24"
+  },
+  "sr_lost": {
+    "url": "https://sportsrant.indiatimes.com/gaming/slayers-2-lost-set-guide-how-to-get-all-four-mythic-gear-pieces/articleshow/134466104.html",
+    "sourceType": "wiki",
+    "date": "2026-09-24"
+  },
+  "roonby": {
+    "url": "https://roonby.com/2026/09/20/slayers-2-katana-guide-how-to-get-every-katana/",
+    "sourceType": "wiki",
+    "date": "2026-09-20"
+  },
+  "dtek": {
+    "url": "https://dtekarnataka.in/roblox-slayers-2-complete-katana-guide/",
+    "sourceType": "wiki",
+    "date": "2026-09-21"
+  },
+  "s2w": {
+    "url": "https://slayers2wiki.com/clans/",
+    "sourceType": "wiki (aggregator of PGG)",
+    "date": "2026-09-23"
+  },
+  "fandom": {
+    "url": "https://project-slayers.fandom.com/",
+    "sourceType": "wiki (mostly Part 1 content)",
+    "date": "various"
+  },
+  "yt_drew": {
+    "url": "https://www.youtube.com/watch?v=Q8eFz6aVUuE",
+    "sourceType": "video (in-game tooltip screenshot)",
+    "date": "2026-09-25"
+  },
+  "yt_tana": {
+    "url": "https://www.youtube.com/watch?v=fQMIV4oSzTE",
+    "sourceType": "video (in-game tooltip screenshot)",
+    "date": "2026-09-19"
+  },
+  "yt_corgi": {
+    "url": "https://www.youtube.com/watch?v=QnfC307-siQ",
+    "sourceType": "video (in-game tooltip screenshot)",
+    "date": "2026-09-19"
+  },
+  "yt_verm": {
+    "url": "https://www.youtube.com/watch?v=hPrm2S8Vuyk",
+    "sourceType": "video (in-game tooltip screenshot)",
+    "date": "2026-09-25"
+  },
+  "official_v0182": {
+    "url": "Official V0.182 Balance Update notes (Discord, pasted by the user on 2026-09-26)",
+    "sourceType": "official",
+    "date": "2026-09-26"
+  },
+  "user_0926": {
+    "url": "User in-game screenshots: character stat bar + equipped tooltips (lyshiell, post-V0.182, exact tooltips)",
+    "sourceType": "player-test (screenshot)",
+    "date": "2026-09-26"
+  },
+  "user_0927": {
+    "url": "User in-game screenshots/confirmation: skill tree damage branch + Slayer title tooltip (lyshiell)",
+    "sourceType": "player-test (screenshot)",
+    "date": "2026-09-27"
+  },
+  "roblox": {
+    "url": "https://games.roblox.com/v1/games?universeIds=5595353122",
+    "sourceType": "official (Roblox API)",
+    "date": "2026-09-26"
+  },
+  "tw_titles": {
+    "url": "https://techwiser.com/slayers-2-all-titles/",
+    "sourceType": "wiki",
+    "date": "2026-09-24"
+  },
+  "gz_lost": {
+    "url": "https://www.gamezebo.com/walkthroughs/slayers-2-lost-gear/",
+    "sourceType": "wiki",
+    "date": "2026-09"
+  },
+  "ath_lost": {
+    "url": "https://allthings.how/slayers-2-how-to-get-the-lost-mythic-set-fast/",
+    "sourceType": "wiki",
+    "date": "2026-09"
+  },
+  "nc_heaven": {
+    "url": "https://nerdschalk.com/slayers-2-heavens-doorstep-title-how-to-get-card-rewards-and-stats/",
+    "sourceType": "wiki",
+    "date": "2026-09"
+  },
+  "s2w_bda": {
+    "url": "https://slayers2wiki.com/blood-demon-arts/",
+    "sourceType": "wiki (community-reported)",
+    "date": "2026-09-23"
+  },
+  "s2w_breath": {
+    "url": "https://slayers2wiki.com/breathing-styles/",
+    "sourceType": "wiki (community-reported)",
+    "date": "2026-09-23"
+  },
+  "s2w_odds": {
+    "url": "https://slayers2wiki.com/clans/",
+    "sourceType": "wiki (aggregator of PGG)",
+    "date": "2026-09-23"
+  },
+  "pgg_bda_alias": {
+    "url": "https://progameguides.com/roblox/slayers-2-demon-art-tier-list/",
+    "sourceType": "wiki",
+    "date": "2026-09-26"
+  },
+  "yt_xopt": {
+    "url": "https://www.youtube.com/watch?v=-ivY77o8JHY",
+    "sourceType": "video (in-game tooltip + Refiner panel)",
+    "date": "2026-09-24"
+  },
+  "yt_miz": {
+    "url": "https://www.youtube.com/watch?v=TSqAClK7O1Q",
+    "sourceType": "video (Refiner panel screenshot)",
+    "date": "2026-09"
+  },
+  "yt_rainblox": {
+    "url": "https://www.youtube.com/watch?v=xWhB2uk3vt8",
+    "sourceType": "video (tooltip read aloud)",
+    "date": "2026-09"
+  },
+  "yt_balboa": {
+    "url": "https://www.youtube.com/watch?v=6i9RQS9_B-k",
+    "sourceType": "video (tooltip read aloud)",
+    "date": "2026-09"
+  },
+  "yt_jacks": {
+    "url": "https://www.youtube.com/watch?v=Ry6Ckg82joc",
+    "sourceType": "video (tooltip read aloud)",
+    "date": "2026-09"
+  },
+  "yt_corgi_t3": {
+    "url": "https://www.youtube.com/watch?v=PjGpONNj33I",
+    "sourceType": "video (second-hand screenshot described)",
+    "date": "2026-09"
+  },
+  "nc_lvl225": {
+    "url": "https://nerdschalk.com/project-slayers-level-225-fast-unlock-guide-early-quests-lantern-and-snow-bounties/",
+    "sourceType": "wiki (video summary)",
+    "date": "2026-09"
+  },
+  "ath_m1": {
+    "url": "https://allthings.how/project-slayers-2-how-to-get-the-highest-m1-damage-build/",
+    "sourceType": "wiki",
+    "date": "2026-09-27"
+  },
+  "user_0928": {
+    "url": null,
+    "sourceType": "player in-game screenshot (user)",
+    "date": "2026-09-28"
+  },
+  "sr_m1": {
+    "url": "https://sportsrant.indiatimes.com/gaming/project-slayers-2-highest-m1-damage-build-best-nightfall-katana-gear-titles-and-clan-setup/articleshow/134535523.html",
+    "sourceType": "wiki",
+    "date": "2026-09-28"
+  },
+  "game_dump": {
+    "url": null,
+    "sourceType": "game data (decompiled client modules, user export)",
+    "date": "2026-09-28"
+  },
+  "official_v0195": {
+    "url": "Official V0.195 update notes (pasted by the user on 2026-10-02)",
+    "sourceType": "official",
+    "date": "2026-10-02"
+  }
+}

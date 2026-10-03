@@ -1,0 +1,668 @@
+{
+  "notes": "requires: 'temp' = temporary buffs ON, 'mode' = mode ON, 'mark' = marked target ON. conds = condition boxes. stats: adfPct (added to the clan %), ad (flat AD), asf (attack speed multiplier), markPct / damagePct (final multiplier), elementPct (skills of the named art). elementPctPerStack + stackInput: bonus per stack, stack count entered in the calculator.",
+  "data": [
+    {
+      "id": "uzui_mark",
+      "name": "Enhanced Hearing (+25 % damage, 10 s)",
+      "owner": "Uzui",
+      "ownerType": "clan",
+      "requires": [
+        "mark"
+      ],
+      "conds": [],
+      "stats": {
+        "markPct": 25
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "medium",
+      "note": "Mark damage (shown in game as Combat Damage Taken); not the Additional Damage Factor stat. Applied to the whole hit.",
+      "damagePipelineStage": "combat-damage-effect",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Enhanced Hearing/Config.module.luau",
+        "line": 8,
+        "sha256": "f46b0318a4f7d60e4ecc4145a6243700c2acecea5806ff20adf46804e3249abf",
+        "scope": "Numeric config and separate mark state; final damage consumer not recovered"
+      },
+      "relatedGameEvidence": [
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Enhanced Hearing/Enhanced HearingServer.module.luau",
+          "line": 127,
+          "sha256": "84101fbd85c45190c23a0175cb9513a69c0754f340cb378c8f35c70e8d9c08f9"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Client/Components/Layout/ResetOnSpawn/HUD/CenterBottomContent/ValueHub.module.luau",
+          "line": 154,
+          "sha256": "65e63185c444bce32e335f993d2ac6115bc8c70a7779122656ffa3cc222b020b"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+          "line": 66,
+          "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077"
+        }
+      ],
+      "skillName": "Enhanced Hearing",
+      "durationSec": 10,
+      "cooldownSec": 40
+    },
+    {
+      "id": "uzui_vdm",
+      "name": "Vital Draw Muscle (+15 % ADF, poings, 6 s)",
+      "owner": "Uzui",
+      "ownerType": "clan",
+      "requires": [
+        "temp"
+      ],
+      "conds": [
+        "fists"
+      ],
+      "stats": {
+        "adfPct": 15
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "high",
+      "note": "Only when the random draw gives Muscle: +15 % Fist ADF for 6 s. Heart and Lungs do not give this M1 bonus.",
+      "skillName": "Vital Draw",
+      "durationSec": 6,
+      "cooldownSec": 45,
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Vital Draw/Config.module.luau",
+        "line": 8,
+        "sha256": "c3d00cc410200ddeef364331b9fc6737219a0a51e7c8ad56ca28784f77a718da"
+      },
+      "relatedGameEvidence": [
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Vital Draw/Config.module.luau",
+          "line": 7,
+          "sha256": "c3d00cc410200ddeef364331b9fc6737219a0a51e7c8ad56ca28784f77a718da"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Vital Draw/Vital DrawServer.module.luau",
+          "line": 82,
+          "sha256": "4d93a42398ef5aabb9e7bf08990b6c46e00fe005fc189ac856a07934435ed95f"
+        }
+      ]
+    },
+    {
+      "id": "iguro_mode",
+      "name": "Serpent’s Wrath (+3 % ADF, +15 % Serpent)",
+      "owner": "Iguro",
+      "ownerType": "clan",
+      "requires": [
+        "mode"
+      ],
+      "conds": [],
+      "stats": {
+        "adfPct": 3,
+        "elementPct": {
+          "Serpent Breathing": 15
+        }
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "medium",
+      "note": "Replaces the old +5 % ADF / +20 % Serpent values.",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Mythic.module.luau",
+        "line": 48,
+        "sha256": "2dd57a120db1912d9017349e7e320521eacee6283df841e43f9d4f5ca1305cec",
+        "scope": "description contract; not executable damage equation"
+      }
+    },
+    {
+      "id": "agatsuma_high",
+      "name": "Unconscious Combat — PV > 90 % (−5 % vitesse d’attaque)",
+      "owner": "Agatsuma",
+      "ownerType": "clan",
+      "requires": [],
+      "conds": [
+        "hpAbove90"
+      ],
+      "stats": {
+        "asf": 0.95
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "medium",
+      "note": "Conditional passive, not a skill to activate. Does not change damage per hit.",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Mythic.module.luau",
+        "line": 4,
+        "sha256": "2dd57a120db1912d9017349e7e320521eacee6283df841e43f9d4f5ca1305cec",
+        "scope": "description contract; not executable damage equation"
+      }
+    },
+    {
+      "id": "agatsuma_low",
+      "name": "Unconscious Combat — PV < 60 % (+4 AD, +12 % ADF)",
+      "owner": "Agatsuma",
+      "ownerType": "clan",
+      "requires": [],
+      "conds": [
+        "hpBelow60"
+      ],
+      "stats": {
+        "adfPct": 12,
+        "ad": 4
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "medium",
+      "note": "Passive active below 60 % HP, including below 30 %. Independent of the mode and Enhanced Hearing.",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Mythic.module.luau",
+        "line": 4,
+        "sha256": "2dd57a120db1912d9017349e7e320521eacee6283df841e43f9d4f5ca1305cec",
+        "scope": "description contract; not executable damage equation"
+      }
+    },
+    {
+      "id": "agatsuma_mark",
+      "name": "Enhanced Hearing (+20 % damage, 10 s)",
+      "owner": "Agatsuma",
+      "ownerType": "clan",
+      "requires": [
+        "mark"
+      ],
+      "conds": [],
+      "stats": {
+        "markPct": 20
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "medium",
+      "note": "Mark damage (shown in game as Combat Damage Taken); not the Additional Damage Factor stat. Applied to the whole hit.",
+      "damagePipelineStage": "combat-damage-effect",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Enhanced Hearing/Config.module.luau",
+        "line": 8,
+        "sha256": "f46b0318a4f7d60e4ecc4145a6243700c2acecea5806ff20adf46804e3249abf",
+        "scope": "Numeric config and separate mark state; final damage consumer not recovered"
+      },
+      "relatedGameEvidence": [
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Enhanced Hearing/Enhanced HearingServer.module.luau",
+          "line": 127,
+          "sha256": "84101fbd85c45190c23a0175cb9513a69c0754f340cb378c8f35c70e8d9c08f9"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Client/Components/Layout/ResetOnSpawn/HUD/CenterBottomContent/ValueHub.module.luau",
+          "line": 154,
+          "sha256": "65e63185c444bce32e335f993d2ac6115bc8c70a7779122656ffa3cc222b020b"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Mythic.module.luau",
+          "line": 17,
+          "sha256": "2dd57a120db1912d9017349e7e320521eacee6283df841e43f9d4f5ca1305cec"
+        }
+      ],
+      "skillName": "Enhanced Hearing",
+      "durationSec": 10,
+      "cooldownSec": 40
+    },
+    {
+      "id": "agatsuma_mode",
+      "name": "Sleepless Knight Mode (+3 % ADF, +20 % Thunder)",
+      "owner": "Agatsuma",
+      "ownerType": "clan",
+      "requires": [
+        "mode"
+      ],
+      "conds": [],
+      "stats": {
+        "adfPct": 3,
+        "elementPct": {
+          "Thunder Breathing": 20
+        },
+        "cdr": 0.12
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "medium",
+      "note": "Mode charged by dealing damage; cost 330, base cooldown 90 s. The Thunder bonus does not multiply M1s.",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Mythic.module.luau",
+        "line": 18,
+        "sha256": "2dd57a120db1912d9017349e7e320521eacee6283df841e43f9d4f5ca1305cec",
+        "scope": "description contract; not executable damage equation"
+      },
+      "skillName": "Sleepless Knight Mode",
+      "durationSec": 45,
+      "cooldownSec": 90,
+      "timingEvidence": [
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Activation/Config.module.luau",
+          "line": 3,
+          "sha256": "f39a6002ade9e969664138a3744391f622d2d2af90fc1dfda078d908d694b579"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Global/gameSettings.module.luau",
+          "line": 132,
+          "sha256": "047db3ae1a54828d09d543d740d9d450b7625653d50a1463c3fe6fbcfa7f4059"
+        }
+      ]
+    },
+    {
+      "id": "shinazugawa_low",
+      "name": "PV < 30 % (+5 % ADF)",
+      "owner": "Shinazugawa",
+      "ownerType": "clan",
+      "requires": [],
+      "conds": [
+        "hpBelow30"
+      ],
+      "stats": {
+        "adfPct": 5
+      },
+      "sourceKeys": [
+        "pgg_clans"
+      ],
+      "confidence": "medium",
+      "note": null
+    },
+    {
+      "id": "shinazugawa_mode",
+      "name": "Shinazugawa mode (+10 % ADF, +20 % Wind)",
+      "owner": "Shinazugawa",
+      "ownerType": "clan",
+      "requires": [
+        "mode"
+      ],
+      "conds": [],
+      "stats": {
+        "adfPct": 10,
+        "elementPct": {
+          "Wind Breathing": 20
+        }
+      },
+      "sourceKeys": [
+        "pgg_clans"
+      ],
+      "confidence": "medium",
+      "note": null
+    },
+    {
+      "id": "himejima_mark",
+      "name": "Enhanced Hearing (+20 % damage, 14 s)",
+      "owner": "Himejima",
+      "ownerType": "clan",
+      "requires": [
+        "mark"
+      ],
+      "conds": [],
+      "stats": {
+        "markPct": 20
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "medium",
+      "note": "Mark damage (shown in game as Combat Damage Taken); not the Additional Damage Factor stat. Applied to the whole hit.",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Enhanced Hearing/Config.module.luau",
+        "line": 8,
+        "sha256": "f46b0318a4f7d60e4ecc4145a6243700c2acecea5806ff20adf46804e3249abf",
+        "scope": "Numeric config and separate mark state; final damage consumer not recovered"
+      },
+      "damagePipelineStage": "combat-damage-effect",
+      "relatedGameEvidence": [
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Enhanced Hearing/Enhanced HearingServer.module.luau",
+          "line": 127,
+          "sha256": "84101fbd85c45190c23a0175cb9513a69c0754f340cb378c8f35c70e8d9c08f9"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Client/Components/Layout/ResetOnSpawn/HUD/CenterBottomContent/ValueHub.module.luau",
+          "line": 154,
+          "sha256": "65e63185c444bce32e335f993d2ac6115bc8c70a7779122656ffa3cc222b020b"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Mythic.module.luau",
+          "line": 35,
+          "sha256": "2dd57a120db1912d9017349e7e320521eacee6283df841e43f9d4f5ca1305cec"
+        }
+      ],
+      "skillName": "Enhanced Hearing",
+      "durationSec": 14,
+      "cooldownSec": 40
+    },
+    {
+      "id": "himejima_ra",
+      "name": "Repetitive Action (+3 M1 damage per 100 skill damage)",
+      "owner": "Himejima",
+      "ownerType": "clan",
+      "requires": [
+        "temp"
+      ],
+      "conds": [],
+      "stats": {
+        "m1FlatPer100Skill": 3
+      },
+      "sourceKeys": [
+        "pgg_clans"
+      ],
+      "confidence": "medium",
+      "note": "Needs the recent skill damage to be entered."
+    },
+    {
+      "id": "shabana_zone",
+      "name": "Zone Shabana (+25 % ADF)",
+      "owner": "Shabana",
+      "ownerType": "clan",
+      "requires": [
+        "temp"
+      ],
+      "conds": [
+        "inZone"
+      ],
+      "stats": {
+        "adfPct": 25
+      },
+      "sourceKeys": [
+        "pgg_clans"
+      ],
+      "confidence": "medium",
+      "note": null
+    },
+    {
+      "id": "kocho_aerial",
+      "name": "Aerial Mastery (+25 % sword damage while airborne)",
+      "owner": "Kocho",
+      "ownerType": "clan",
+      "requires": [],
+      "conds": [
+        "airborne"
+      ],
+      "stats": {
+        "damagePct": 25
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "medium",
+      "note": "Sword restriction: katana and katana (sound cleavers). Whether other weapon types count as Sword is unknown.",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Legendary.module.luau",
+        "line": 23,
+        "sha256": "6e8988a9a56aa3ca27fb07cc9ee627a8d8608c5aba8523bf8e1463b202c2528f",
+        "scope": "description contract; not executable damage equation"
+      },
+      "weaponTypes": [
+        "katana",
+        "katana (sound cleavers)"
+      ]
+    },
+    {
+      "id": "kocho_mode",
+      "name": "Poison Draw (+20 % Insect, V0.17)",
+      "owner": "Kocho",
+      "ownerType": "clan",
+      "requires": [
+        "mode"
+      ],
+      "conds": [],
+      "stats": {
+        "elementPct": {
+          "Insect Breathing": 20
+        }
+      },
+      "sourceKeys": [
+        "ath_v017",
+        "pgg_clans"
+      ],
+      "confidence": "medium",
+      "note": null
+    },
+    {
+      "id": "yahaba_party",
+      "name": "Yahaba party buff (+10 % ADF)",
+      "owner": "Yahaba",
+      "ownerType": "clan",
+      "requires": [
+        "temp"
+      ],
+      "conds": [
+        "party"
+      ],
+      "stats": {
+        "adfPct": 10
+      },
+      "sourceKeys": [
+        "pgg_clans"
+      ],
+      "confidence": "medium",
+      "note": null
+    },
+    {
+      "id": "urokodaki_water",
+      "name": "Water +15 % (permanent)",
+      "owner": "Urokodaki",
+      "ownerType": "clan",
+      "requires": [],
+      "conds": [],
+      "stats": {
+        "elementPct": {
+          "Water Breathing": 15
+        }
+      },
+      "sourceKeys": [
+        "pgg_clans"
+      ],
+      "confidence": "medium",
+      "note": null
+    },
+    {
+      "id": "tomioka_block",
+      "name": "After a block: next Water skill +15 %",
+      "owner": "Tomioka",
+      "ownerType": "clan",
+      "requires": [
+        "temp"
+      ],
+      "conds": [
+        "afterBlock"
+      ],
+      "stats": {
+        "elementPct": {
+          "Water Breathing": 15
+        }
+      },
+      "sourceKeys": [
+        "pgg_clans"
+      ],
+      "confidence": "low",
+      "note": "Applies to ONE skill only; modelled as +15 % Water when the condition is ticked."
+    },
+    {
+      "id": "rengoku_heart",
+      "name": "Heart Ablaze (+18 % ADF, +20 % burn)",
+      "owner": "Rengoku",
+      "ownerType": "clan",
+      "requires": [
+        "mode"
+      ],
+      "conds": [],
+      "stats": {
+        "adfPct": 18,
+        "burnPct": 20
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "medium",
+      "note": "Mode ADF from the game module. Burn ticks are not direct M1 damage and are excluded.",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Supreme.module.luau",
+        "line": 33,
+        "sha256": "49ca27f4a802c128731f464941e34e368a211cc7215974d33466976344de3077",
+        "scope": "description contract; not executable damage equation"
+      },
+      "skillName": "Heart Ablaze Mode",
+      "durationSec": 45,
+      "cooldownSec": 90,
+      "timingEvidence": [
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Activation/Config.module.luau",
+          "line": 3,
+          "sha256": "f39a6002ade9e969664138a3744391f622d2d2af90fc1dfda078d908d694b579"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Global/gameSettings.module.luau",
+          "line": 132,
+          "sha256": "047db3ae1a54828d09d543d740d9d450b7625653d50a1463c3fe6fbcfa7f4059"
+        }
+      ]
+    },
+    {
+      "id": "kamado_ci",
+      "name": "Combat Intuition (Kamado, +AD pendant 7 s)",
+      "owner": "Kamado",
+      "ownerType": "clan",
+      "requires": [
+        "temp"
+      ],
+      "conds": [],
+      "stats": {
+        "ciSource": "taken",
+        "ciConversion": 0.1
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "high",
+      "note": "On release, gives Additional Damage = storage ×0.1 for 7 s, added to AD before ADF. Don’t confuse raw damage with already-weighted storage.",
+      "skillName": "Combat Intuition",
+      "storeWindowSec": 10,
+      "durationSec": 7,
+      "cooldownSec": 60,
+      "minimumReleaseSec": 0.3,
+      "damagePipelineStage": "additional-damage-stat",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Combat Intuition/EffectServer.module.luau",
+        "line": 90,
+        "sha256": "9761da07b042805be5f40a39515b51cb3cd9dac64dbdc21f8ecc35f1208affd4"
+      },
+      "relatedGameEvidence": [
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Combat Intuition/EffectServer.module.luau",
+          "line": 108,
+          "sha256": "9761da07b042805be5f40a39515b51cb3cd9dac64dbdc21f8ecc35f1208affd4"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Global/PlayerStatResolver/Solvers/ValueFolder.module.luau",
+          "line": 53,
+          "sha256": "9314ff6ccd3a380878dc4bb9e4706602098c08e0a96f8e4cc7204338d2552bd2"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Combat Intuition/EffectServer.module.luau",
+          "line": 10,
+          "sha256": "9761da07b042805be5f40a39515b51cb3cd9dac64dbdc21f8ecc35f1208affd4"
+        }
+      ]
+    },
+    {
+      "id": "soyama_ci",
+      "name": "Combat Intuition (Soyama, +AD pendant 7 s)",
+      "owner": "Soyama",
+      "ownerType": "clan",
+      "requires": [
+        "temp"
+      ],
+      "conds": [],
+      "stats": {
+        "ciSource": "dealt",
+        "ciConversion": 0.1,
+        "ciShareNpc": 0.5,
+        "ciSharePvp": 0.75
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "high",
+      "note": "On release, gives Additional Damage = storage ×0.1 for 7 s, added to AD before ADF. Don’t confuse raw damage with already-weighted storage.",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Combat Intuition/EffectServer.module.luau",
+        "line": 90,
+        "sha256": "9761da07b042805be5f40a39515b51cb3cd9dac64dbdc21f8ecc35f1208affd4"
+      },
+      "skillName": "Combat Intuition",
+      "storeWindowSec": 12,
+      "durationSec": 7,
+      "cooldownSec": 60,
+      "minimumReleaseSec": 0.3,
+      "damagePipelineStage": "additional-damage-stat",
+      "relatedGameEvidence": [
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Combat Intuition/EffectServer.module.luau",
+          "line": 108,
+          "sha256": "9761da07b042805be5f40a39515b51cb3cd9dac64dbdc21f8ecc35f1208affd4"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Global/PlayerStatResolver/Solvers/ValueFolder.module.luau",
+          "line": 53,
+          "sha256": "9314ff6ccd3a380878dc4bb9e4706602098c08e0a96f8e4cc7204338d2552bd2"
+        },
+        {
+          "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/Skills/Clan/Combat Intuition/EffectServer.module.luau",
+          "line": 11,
+          "sha256": "9761da07b042805be5f40a39515b51cb3cd9dac64dbdc21f8ecc35f1208affd4"
+        }
+      ]
+    },
+    {
+      "id": "nf_hunt",
+      "name": "Nightfall Hunt (T3 top + bottom set): +15 % damage if target < 30 % HP",
+      "owner": "Nightfall armor set",
+      "ownerType": "set",
+      "requires": [],
+      "conds": [
+        "targetBelow30"
+      ],
+      "stats": {
+        "damagePct": 15
+      },
+      "sourceKeys": [
+        "nc_v018"
+      ],
+      "confidence": "medium",
+      "note": "Nightfall Top + Nightfall Bottom worn, both at tier 3.",
+      "autoRequires": "nightfallHuntT3"
+    },
+    {
+      "id": "tomioka_clarity",
+      "name": "Water’s Clarity (+5 % Water per stack, max 3)",
+      "owner": "Tomioka",
+      "ownerType": "clan",
+      "requires": [
+        "temp"
+      ],
+      "conds": [],
+      "stats": {
+        "elementPctPerStack": {
+          "Water Breathing": 5
+        },
+        "stackInput": "clarityStacks",
+        "maxStacks": 3
+      },
+      "sourceKeys": [
+        "game_dump"
+      ],
+      "confidence": "medium",
+      "note": "Max 3 stacks. Does not change M1 damage.",
+      "gameEvidence": {
+        "path": "rift_hunter/out/capture_20260929_100345_13880529_42370984/lisible/scripts/ReplicatedStorage/CAM/Clans/Legendary.module.luau",
+        "line": 53,
+        "sha256": "6e8988a9a56aa3ca27fb07cc9ee627a8d8608c5aba8523bf8e1463b202c2528f",
+        "scope": "description contract; not executable damage equation"
+      }
+    }
+  ]
+}
