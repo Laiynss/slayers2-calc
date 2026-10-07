@@ -1,7 +1,7 @@
 {
   "generated": "2026-09-26",
   "currentPatch": "V0.182",
-  "count": 50,
+  "count": 51,
   "data": [
     {
       "name": "Annihilator",
@@ -2737,6 +2737,45 @@
       },
       "obtainRaw": null,
       "obtain": "Title unlocked: Reach max mastery with Wind Breathing"
+    },
+    {
+      "name": "Twilight",
+      "faction": "both",
+      "slot": "title",
+      "buffWhileEquipped": {
+        "additionalDamageFactor": 1.045,
+        "additionalDamage": 2,
+        "maxHealth": 30
+      },
+      "passiveAlwaysOn": {
+        "maxHealth": 15
+      },
+      "requirement": "Own every Firstlight and Nightfall piece except the Lost Shotgun",
+      "conditions": [],
+      "notes": "Up to 3 titles equipped. In-game tooltip (user, 2026-10-07): rarity shown as Impossible.",
+      "sources": [
+        {
+          "url": null,
+          "sourceType": "in-game tooltip (user screenshot)",
+          "date": "2026-10-07",
+          "key": "user_tooltip"
+        }
+      ],
+      "sourceType": [
+        "in-game"
+      ],
+      "date": "2026-10-07",
+      "patch": "V0.195",
+      "confidence": "high",
+      "category": "progression",
+      "sourceNote": null,
+      "gameTitle": {
+        "module": null,
+        "disabled": false,
+        "rarity": "Impossible"
+      },
+      "obtainRaw": null,
+      "obtain": "Title unlocked: Own every Firstlight and Nightfall piece except the Lost Shotgun"
     }
   ]
 }
